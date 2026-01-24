@@ -1,24 +1,9 @@
 [
   {
-    "listing": "/posts/yamanaka-2006/index.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/doudna-2012/index.html",
       "/posts/yamanaka-2006/index.html"
     ]
-  },
-  {
-    "listing": "/about.html",
-    "items": [
-      "/posts/doudna-2012/index.html",
-      "/posts/yamanaka-2006/index.html"
-    ]
-  },
-  {
-    "listing": "/posts/doudna-2012/index.html",
-    "items": []
   }
 ]

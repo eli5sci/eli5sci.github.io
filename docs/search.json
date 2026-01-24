@@ -37,23 +37,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "eli5cience",
+    "title": "eli5science",
     "section": "",
-    "text": "Welcome to eli5science where we break down cutting-edge research into stories anyone can understand!"
+    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
   },
   {
-    "objectID": "index.html#what-we-do",
-    "href": "index.html#what-we-do",
-    "title": "eli5cience",
-    "section": "What We Do",
-    "text": "What We Do\nWe read the papers so you don’t have to. Whether it’s biology, economics, or chemistry, we explain the “why” and “so what” behind such Nobel-worthy discoveries."
-  },
-  {
-    "objectID": "index.html#latest-posts",
-    "href": "index.html#latest-posts",
-    "title": "eli5cience",
-    "section": "Latest Posts",
-    "text": "Latest Posts\n(The blog posts will automatically appear below thanks to the listing: above)"
+    "objectID": "index.html#about-this-project",
+    "href": "index.html#about-this-project",
+    "title": "eli5science",
+    "section": "",
+    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
   },
   {
     "objectID": "about.html",
@@ -82,12 +75,5 @@
     "title": "About Us",
     "section": "Contribute",
     "text": "Contribute\nWant to write with us? Check out our GitHub repository to contribute or reach out to us LinkedIn."
-  },
-  {
-    "objectID": "posts/doudna-2012/index.html",
-    "href": "posts/doudna-2012/index.html",
-    "title": "eli5science",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\nNo matching items"
   }
 ]
