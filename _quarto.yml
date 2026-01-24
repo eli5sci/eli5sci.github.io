@@ -19,16 +19,6 @@ website:
       - icon: rss
         href: index.xml
 
-# MOVED OUT: This should be at root level, not inside "website:"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: true
-  filter-ui: false
-  fields: [date, title, reading-time, description]
-
 format:
   html:
     theme: cosmo

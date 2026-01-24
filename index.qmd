@@ -1,6 +1,6 @@
 ---
-title: "eli5cience"
-subtitle: "Complex research, simplified"
+title: "eli5science"
+subtitle: "Complex research, simplified."
 listing:
   contents: posts
   sort: "date desc"
@@ -8,14 +8,19 @@ listing:
   categories: true
   fields: [date, title, reading-time, description]
 page-layout: full
+title-block-banner: true
 ---
 
-Welcome to **eli5science** where we break down cutting-edge research into stories anyone can understand!
+::: {.column-page}
 
-## What We Do
+## About This Project
 
-We read the papers so you don't have to. Whether it's biology, economics, or chemistry, we explain the "why" and "so what" behind such Nobel-worthy discoveries.
+Groundbreaking papers shouldn't just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.
 
-## Latest Posts
+We're a student-led platform making research accessible. From biology to AI, we explain the "why" and "so what" behind Nobel-worthy discoveries.
 
-(The blog posts will automatically appear below thanks to the `listing:` above)
+---
+
+## Latest Research Stories
+
+:::
