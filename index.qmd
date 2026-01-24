@@ -1,0 +1,21 @@
+---
+title: "eli5cience"
+subtitle: "Complex research, simplified"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, reading-time, description]
+page-layout: full
+---
+
+Welcome to **eli5science** where we break down cutting-edge research into stories anyone can understand!
+
+## What We Do
+
+We read the papers so you don't have to. Whether it's biology, economics, or chemistry, we explain the "why" and "so what" behind such Nobel-worthy discoveries.
+
+## Latest Posts
+
+(The blog posts will automatically appear below thanks to the `listing:` above)

@@ -1,0 +1,29 @@
+/* Make the layout centered and readable like Medium or Substack */
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fcfcfc; /* Very soft off-white, easier on eyes */
+}
+
+/* Professional headers */
+h1, h2, h3 {
+  color: #1a1a1a;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Beautiful link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Clean up the navbar */
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+}

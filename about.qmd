@@ -1,0 +1,15 @@
+---
+title: "About Us"
+---
+
+## Our Mission
+
+**eli5science** is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down.
+
+## The Team
+
+We're a group of students from India passionate about science communication. This project started as a way to share fascinating research stories with our peers and grew into a platform for collaborative learning.
+
+## Contribute
+
+Want to write with us? Check out our [GitHub repository](https://github.com/eli5science/eli5science.github.io) to contribute or reach out to us LinkedIn.

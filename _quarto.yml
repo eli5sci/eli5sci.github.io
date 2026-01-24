@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "eli5science"
+  description: "Complex research, simplified."
+  navbar:
+    background: "#ffffff"
+    foreground: "#2c3e50"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/eli5sci/eli5science.github.io
+      - icon: rss
+        href: index.xml
+
+# MOVED OUT: This should be at root level, not inside "website:"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, reading-time, description]
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    mainfont: "Inter, sans-serif"
+    fontsize: 1.1em
+    linestretch: 1.6
+    code-copy: true
+
+execute:
+  freeze: auto
