@@ -25,7 +25,7 @@ listing:
   sort: "date desc"
   type: default
   categories: true
-  sort-ui: false
+  sort-ui: true
   filter-ui: false
   fields: [date, title, reading-time, description]
 

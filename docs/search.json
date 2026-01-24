@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "posts/yamanaka-2006/index.html",
+    "href": "posts/yamanaka-2006/index.html",
+    "title": "The Time Machine That Changed Biology Forever",
+    "section": "",
+    "text": "I’m currently reading Why We Die by Venki Ramakrishnan, and it got me thinking about one particular type of cell that technically never dies; stem cells. Here’s a mind-bending fact: the stem cells in your body right now are the same stem cells your great-great-great-ancestors had centuries ago. They’ve been passed down through generations, living through thousands of years. In a way, they’re the most immortal part of us.\nBut what if I told you that in 2006, a scientist figured out how to turn back time? Not in a sci-fi movie way, but in the cells of living organisms. That scientist was Shinya Yamanaka, and his discovery was so revolutionary that it won him a Nobel Prize just six years later.\nToday’s paper: “Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors” (2006)\nOr as I like to call it: The Time Machine! ⏰"
+  },
+  {
+    "objectID": "posts/yamanaka-2006/index.html#the-challenge-can-you-turn-back-the-clock",
+    "href": "posts/yamanaka-2006/index.html#the-challenge-can-you-turn-back-the-clock",
+    "title": "The Time Machine That Changed Biology Forever",
+    "section": "The Challenge: Can You Turn Back the Clock?",
+    "text": "The Challenge: Can You Turn Back the Clock?\nHere’s the setup. Your body contains about 200 different types of cells—skin cells, muscle cells, nerve cells, and so on. They all started from the same place: embryonic stem (ES) cells. These magical ES cells are like the ultimate “blank slate” that can become anything. They’re pluripotent, meaning they have the potential to become any cell type in your body.\nBut here’s the catch: once a cell decides what it wants to be when it grows up (a skin cell, say), it’s committed. It’s like choosing your college major—except way more permanent. The cell’s identity gets locked in through complex genetic and chemical changes.\nThe big question: Could you take an adult cell that’s already made its life choices and somehow convince it to become young again? To go back to being a stem cell?"
+  },
+  {
+    "objectID": "posts/yamanaka-2006/index.html#the-sherlock-holmes-approach",
+    "href": "posts/yamanaka-2006/index.html#the-sherlock-holmes-approach",
+    "title": "The Time Machine That Changed Biology Forever",
+    "section": "The Sherlock Holmes Approach",
+    "text": "The Sherlock Holmes Approach\nThis is where the paper reads like a detective novel! Yamanaka started with 24 suspects, genes known to keep ES cells pluripotent.\n\nThe Investigation:\n\nRound 1: Tested each factor individually → Nothing worked; none of them alone could do the job.\nRound 2: Combined all 24 together → Boom! Got colonies that looked like ES cells\nRound 3: Removed factors one by one → Narrowed down to 10 essential ones\nRound 4: Further elimination → Identified THE FINAL FOUR suspects\n\nRemove any of these four, and you get nothing:\n\nOct3/4 – Master regulator of pluripotency\nSox2 – Oct3/4’s partner\nc-Myc – Powerful transcription factor (up to 25,000 genome binding sites!)\nKlf4 – Represses p53\n\nJust four factors to turn back the cellular clock. Nicknamed as the Yamanaka factors."
+  },
+  {
+    "objectID": "posts/yamanaka-2006/index.html#proving-it-works",
+    "href": "posts/yamanaka-2006/index.html#proving-it-works",
+    "title": "The Time Machine That Changed Biology Forever",
+    "section": "Proving It Works",
+    "text": "Proving It Works\nShowing cells look like stem cells isn’t enough. Yamanaka used the gold standard test: inject cells into immunodeficient mice (SCID mice). If truly pluripotent, they form a teratoma; a tumor with tissues from all three germ layers:\n\nEctoderm → nervous system, skin\nMesoderm → muscles, bones\nEndoderm → gut, lungs\n\nThe iPS cells passed! They could truly become any cell type."
+  },
+  {
+    "objectID": "posts/yamanaka-2006/index.html#the-takeaway-sometimes-simple-is-revolutionary",
+    "href": "posts/yamanaka-2006/index.html#the-takeaway-sometimes-simple-is-revolutionary",
+    "title": "The Time Machine That Changed Biology Forever",
+    "section": "The Takeaway: Sometimes Simple is Revolutionary",
+    "text": "The Takeaway: Sometimes Simple is Revolutionary\nWhat makes this so beautiful is its simplicity. Not 24 factors. Not 10. Just four. Four transcription factors that could rewrite cellular identity and turn back developmental time. It’s a reminder that sometimes the most elegant solutions are hiding in plain sight, waiting for someone brave enough to test them systematically.\nYamanaka didn’t just discover a technique. He proved that cellular identity is far more flexible than we ever imagined. He showed us that the passage of time, at least at the cellular level, might not be as one-way as we thought.\nEvery groundbreaking discovery starts with someone’s “what if?”\n\n\nReferences\n\nTakahashi, K., & Yamanaka, S. (2006). Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors. Cell, 126(4), 663-676. https://doi.org/10.1016/j.cell.2006.07.024\nInduced Pluripotent Stem Cell Experiments - ASU Embryo Project\nNobel Prize 2012 - Medicine\nGladstone: Reflecting on a Decade of iPSCs"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "eli5cience",
@@ -19,13 +54,6 @@
     "title": "eli5cience",
     "section": "Latest Posts",
     "text": "Latest Posts\n(The blog posts will automatically appear below thanks to the listing: above)"
-  },
-  {
-    "objectID": "posts/doudna-2012/index.html",
-    "href": "posts/doudna-2012/index.html",
-    "title": "eli5science",
-    "section": "",
-    "text": "No matching items"
   },
   {
     "objectID": "about.html",
@@ -56,10 +84,10 @@
     "text": "Contribute\nWant to write with us? Check out our GitHub repository to contribute or reach out to us LinkedIn."
   },
   {
-    "objectID": "posts/yamanaka-2006/index.html",
-    "href": "posts/yamanaka-2006/index.html",
+    "objectID": "posts/doudna-2012/index.html",
+    "href": "posts/doudna-2012/index.html",
     "title": "eli5science",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\nNo matching items"
   }
 ]

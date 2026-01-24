@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-reading-time','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -191,7 +191,7 @@ window.Quarto = {
   <li><a href="#contribute" id="toc-contribute" class="nav-link" data-scroll-target="#contribute">Contribute</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YmlvbG9neQ==">biology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm9iZWwlMjBwcml6ZQ==">nobel prize <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RlbSUyMGNlbGxz">stem cells <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -231,6 +231,24 @@ window.Quarto = {
 </section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+</div>
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1769252287663">
 <div class="body">
@@ -239,6 +257,24 @@ window.Quarto = {
 </h3>
 <div class="delink listing-description"><a href="./posts/doudna-2012/index.html" class="no-external">
 
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+</div>
 <div class="list quarto-listing-default">
 
 </div>
@@ -251,22 +287,21 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1769252297504">
+<div class="quarto-post image-right" data-index="1" data-categories="YmlvbG9neSUyQ3N0ZW0lMjBjZWxscyUyQ25vYmVsJTIwcHJpemU=" data-listing-date-sort="1769193000000" data-listing-file-modified-sort="1769254352707" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/yamanaka-2006/index.html" class="no-external"></a>
+<a href="./posts/yamanaka-2006/index.html" class="no-external">The Time Machine That Changed Biology Forever</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/yamanaka-2006/index.html" class="no-external">
-
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-
+<p>How Shinya Yamanaka turned back cellular time with just four factors</p>
 </a></div>
 </div>
 <div class="metadata">
 <a href="./posts/yamanaka-2006/index.html" class="no-external">
+<div class="listing-date">
+Jan 24, 2026
+</div>
+<div class="listing-reading-time">4 min</div>
 </a>
 </div>
 </div>
