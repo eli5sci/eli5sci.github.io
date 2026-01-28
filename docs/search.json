@@ -75,5 +75,47 @@
     "title": "About Us",
     "section": "Contribute",
     "text": "Contribute\nWant to write with us? Check out our GitHub repository to contribute or reach out to us LinkedIn."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html",
+    "href": "posts/medawar-1953/index.html",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "",
+    "text": "Peter Medawar and his experiments with immunological tolerance"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
+    "href": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Pre-Match Briefing: Why Team Colours Matter",
+    "text": "The Pre-Match Briefing: Why Team Colours Matter\nImagine you are watching an intense Real Madrid vs. Barcelona football game, where people are running so fast that you barely see their faces. How do the players identify their teammates? Yes, one answer is their team colour! When they see the team colours, they know it’s their teammate, pass the ball, and trust that they’ll score a goal!\nNow, how do they know what colour their team is? Obviously, before the game, they see the colours and remember: this is our guy. Well, something similar also happens in our body. Have you ever wondered how our immune cells don’t attack our own cells? Is it because, during early development, they are exposed to self-cells, much like players seeing their team colours before the match? This was exactly the question asked by the British biologist Peter Medawar and his colleagues."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
+    "href": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "Kickoff: Messi Meets His Team",
+    "text": "Kickoff: Messi Meets His Team\nThink of Messi in the locker room before his big game. In the pre-match talk, if he is introduced to the colour blue, he learns it, and during the match, he instinctively trusts players wearing blue. He doesn’t learn this during the match; rather, he already knows: Blue = Teammate But what if you trick him? If you tell him his team is Red during the pre-match talk, but his friends walk out in Blue, he’ll treat his own teammates like invaders. He’ll tackle them, intercept their passes, and yes, Hala Madrid!"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
+    "href": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "Early Training vs. Late Practice",
+    "text": "Early Training vs. Late Practice\nSimilarly, Medawar used two genetically distinct mouse strains, A and B. Cells from strain A were introduced into strain B mice in two different ways. Early exposure- live strain A cells were injected during very early development, either late in embryonic life or within the first 24 to 48 hours after birth, when the immune system is still immature.\nIn another group, the same cells were injected later in life, after the immune system had matured."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
+    "href": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Match Day Test: Skin Grafts as Goals",
+    "text": "The Match Day Test: Skin Grafts as Goals\nThe mice were then allowed to grow normally. Once they reached adulthood, skin grafts from strain A mice were transplanted onto strain B mice. They observed that strain B mice exposed to strain A cells during early development accepted the skin graft, whereas those exposed later in life rejected it. Importantly, these tolerant mice still rejected skin grafts from unrelated third-party strains, showing that the immune system was not generally suppressed."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
+    "href": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Hall of Fame: How Medawar Rewrote the Playbook",
+    "text": "The Hall of Fame: How Medawar Rewrote the Playbook\nAnd with these experiments, Medawar revealed a key principle: acquired immunological tolerance. Exposure to cells early in development teaches the immune system which cells belong to the body, just as a football player learns the team colours before the match. Early-exposed cells are treated as “self,” while new, unfamiliar cells are recognised as outsiders and rejected.\n“Indeed, first impressions truly do matter!”\nWhat our bodies see early on shapes how they respond for life, teaching the immune system to distinguish friend from foe, a lesson in recognition, memory, and trust that lasts a lifetime. So the next time you play, remember, your body’s team was chosen long before you even kicked a ball.\n\n\nReferences\n\nBillingham, R. E., Brent, L., & Medawar, P. B. (1953). Actively acquired tolerance of foreign cells. Nature, 172(4379), 603. https://doi.org/10.1038/172603a0\nAI-generated image. (Gemini)"
   }
 ]
