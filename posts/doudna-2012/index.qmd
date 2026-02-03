@@ -1,0 +1,82 @@
+---
+title: "An Acronym That Scared Me (And Probably You Too)"
+description: "How CRISPR went from yogurt's defense system to biology's most powerful tool"
+author: "Devansh Shah"
+date: "2026-02-04"
+categories: [biology, gene editing, nobel prize]
+image: "imgs/doudna-2012.png"
+---
+
+![Jennifer Doudna and Emmanuelle Charpentier's CRISPR revolution](imgs/doudna-2012.png){fig-alt="CRISPR-Cas9 illustration" width="100%"}
+
+Let's talk about CRISPR – one of the most widely-used acronyms in modern biology. I'll be honest – biology's love for acronyms intimidated me for years. CRISPR, TALEN, ZFN... they felt like secret codes. CRISPR especially, because everyone talked about it like magic, but nobody explained what it actually meant.
+
+Well, today we're breaking that barrier. Because the story of CRISPR isn't just about cutting-edge science – it starts with something as ordinary as yogurt.
+
+**Today's paper:** "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity" by Jinek, Charpentier, Doudna et al. (Science, 2012)
+
+This paper won the 2020 Nobel Prize in Chemistry and changed biology forever.
+
+## The Yogurt Origin Story
+
+Rewind to 2007. Danisco, a Danish food company, had a problem. Bacterial viruses kept killing their yogurt cultures, ruining entire batches.
+
+What they discovered was astonishing: bacteria had a memory system. When a virus attacked, the bacteria would grab a piece of the virus's DNA and store it in their own genome – like keeping a "wanted poster". These stored fragments were arranged in a peculiar pattern: **Clustered Regularly Interspaced Short Palindromic Repeats** – CRISPR.
+
+If the same virus attacked again, the bacteria would recognize it and destroy it. It was adaptive immunity at the bacterial level. But nobody imagined this bacterial immune system could become the most powerful genome editing tool in history.
+
+## The Challenge: How Do We Edit DNA Easily?
+
+By 2012, scientists could edit genomes using tools like ZFNs and TALENs, but here was the nightmare: every time you wanted to target a new gene, you had to engineer an entirely new protein. Expensive. Time-consuming. Like building new scissors from scratch every time you wanted to cut a different thread.
+
+**Enter Jennifer Doudna and Emmanuelle Charpentier.**
+
+They figured out exactly how the bacterial CRISPR system worked – and how to weaponize it for genome editing.
+
+### The Key Components:
+
+- **Cas9** – The protein that cuts DNA (the scissors)
+- **crRNA** – Contains the "target address" (20 bases that match your target DNA)
+- **tracrRNA** – Activates Cas9 and helps it work
+- **PAM sequence** – A "NGG" DNA motif next to the target (like a safety lock)
+
+The DNA only cuts when all four are present: Cas9 + crRNA + tracrRNA + Magnesium.
+
+**The game-changer?** They showed you could combine crRNA and tracrRNA into one engineered guide RNA to direct Cas9 to cut any DNA sequence you wanted. They tested five different guide RNAs targeting five different sequences. All worked perfectly.
+
+This paper is from 2012, and if you look at the figures, they're filled with gel electrophoresis photos. No fancy fluorescence microscopy or sequencing heatmaps – just good old-fashioned DNA bands on gels.
+
+## Why CRISPR Won?
+
+Here's the revolution:
+
+**Old way (ZFN/TALEN):**
+
+- Want a new target? → Engineer a new protein
+- Cost: High | Time: Weeks/months
+
+**CRISPR way:**
+
+- Want a new target? → Design a new 20-base RNA
+- Cost: Minimal | Time: Days
+
+You could suddenly access any part of any organism's DNA by just changing a simple guide RNA. No protein engineering. No expensive reagents. Just simple sequence design.
+
+By 2013, labs worldwide were using CRISPR. Today, CRISPR is everywhere: disease modeling, crop engineering, gene therapy, basic research.
+
+## The Takeaway: Simplicity Wins
+
+CRISPR democratized genome editing. It made the impossible routine. It turned what was once the domain of specialized labs into something any researcher could use. And it all started with scientists trying to save yogurt cultures from viruses.
+
+Sometimes the most revolutionary tools come from the most unexpected places.
+
+---
+
+### References
+
+1. Jinek, M., Chylinski, K., Fonfara, I., Hauer, M., Doudna, J. A., & Charpentier, E. (2012). A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. *Science*, 337(6096), 816-821. [https://doi.org/10.1126/science.1225829](https://doi.org/10.1126/science.1225829)
+2. [The Yogurt Connection - Science Magazine](https://www.science.org/doi/10.1126/science.355.6326.680)
+3. [Yogurt's Role in CRISPR Development](https://synthetic.com/yogurts-role-in-the-early-development-of-the-crispr-gene-editing-system/)
+4. [Doudna and Charpentier's CRISPR Experiment - ASU Embryo Project](https://embryo.asu.edu/pages/jennifer-doudna-and-emmanuelle-charpentiers-experiment-about-crisprcas-9-systems-role-adaptive)
+5. [CRISPR's 10-Year Anniversary - STAT News](https://www.statnews.com/2022/06/28/jennifer-doudna-crispr-debuted-10-years-ago/)
+6. AI-generated image. (Gemini)
