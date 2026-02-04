@@ -3,7 +3,7 @@ title: "The Time Machine That Changed Biology Forever"
 description: "How Shinya Yamanaka turned back cellular time with just four factors"
 author: "Devansh Shah"
 date: "2026-01-27"
-categories: [biology, stem cells, nobel prize]
+categories: [cell biology, stem cells, nobel prize]
 image: "imgs/yamanaka-2006.png"
 ---
 
