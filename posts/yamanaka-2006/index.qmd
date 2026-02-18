@@ -2,6 +2,7 @@
 title: "The Time Machine That Changed Biology Forever"
 description: "How Shinya Yamanaka turned back cellular time with just four factors"
 author: "Devansh Shah"
+author-email: "devansh.shah@iitb.ac.in"
 date: "2026-01-27"
 categories: [cell biology, stem cells, nobel prize]
 image: "imgs/yamanaka-2006.png"
@@ -64,6 +65,11 @@ Yamanaka didn't just discover a technique. He proved that cellular identity is f
 Every groundbreaking discovery starts with someone's "what if?"
 
 ---
+Want to discuss this paper? Have questions? Reach out!
+
+📧 **Email:** [{{< meta author-email >}}](mailto:{{< meta author-email >}})
+
+Feel free to share your thoughts, corrections, or follow-up questions. We'd love to hear from you!
 
 ### References
 
@@ -72,3 +78,12 @@ Every groundbreaking discovery starts with someone's "what if?"
 3. [Nobel Prize 2012 - Medicine](https://www.nobelprize.org/prizes/medicine/2012/summary/)
 4. [Gladstone: Reflecting on a Decade of iPSCs](https://gladstone.org/newsreflecting-discovery-decade-induced-pluripotent-stem-cells)
 5. AI-generated image. (Gemini)
+
+<script src="https://utteranc.es/client.js"
+        repo="eli5sci/eli5sci.github.io"
+        issue-term="pathname"
+        label="comments"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>

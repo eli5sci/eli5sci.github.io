@@ -2,6 +2,7 @@
 title: "Game On: How the Body Knows Its Team"
 description: "How Peter Medawar discovered that timing is everything when the immune system learns friend from foe"
 author: "Srinidhi Srinivasan"
+author-email: "srinidhisrinivasan02@gmail.com"
 date: "2026-01-28"
 categories: [immunology, biology, nobel prize]
 image: "imgs/medawar-1953.png"
@@ -44,8 +45,22 @@ What our bodies see early on shapes how they respond for life, teaching the immu
 So the next time you play, remember, your body's team was chosen long before you even kicked a ball.
 
 ---
+Want to discuss this paper? Have questions? Reach out!
+
+📧 **Email:** [{{< meta author-email >}}](mailto:{{< meta author-email >}})
+
+Feel free to share your thoughts, corrections, or follow-up questions. We'd love to hear from you!
 
 ### References
 
 1. Billingham, R. E., Brent, L., & Medawar, P. B. (1953). Actively acquired tolerance of foreign cells. *Nature*, 172(4379), 603. [https://doi.org/10.1038/172603a0](https://doi.org/10.1038/172603a0)
 2. AI-generated image. (Gemini)
+
+<script src="https://utteranc.es/client.js"
+        repo="eli5sci/eli5sci.github.io"
+        issue-term="pathname"
+        label="comments"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>

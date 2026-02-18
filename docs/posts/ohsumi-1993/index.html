@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Devansh Shah">
+<meta name="dcterms.date" content="2026-02-18">
+<meta name="description" content="How yeast mutants revealed the cellular recycling system that won a Nobel Prize">
 
-<title>index – eli5science</title>
+<title>When Cells Eat Themselves (And Why That’s Actually Genius) – eli5science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,10 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-774123061c5cb3845a36555a0f782895.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-774123061c5cb3845a36555a0f782895.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-a8229bd30ce5d2106b799184abc96eee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-774123061c5cb3845a36555a0f782895.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +80,169 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,10 +267,14 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contribute.html"> 
+<span class="menu-text">Contribute</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/eli5sci/eli5science.github.io"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/eli5sci/eli5sci.github.io"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -113,6 +286,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -121,21 +295,167 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-quick-history-lesson" id="toc-a-quick-history-lesson" class="nav-link active" data-scroll-target="#a-quick-history-lesson">A Quick History Lesson</a></li>
+  <li><a href="#the-setup-why-study-yeast" id="toc-the-setup-why-study-yeast" class="nav-link" data-scroll-target="#the-setup-why-study-yeast">The Setup: Why Study Yeast?</a>
+  <ul class="collapse">
+  <li><a href="#the-cellular-recycling-system" id="toc-the-cellular-recycling-system" class="nav-link" data-scroll-target="#the-cellular-recycling-system">The Cellular Recycling System</a></li>
+  </ul></li>
+  <li><a href="#the-hunt-for-broken-mutants" id="toc-the-hunt-for-broken-mutants" class="nav-link" data-scroll-target="#the-hunt-for-broken-mutants">The Hunt for Broken Mutants</a>
+  <ul class="collapse">
+  <li><a href="#the-experimental-design" id="toc-the-experimental-design" class="nav-link" data-scroll-target="#the-experimental-design">The Experimental Design:</a></li>
+  </ul></li>
+  <li><a href="#the-brilliant-microscopy-trick" id="toc-the-brilliant-microscopy-trick" class="nav-link" data-scroll-target="#the-brilliant-microscopy-trick">The Brilliant Microscopy Trick</a></li>
+  <li><a href="#the-takeaway-your-cells-are-smarter-than-you-think" id="toc-the-takeaway-your-cells-are-smarter-than-you-think" class="nav-link" data-scroll-target="#the-takeaway-your-cells-are-smarter-than-you-think">The Takeaway: Your Cells Are Smarter Than You Think</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">When Cells Eat Themselves (And Why That’s Actually Genius)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">biology</div>
+    <div class="quarto-category">autophagy</div>
+    <div class="quarto-category">nobel prize</div>
+    <div class="quarto-category">cell biology</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    How yeast mutants revealed the cellular recycling system that won a Nobel Prize
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Devansh Shah </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 18, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imgs/ohsumi-1993.png" class="img-fluid figure-img" style="width:100.0%" alt="Autophagy illustration"></p>
+<figcaption>The cellular cannibalism that keeps us alive</figcaption>
+</figure>
+</div>
+<p>Here’s a wild thought: your cells are cannibals. Not in a horror movie way, but in a “I need to survive, so I’m going to eat myself” kind of way. And before you get grossed out, this self-eating process is literally keeping you alive right now.</p>
+<p>The fancy word for this is <strong>autophagy</strong> (auto = self, phagy = eating). And the story of how scientists figured this out? It involves starving yeast, hunting for mutants, and a lot of patience with microscopes.</p>
+<p><strong>Today’s paper:</strong> “Isolation and characterization of autophagy-defective mutants of yeast” (1993)</p>
+<p>Or as I like to call it: <strong>The Cannibalism Paper!</strong> 🍽️</p>
+<section id="a-quick-history-lesson" class="level2">
+<h2 class="anchored" data-anchor-id="a-quick-history-lesson">A Quick History Lesson</h2>
+<p>The word “autophagy” wasn’t invented for this paper. It was actually coined way back by <strong>Christian de Duve</strong>, the 1974 Nobel Prize winner. He noticed that cells sometimes digest their own parts, and he named this self-eating process as autophagy.</p>
+<p>But here’s the thing: knowing something exists and understanding <em>how</em> it works are two very different things. That’s where this 1993 paper comes in.</p>
+</section>
+<section id="the-setup-why-study-yeast" class="level2">
+<h2 class="anchored" data-anchor-id="the-setup-why-study-yeast">The Setup: Why Study Yeast?</h2>
+<p>You might be wondering, “Why yeast? I’m a human, not bread!” Fair question. Here’s the genius part: autophagy in yeast works pretty much the same way as autophagy in mammals. Yeast are just way easier to study, and not only autophagy but various other cellular processes too.</p>
+<p>Think of yeast as the lab rats of the cellular world, except smaller, cheaper, and you don’t need ethics approval.</p>
+<section id="the-cellular-recycling-system" class="level3">
+<h3 class="anchored" data-anchor-id="the-cellular-recycling-system">The Cellular Recycling System</h3>
+<p>Before we dive in, let’s get the basics down. Inside your cells, there’s this whole network of organelles working together called the <strong>lysosomal endomembrane system</strong>. It includes:</p>
+<ul>
+<li><strong>Endoplasmic Reticulum (ER)</strong> → the protein factory</li>
+<li><strong>Golgi apparatus</strong> → the packaging center<br>
+</li>
+<li><strong>Lysosomes</strong> → the recycling bins (in yeast, these are called vacuoles)</li>
+</ul>
+<p>When cells are starving or stressed, they need to recycle their own components to survive. That’s where autophagy kicks in. The cell wraps up bits of itself in a special membrane bubble called an <strong>autophagosome</strong>, which then fuses with a lysosome to form an <strong>auto-phago-lysosome</strong>. Inside this acidic environment, everything gets broken down and recycled.</p>
+<p>In yeast, you can actually <em>see</em> this happening (another reason to choose yeast)! They form these structures called <strong>Autophagic Bodies (ABs)</strong> inside their vacuoles. And that’s what makes yeast so perfect for this research, you can literally watch the process under a microscope.</p>
+</section>
+</section>
+<section id="the-hunt-for-broken-mutants" class="level2">
+<h2 class="anchored" data-anchor-id="the-hunt-for-broken-mutants">The Hunt for Broken Mutants</h2>
+<p>Here’s where it gets fun. The scientists asked themselves: “What if we find yeast that <em>can’t</em> do autophagy? That would tell us which genes are essential for the process!”</p>
+<p>So they went mutant hunting.</p>
+<section id="the-experimental-design" class="level3">
+<h3 class="anchored" data-anchor-id="the-experimental-design">The Experimental Design:</h3>
+<ol type="1">
+<li><strong>Starve the yeast</strong> (nitrogen starvation, specifically) to trigger autophagy</li>
+<li><strong>Add PMSF</strong> (a chemical that stops the vacuole from breaking down the ABs) so they pile up and become visible</li>
+<li><strong>Look under a microscope</strong> for yeast that DON’T form ABs</li>
+<li><strong>Those are your mutants!</strong></li>
+</ol>
+<p>They found <strong>15 different strains</strong> (named apg1 through apg15) that couldn’t form autophagic bodies. Each one had a single recessive mutation in a different gene. Fifteen genes! That’s how complex this system is.</p>
+</section>
+</section>
+<section id="the-brilliant-microscopy-trick" class="level2">
+<h2 class="anchored" data-anchor-id="the-brilliant-microscopy-trick">The Brilliant Microscopy Trick</h2>
+<p>To see the ABs clearly, they used a dye called <strong>quinacrine</strong>. The inside of the vacuole is acidic (just like lysosomes in our cells), and quinacrine loves acidic environments. So it lights up the vacuoles, making the ABs inside them super easy to spot.</p>
+<p>In the wild-type yeast after starvation, the vacuoles would be packed with these glowing ABs. In the apg mutants? Nothing. Not even after 24 hours.</p>
+</section>
+<section id="the-takeaway-your-cells-are-smarter-than-you-think" class="level2">
+<h2 class="anchored" data-anchor-id="the-takeaway-your-cells-are-smarter-than-you-think">The Takeaway: Your Cells Are Smarter Than You Think</h2>
+<p>What makes this paper so important is that it proved autophagy isn’t just a random process. It’s a tightly controlled genetic program involving at least 15 different genes working together.</p>
+<p>When you skip meals, when you exercise, when you sleep; your cells are constantly making decisions about what to keep and what to recycle. Autophagy is how they clean house, remove damaged parts, and survive when nutrients are scarce.</p>
+<p>This 1993 paper laid the groundwork for decades of research. The scientist who later won the Nobel Prize for autophagy research (Yoshinori Ohsumi, 2016) built directly on this foundation, identifying many more autophagy genes and showing how the process works in detail.</p>
+<p>Sometimes the most important discoveries come from asking: “What breaks when we break this?”</p>
+<hr>
+<p>Want to discuss this paper? Have questions? Reach out!</p>
+<p>📧 <strong>Email:</strong> <a href="mailto:devansh.shah@iitb.ac.in">devansh.shah@iitb.ac.in</a></p>
+<p>Feel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!</p>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ol type="1">
+<li>Tsukada, M., &amp; Ohsumi, Y. (1993). Isolation and characterization of autophagy-defective mutants of <em>Saccharomyces cerevisiae</em>. <em>FEBS Letters</em>, 333(1-2), 169-174.</li>
+<li>Christian de Duve - Nobel Prize 1974: <a href="https://www.nobelprize.org/prizes/medicine/1974/duve/biographical/">https://www.nobelprize.org/prizes/medicine/1974/duve/biographical/</a></li>
+<li>Yoshinori Ohsumi - Nobel Prize 2016: <a href="https://www.nobelprize.org/prizes/medicine/2016/summary/">https://www.nobelprize.org/prizes/medicine/2016/summary/</a></li>
+<li>AI-generated image. (Gemini)</li>
+</ol>
+<script src="https://utteranc.es/client.js" repo="eli5sci/eli5sci.github.io" issue-term="pathname" label="comments" theme="preferred-color-scheme" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

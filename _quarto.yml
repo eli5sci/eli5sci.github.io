@@ -8,26 +8,33 @@ website:
   navbar:
     background: "#ffffff"
     foreground: "#2c3e50"
+    #logo: logo.png  # Update this to your logo path
+    #logo-alt: "eli5science logo"
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
+      - href: contribute.qmd
+        text: Contribute
     right:
       - icon: github
-        href: https://github.com/eli5sci/eli5science.github.io
+        href: https://github.com/eli5sci/eli5sci.github.io
       - icon: rss
         href: index.xml
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
     mainfont: "Inter, sans-serif"
     fontsize: 1.1em
     linestretch: 1.6
     code-copy: true
+    title-block-banner: false
 
 execute:
   freeze: auto

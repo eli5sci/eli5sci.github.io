@@ -2,6 +2,7 @@
 title: "An Acronym That Scared Me (And Probably You Too)"
 description: "How CRISPR went from yogurt's defense system to biology's most powerful tool"
 author: "Devansh Shah"
+author-email: "devansh.shah@iitb.ac.in"
 date: "2026-02-04"
 categories: [biology, gene editing, nobel prize]
 image: "imgs/doudna-2012.png"
@@ -71,6 +72,11 @@ CRISPR democratized genome editing. It made the impossible routine. It turned wh
 Sometimes the most revolutionary tools come from the most unexpected places.
 
 ---
+Want to discuss this paper? Have questions? Reach out!
+
+📧 **Email:** [{{< meta author-email >}}](mailto:{{< meta author-email >}})
+
+Feel free to share your thoughts, corrections, or follow-up questions. We'd love to hear from you!
 
 ### References
 
@@ -80,3 +86,12 @@ Sometimes the most revolutionary tools come from the most unexpected places.
 4. [Doudna and Charpentier's CRISPR Experiment - ASU Embryo Project](https://embryo.asu.edu/pages/jennifer-doudna-and-emmanuelle-charpentiers-experiment-about-crisprcas-9-systems-role-adaptive)
 5. [CRISPR's 10-Year Anniversary - STAT News](https://www.statnews.com/2022/06/28/jennifer-doudna-crispr-debuted-10-years-ago/)
 6. AI-generated image. (Gemini)
+
+<script src="https://utteranc.es/client.js"
+        repo="eli5sci/eli5sci.github.io"
+        issue-term="pathname"
+        label="comments"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>

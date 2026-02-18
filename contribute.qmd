@@ -1,0 +1,71 @@
+---
+page-layout: full
+---
+
+::: {.column-page}
+
+## Help Us Simplify Science! 🚀
+
+We're always looking for passionate students to join our mission of making research accessible. Whether you've discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!
+
+---
+
+## How to Contribute
+
+### Submit Your Article Idea
+
+Fill out this [quick form](https://forms.gle/F8Z2m4fkRQqUAa397) and we'll get back to you within a week!
+
+Or email us directly at **devansh.shah@iitb.ac.in** with the subject line "eli5science: Story Contribution" and include:
+-  Paper title and link
+-  Why you find it interesting
+-  Your name and contact info
+
+Additionally, you can also join our WhatsApp community for discussions and updates: [Join Here](https://chat.whatsapp.com/Ldml3EKOJND78pU0WRybkf)
+
+## Writing Guidelines
+
+Keep it **simple, fun, and accessible**:
+
+- **Simple Language** — Use words your classmates would understand
+- **Analogies & Stories** — Explain through relatable comparisons (check out our existing posts!)
+- **Engaging Structure** — Keep readers hooked with questions and visuals
+- **Right Length** — Most posts are 5-10 minute reads
+- **Cite Sources** — Always link to the original paper and references
+- **Add an Image** — A visual representation of the paper helps
+
+**Check our existing posts to see the style!** All our articles are written in this approachable, story-driven way.
+
+---
+
+## What We're Looking For
+
+✅ Papers that are interesting but explained in complicated ways
+
+✅ Topics that matter to students (biology, AI, physics, medicine, etc.)
+
+✅ Your genuine curiosity and voice coming through
+
+✅ Well-researched and cited
+
+❌ Just summaries of papers (we want stories!)
+
+❌ Topics that are already super accessible
+
+---
+
+## Questions?
+
+Reach out! We're friendly and here to help:
+
+- 📧 **Email:** devansh.shah@iitb.ac.in
+- 🔗 **GitHub:** [eli5sci](https://github.com/eli5sci/eli5sci.github.io)
+- 📱 **LinkedIn:** [Devansh Shah](https://www.linkedin.com/in/devansh-shah-3467b1150/)
+
+---
+
+**Thank you for supporting science communication!** ✨
+
+We can't wait to read your take on the papers you find fascinating!
+
+:::

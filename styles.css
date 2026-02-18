@@ -1,29 +1,273 @@
-/* Make the layout centered and readable like Medium or Substack */
-body {
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: #fcfcfc; /* Very soft off-white, easier on eyes */
+html {
+  scroll-behavior: smooth;
 }
 
-/* Professional headers */
-h1, h2, h3 {
+html[data-bs-theme="dark"] {
+  background-color: #181a1b !important;
+}
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2.5rem 4rem;
+  background-color: inherit;
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 1.2rem 1rem;
+    max-width: 100%;
+  }
+}
+
+/* --- Quarto-compatible Dark/Light Mode Support --- */
+html[data-bs-theme="light"] body {
+  background-color: #fcfcfc;
   color: #1a1a1a;
+}
+html[data-bs-theme="dark"] body {
+  background-color: #181a1b !important;
+  color: #e0e0e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: -0.02em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+h2 {
+  font-size: 1.8em;
+  padding-bottom: 0.3em;
+}
+html[data-bs-theme="light"] h1, html[data-bs-theme="light"] h2, html[data-bs-theme="light"] h3, html[data-bs-theme="light"] h4, html[data-bs-theme="light"] h5, html[data-bs-theme="light"] h6 {
+  color: #1a1a1a;
+}
+html[data-bs-theme="dark"] h1, html[data-bs-theme="dark"] h2, html[data-bs-theme="dark"] h3, html[data-bs-theme="dark"] h4, html[data-bs-theme="dark"] h5, html[data-bs-theme="dark"] h6 {
+  color: #ffffff;
+}
+html[data-bs-theme="light"] h2 {
+  border-bottom: 2px solid #eaeaea;
+}
+html[data-bs-theme="dark"] h2 {
+  border-bottom: 2px solid #333333;
 }
 
-/* Beautiful link styling */
 a {
-  color: #007bff;
   text-decoration: none;
   transition: color 0.2s;
 }
-a:hover {
+html[data-bs-theme="light"] a {
+  color: #007bff;
+}
+html[data-bs-theme="light"] a:hover {
   color: #0056b3;
   text-decoration: underline;
 }
+html[data-bs-theme="dark"] a {
+  color: #58a6ff;
+}
+html[data-bs-theme="dark"] a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
 
-/* Clean up the navbar */
 .navbar {
+  transition: background-color 0.3s;
+}
+html[data-bs-theme="light"] .navbar {
   border-bottom: 1px solid #eaeaea;
+}
+html[data-bs-theme="dark"] .navbar {
+  border-bottom: 1px solid #333333;
+}
+
+.navbar-logo {
+  max-height: 50px;
+  margin-right: 0.5rem;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+html[data-bs-theme="light"] code {
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+}
+html[data-bs-theme="dark"] code {
+  background-color: #0d1117;
+  color: #e0e0e0;
+}
+
+pre {
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+html[data-bs-theme="light"] pre {
+  background-color: #f5f5f5;
+  border: 1px solid #eaeaea;
+}
+html[data-bs-theme="dark"] pre {
+  background-color: #0d1117;
+  border: 1px solid #333333;
+}
+pre code {
+  padding: 0;
+  background-color: transparent;
+}
+
+.listing-item {
+  padding: 1.5rem 0;
+}
+html[data-bs-theme="light"] .listing-item {
+  border-bottom: 1px solid #eaeaea;
+}
+html[data-bs-theme="light"] .listing-item:hover {
+  background-color: rgba(0, 123, 255, 0.05);
+}
+html[data-bs-theme="dark"] .listing-item {
+  border-bottom: 1px solid #333333;
+}
+html[data-bs-theme="dark"] .listing-item:hover {
+  background-color: rgba(88, 166, 255, 0.05);
+}
+
+.post-meta {
+  font-size: 0.95em;
+  margin-bottom: 0.5em;
+}
+html[data-bs-theme="light"] .post-meta {
+  color: #666666;
+}
+html[data-bs-theme="dark"] .post-meta {
+  color: #b0b0b0;
+}
+
+.author-info {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  border-left: 4px solid;
+}
+html[data-bs-theme="light"] .author-info {
+  background-color: #f5f5f5;
+  border-left-color: #007bff;
+}
+html[data-bs-theme="dark"] .author-info {
+  background-color: #0d1117;
+  border-left-color: #58a6ff;
+}
+.author-info p {
+  margin: 0.3em 0;
+}
+.author-email {
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+p {
+  margin: 1.2em 0;
+  line-height: 1.6;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+}
+th, td {
+  padding: 0.75em;
+  text-align: left;
+}
+html[data-bs-theme="light"] th, html[data-bs-theme="light"] td {
+  border: 1px solid #eaeaea;
+}
+html[data-bs-theme="light"] th {
+  background-color: #f5f5f5;
+}
+html[data-bs-theme="dark"] th, html[data-bs-theme="dark"] td {
+  border: 1px solid #333333;
+}
+html[data-bs-theme="dark"] th {
+  background-color: #0d1117;
+}
+th {
+  font-weight: 600;
+}
+
+blockquote {
+  margin: 1.5em 0;
+  padding-left: 1rem;
+  font-style: italic;
+  border-left: 4px solid;
+}
+html[data-bs-theme="light"] blockquote {
+  border-left-color: #007bff;
+  color: #666;
+}
+html[data-bs-theme="dark"] blockquote {
+  border-left-color: #58a6ff;
+  color: #b0b0b0;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+html[data-bs-theme="light"] footer {
+  border-top: 1px solid #eaeaea;
+  color: #666;
+}
+html[data-bs-theme="dark"] footer {
+  border-top: 1px solid #333333;
+  color: #b0b0b0;
+}
+
+.quarto-title-block-header {
+  margin-bottom: 1.5em;
+}
+html[data-bs-theme="light"] .quarto-title {
+  color: #1a1a1a;
+}
+html[data-bs-theme="dark"] .quarto-title {
+  color: #ffffff;
+}
+
+ul, ol {
+  line-height: 1.8;
+}
+li {
+  margin: 0.5em 0;
+}
+
+html[data-bs-theme="dark"] .navbar-brand {
+  color: #ffffff !important;
+}
+html[data-bs-theme="dark"] .nav-link {
+  color: #b0b0b0 !important;
+}
+html[data-bs-theme="dark"] .nav-link:hover {
+  color: #ffffff !important;
+}
+
+nav.toc {
+  /* Table of Contents styling */
+}
+html[data-bs-theme="light"] nav.toc {
+  border-left: 1px solid #eaeaea;
+}
+html[data-bs-theme="dark"] nav.toc {
+  border-left: 1px solid #333333;
 }
