@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Aayush Gulati">
+<meta name="dcterms.date" content="2026-03-05">
+<meta name="description" content="How a 2014 paper gave AI the ability to take notes and remember—and how that changed everything">
 
-<title>eli5science</title>
+<title>NTM: Memory + Reason = Cognition ? – eli5science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,30 +26,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-774123061c5cb3845a36555a0f782895.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a8229bd30ce5d2106b799184abc96eee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-774123061c5cb3845a36555a0f782895.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-774123061c5cb3845a36555a0f782895.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-a8229bd30ce5d2106b799184abc96eee.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-774123061c5cb3845a36555a0f782895.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,67 +75,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -302,11 +245,11 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">eli5science</span>
     </a>
   </div>
@@ -317,15 +260,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contribute.html"> 
+    <a class="nav-link" href="../../contribute.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -336,7 +279,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -349,147 +292,126 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">eli5science</h1>
-            <p class="subtitle lead">Complex research, simplified.</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-body">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXV0b3BoYWd5">autophagy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmlvbG9neQ==">biology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y2VsbCUyMGJpb2xvZ3k=">cell biology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29tcHV0ZXIlMjBzY2llbmNl">computer science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VuZSUyMGVkaXRpbmc=">gene editing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW1tdW5vbG9neQ==">immunology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm9iZWwlMjBwcml6ZQ==">nobel prize <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c3RlbSUyMGNlbGxz">stem cells <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-library-analogy" id="toc-the-library-analogy" class="nav-link active" data-scroll-target="#the-library-analogy">The Library Analogy</a></li>
+  <li><a href="#two-ways-to-search" id="toc-two-ways-to-search" class="nav-link" data-scroll-target="#two-ways-to-search">Two Ways to Search</a></li>
+  <li><a href="#the-blurry-spotlight" id="toc-the-blurry-spotlight" class="nav-link" data-scroll-target="#the-blurry-spotlight">The Blurry Spotlight</a></li>
+  <li><a href="#the-cool-part-it-learns-as-it-goes" id="toc-the-cool-part-it-learns-as-it-goes" class="nav-link" data-scroll-target="#the-cool-part-it-learns-as-it-goes">The Cool Part: It Learns as It Goes</a></li>
+  <li><a href="#why-it-matters-and-why-you-havent-heard-of-it-more" id="toc-why-it-matters-and-why-you-havent-heard-of-it-more" class="nav-link" data-scroll-target="#why-it-matters-and-why-you-havent-heard-of-it-more">Why It Matters (And Why You Haven’t Heard of It More)</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NTM: Memory + Reason = Cognition ?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">AI</div>
+    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">computer science</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    How a 2014 paper gave AI the ability to take notes and remember—and how that changed everything
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Aayush Gulati </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 5, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<div class="column-page">
-<section id="about-this-project" class="level2">
-<h2 class="anchored" data-anchor-id="about-this-project">About This Project</h2>
-<p>Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.</p>
-<p>We’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries.</p>
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="imgs/NTM-2014.png" class="img-fluid figure-img" style="width:100.0%" alt="Neural Turing Machine illustration"></p>
+<figcaption>The Neural Turing Machine: a controller, a memory bank, and a big idea</figcaption>
+</figure>
+</div>
+<p>Picture this: your professor walks in and drops an assignment on your desk — <em>“Write a report on World War history: key events, causes, consequences etc.”</em></p>
+<p>You don’t panic. Even before you start, you already know a few things: world wars belong in the history section, certain names and dates ring a bell. That quick, ready-to-use knowledge sitting in your head? That’s your <strong>working memory</strong>. Small, fast, and just enough to get you started.</p>
+<p>Now you head to the library.</p>
+<p><strong>Today’s paper:</strong> “Neural Turing Machines” by Alex Graves, Greg Wayne &amp; Ivo Danihelka (2014)</p>
+<section id="the-library-analogy" class="level2">
+<h2 class="anchored" data-anchor-id="the-library-analogy">The Library Analogy</h2>
+<p>The library is <strong>memory</strong> — a massive space storing everything. You, the student trying to finish the assignment, are the <strong>controller</strong> — deciding what to search, what to skip, and what to “copy” into your notes. The assignment itself is the <strong>external input/output</strong>: the task you received, and the final submission you’ll make.</p>
+<p>This is basically the architecture of a Neural Turing Machine (NTM). A controller (usually a neural network) that reads from and writes to an external memory bank — just like a student working through a library.</p>
+</section>
+<section id="two-ways-to-search" class="level2">
+<h2 class="anchored" data-anchor-id="two-ways-to-search">Two Ways to Search</h2>
+<p>You start the obvious way: type keywords into the search bar. <em>“World War… Hitler, Holocaust, Allies, Jews.”</em> You find what you’re looking for by matching what you already know to what’s in the library. This is <strong>content-based addressing</strong> — finding things by what they’re about.</p>
+<p>But after a while, you hit a wall. The same popular books keep showing up. Then a librarian tips you off: <em>“Walk a few shelves down from where you are, and you’ll find more.”</em> You follow the tip and suddenly stumble on wartime economics, diplomatic backstories, memoirs you never would have searched for directly. This is <strong>location-based addressing</strong> — instead of searching by meaning, you just move to a nearby “address” and see what’s there.</p>
+<p>NTMs use both. Sometimes you search by content, sometimes by location, often a mix of both.</p>
+</section>
+<section id="the-blurry-spotlight" class="level2">
+<h2 class="anchored" data-anchor-id="the-blurry-spotlight">The Blurry Spotlight</h2>
+<p>Here’s something interesting: you rarely read one single book cover to cover. You pull several, skim quickly, compare passages, blend ideas. Even when you “pick” a source, your attention is spread across a few — some directly useful, some partially, some just providing context.</p>
+<p>That’s exactly how reading and writing works in an NTM. You don’t point to one memory slot and say “that one.” You get a <strong>blended signal</strong> from multiple slots, weighted by how relevant each one is.</p>
+<p>This blending is controlled by <strong>attentional focus</strong> — like a spotlight. When you’re confident, the spotlight narrows. When you’re exploring, it widens. And what shapes the spotlight is a mix of your two search methods: how much you rely on content vs.&nbsp;location.</p>
+</section>
+<section id="the-cool-part-it-learns-as-it-goes" class="level2">
+<h2 class="anchored" data-anchor-id="the-cool-part-it-learns-as-it-goes">The Cool Part: It Learns as It Goes</h2>
+<p>Here’s what makes this more than just a clever analogy. After hours in the library, you get <em>better</em>. Better at picking keywords, better at judging which shelves to wander, better at knowing when to trust the search bar vs.&nbsp;when to follow your nose.</p>
+<p>In an NTM, the controller learns the same way. The whole system is <strong>differentiable</strong> — meaning it can be trained through backpropagation, the same way regular neural networks learn. The controller (an LSTM, essentially the “brain”) reads the task, keeps the current plan in mind, and gets better at using memory the more it practices.</p>
+</section>
+<section id="why-it-matters-and-why-you-havent-heard-of-it-more" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-matters-and-why-you-havent-heard-of-it-more">Why It Matters (And Why You Haven’t Heard of It More)</h2>
+<p>Normal neural networks hit a wall on tasks that need to store and retrieve specific information over long sequences. NTMs were designed to fix exactly that. But in practice, getting them to reliably learn memory usage turned out to be tricky, and scaling them to very large memories was computationally expensive.</p>
+<p>Still, the core idea — a model with a small working space that repeatedly consults a much larger external store — directly influenced everything that came after. The <strong>Differentiable Neural Computer (DNC)</strong> refined memory management. <strong>Transformers</strong> treat their context window like a library. <strong>Retrieval-augmented models</strong> literally fetch documents at inference time.</p>
+<p>The student-and-library architecture never really went away. It just got scaled up.</p>
 <hr>
+<p>Want to discuss this paper? Have questions? Reach out!</p>
+<p>📧 <strong>Email:</strong> <a href="mailto:aayushgulati18@gmail.com">aayushgulati18@gmail.com</a></p>
+<p>Feel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!</p>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ol type="1">
+<li>Graves, A., Wayne, G., &amp; Danihelka, I. (2014). Neural Turing Machines. <em>arXiv preprint arXiv:1410.5401</em>. <a href="https://arxiv.org/abs/1410.5401">https://arxiv.org/abs/1410.5401</a></li>
+<li><a href="https://medium.com/@siddharthapramanik771/neural-turing-machines-enhancing-neural-networks-with-dynamic-memory-and-advanced-attention-dd14a6fd24b0">Neural Turing Machines: Enhancing Neural Networks with Dynamic Memory and Advanced Attention Mechanisms</a></li>
+<li><a href="https://encord.com/blog/neural-turing-machines/">Unlocking the Potential of Neural Turing Machines</a></li>
+</ol>
+<script src="https://utteranc.es/client.js" repo="eli5sci/eli5sci.github.io" issue-term="pathname" label="comments" theme="preferred-color-scheme" crossorigin="anonymous" async="">
+</script>
+
+
 </section>
-<section id="latest-research-stories" class="level2">
-<h2 class="anchored" data-anchor-id="latest-research-stories">Latest Research Stories</h2>
 </section>
-</div>
 
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QUklMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNjb21wdXRlciUyMHNjaWVuY2U=" data-listing-date-sort="1772649000000" data-listing-file-modified-sort="1772697971378" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="797">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/ntm-2014/index.html" class="no-external">NTM: Memory + Reason = Cognition ?</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/ntm-2014/index.html" class="no-external">
-<p>How a 2014 paper gave AI the ability to take notes and remember—and how that changed everything</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/ntm-2014/index.html" class="no-external">
-<div class="listing-date">
-Mar 5, 2026
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="YmlvbG9neSUyQ2F1dG9waGFneSUyQ25vYmVsJTIwcHJpemUlMkNjZWxsJTIwYmlvbG9neQ==" data-listing-date-sort="1771353000000" data-listing-file-modified-sort="1771072439410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="827">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/ohsumi-1993/index.html" class="no-external">When Cells Eat Themselves (And Why That’s Actually Genius)</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/ohsumi-1993/index.html" class="no-external">
-<p>How yeast mutants revealed the cellular recycling system that won a Nobel Prize</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/ohsumi-1993/index.html" class="no-external">
-<div class="listing-date">
-Feb 18, 2026
-</div>
-<div class="listing-reading-time">5 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="YmlvbG9neSUyQ2dlbmUlMjBlZGl0aW5nJTJDbm9iZWwlMjBwcml6ZQ==" data-listing-date-sort="1770143400000" data-listing-file-modified-sort="1771072416000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="706">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/doudna-2012/index.html" class="no-external">An Acronym That Scared Me (And Probably You Too)</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/doudna-2012/index.html" class="no-external">
-<p>How CRISPR went from yogurt’s defense system to biology’s most powerful tool</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/doudna-2012/index.html" class="no-external">
-<div class="listing-date">
-Feb 4, 2026
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="aW1tdW5vbG9neSUyQ2Jpb2xvZ3klMkNub2JlbCUyMHByaXpl" data-listing-date-sort="1769538600000" data-listing-file-modified-sort="1771072428577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="623">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/medawar-1953/index.html" class="no-external">Game On: How the Body Knows Its Team</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/medawar-1953/index.html" class="no-external">
-<p>How Peter Medawar discovered that timing is everything when the immune system learns friend from foe</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/medawar-1953/index.html" class="no-external">
-<div class="listing-date">
-Jan 28, 2026
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Y2VsbCUyMGJpb2xvZ3klMkNzdGVtJTIwY2VsbHMlMkNub2JlbCUyMHByaXpl" data-listing-date-sort="1769452200000" data-listing-file-modified-sort="1771162789350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="717">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/yamanaka-2006/index.html" class="no-external">The Time Machine That Changed Biology Forever</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/yamanaka-2006/index.html" class="no-external">
-<p>How Shinya Yamanaka turned back cellular time with just four factors</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/yamanaka-2006/index.html" class="no-external">
-<div class="listing-date">
-Jan 27, 2026
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
