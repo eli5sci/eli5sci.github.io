@@ -77,165 +77,60 @@
     "text": "The Deepest Consequence: Empathy as an Evolutionary Consequence (Theory of Mind)\nBirth assistance requires social trust. A labouring woman allowing another person to reach into her body in her most vulnerable moment is not performing a casual social transaction. It requires — and presumably selects for — the capacity to trust, to read intentions accurately, to form bonds of genuine emotional reciprocity. These are the foundations of what we now call theory of mind: the ability to model the mental states of others.\n\n“A pelvis narrowed by bipedalism. A skull expanded by intelligence. A baby that must rotate through a canal that barely fits. A mother who cannot deliver alone. A community that assembles to help. A species that becomes, generation by generation, more trusting, more emotionally literate, more socially connected, because the ones who could build those bonds, survived.”\n\n\nWant to discuss this? Have questions? Reach out!\n📧 Email: lsgunasekhar026@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nXu, S. et al. (2024). The genetic architecture of and evolutionary constraints on the human pelvic form. Science, 383(6686), eadf8671.\nMitteroecker P, Fischer B (2024). Evolution of the human birth canal. AJOG, 230, S841-S855.\nWashburn, S.L. (1960). Tools and Human Evolution. Scientific American, 203(3), 62–75.\nKrogman, W.M. (1951). The scars of human evolution. Scientific American, 185(6), 54–57.\nRosenberg, K. & Trevathan, W. (2002). Birth, obstetrics and human evolution. BJOG, 109(11), 1199–1206."
   },
   {
-    "objectID": "posts/medawar-1953/index.html",
-    "href": "posts/medawar-1953/index.html",
-    "title": "Game On: How the Body Knows Its Team",
+    "objectID": "posts/mitoedit-2025/index.html",
+    "href": "posts/mitoedit-2025/index.html",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
     "section": "",
-    "text": "Peter Medawar and his experiments with immunological tolerance"
+    "text": "MitoEdit: a computational tool for optimizing mitochondrial base editing\nThis one is a little close to me — because I spent nearly a year working on it.\nIt was March 2024. I had just received the Khorana Scholarship and was looking for labs in the US to join for the summer. I came across the Kundu Lab at St. Jude Children’s Research Hospital in Memphis, and their work on the role of mitochondrial DNA mutations in cancer. Instantly, I was captivated. I wanted to go deeper. Thankfully, everything worked out and by May, I had landed in Memphis.\nToday’s paper: “MitoEdit: A pipeline for optimizing mtDNA base editing and predicting bystander effects” — Shah, McCastlain et al. (2025)"
   },
   {
-    "objectID": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
-    "href": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "The Pre-Match Briefing: Why Team Colours Matter",
-    "text": "The Pre-Match Briefing: Why Team Colours Matter\nImagine you are watching an intense Real Madrid vs. Barcelona football game, where people are running so fast that you barely see their faces. How do the players identify their teammates? Yes, one answer is their team colour! When they see the team colours, they know it’s their teammate, pass the ball, and trust that they’ll score a goal!\nNow, how do they know what colour their team is? Obviously, before the game, they see the colours and remember: this is our guy. Well, something similar also happens in our body. Have you ever wondered how our immune cells don’t attack our own cells? Is it because, during early development, they are exposed to self-cells, much like players seeing their team colours before the match? This was exactly the question asked by the British biologist Peter Medawar and his colleagues."
+    "objectID": "posts/mitoedit-2025/index.html#your-cells-have-a-secret-genome",
+    "href": "posts/mitoedit-2025/index.html#your-cells-have-a-secret-genome",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
+    "section": "Your Cells Have a Secret Genome",
+    "text": "Your Cells Have a Secret Genome\nWhen you think of DNA, most people picture the nucleus. But the mitochondria — yes, the powerhouse of the cell — also has its own separate DNA (mtDNA).\nHere’s why. Recall the endosymbiont theory: millions of years ago, a eukaryote engulfed a prokaryotic bacterium. Instead of digesting it, the two formed a symbiotic relationship — and that bacterium never left. We now call it the mitochondria. The DNA that was inside that original bacterium survived too, and we now know it as mtDNA.\nHere’s the cool part: we inherit all our mitochondria only from our mothers. Every mitochondrion in your body traces back through an unbroken maternal line — all the way to a single woman scientists have nicknamed “Mitochondrial Eve.” This makes these organelles worth getting excited about."
   },
   {
-    "objectID": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
-    "href": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "Kickoff: Messi Meets His Team",
-    "text": "Kickoff: Messi Meets His Team\nThink of Messi in the locker room before his big game. In the pre-match talk, if he is introduced to the colour blue, he learns it, and during the match, he instinctively trusts players wearing blue. He doesn’t learn this during the match; rather, he already knows: Blue = Teammate But what if you trick him? If you tell him his team is Red during the pre-match talk, but his friends walk out in Blue, he’ll treat his own teammates like invaders. He’ll tackle them, intercept their passes, and yes, Hala Madrid!"
+    "objectID": "posts/mitoedit-2025/index.html#when-the-powerhouse-gets-a-typo",
+    "href": "posts/mitoedit-2025/index.html#when-the-powerhouse-gets-a-typo",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
+    "section": "When the Powerhouse Gets a Typo",
+    "text": "When the Powerhouse Gets a Typo\nBefore I joined the lab, the team had already discovered a bunch of mtDNA mutations in pediatric leukemia patients — which is part of what pulled me in. And this isn’t unusual. Maternally inherited mtDNA mutations have been linked to everything from rare blindness conditions to muscle disorders, neurological diseases, and cancer. The list is long and growing.\nThe problem? For decades, we’ve almost entirely focused on the nuclear genome (nDNA) and largely ignored mtDNA — mainly because studying and fixing mutations in the mitochondria is genuinely hard."
   },
   {
-    "objectID": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
-    "href": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "Early Training vs. Late Practice",
-    "text": "Early Training vs. Late Practice\nSimilarly, Medawar used two genetically distinct mouse strains, A and B. Cells from strain A were introduced into strain B mice in two different ways. Early exposure- live strain A cells were injected during very early development, either late in embryonic life or within the first 24 to 48 hours after birth, when the immune system is still immature.\nIn another group, the same cells were injected later in life, after the immune system had matured."
+    "objectID": "posts/mitoedit-2025/index.html#why-not-just-use-crispr",
+    "href": "posts/mitoedit-2025/index.html#why-not-just-use-crispr",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
+    "section": "Why Not Just Use CRISPR?",
+    "text": "Why Not Just Use CRISPR?\nFair question. CRISPR is the “molecular scissors” everyone talks about, so why not just use it to fix the mutation?\nTwo reasons.\nFirst, it’s incredibly difficult to get the guide RNA (the GPS that tells CRISPR where to cut) into the mitochondria. Think of it like trying to deliver a letter to a building that has no mailbox. There’s just no import system for RNA in the mitochondria. The guide RNA never makes it inside.\nSecond, CRISPR works by cutting DNA and relying on the cell’s repair machinery to introduce the change. But mitochondrial DNA repair is so poor that if you cut mtDNA, it doesn’t repair, it simply degrades. You’ve destroyed what you were trying to fix."
   },
   {
-    "objectID": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
-    "href": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "The Match Day Test: Skin Grafts as Goals",
-    "text": "The Match Day Test: Skin Grafts as Goals\nThe mice were then allowed to grow normally. Once they reached adulthood, skin grafts from strain A mice were transplanted onto strain B mice. They observed that strain B mice exposed to strain A cells during early development accepted the skin graft, whereas those exposed later in life rejected it. Importantly, these tolerant mice still rejected skin grafts from unrelated third-party strains, showing that the immune system was not generally suppressed."
+    "objectID": "posts/mitoedit-2025/index.html#enter-the-pencil-aka-ddcbes",
+    "href": "posts/mitoedit-2025/index.html#enter-the-pencil-aka-ddcbes",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
+    "section": "Enter the Pencil (aka DdCBEs)",
+    "text": "Enter the Pencil (aka DdCBEs)\nIn 2020, the Liu Lab at Harvard introduced a specialized editing system built specifically for the mitochondria: DdCBEs (DddA-derived cytosine base editors).\nHere’s how it works. A bacterial toxin called DddA acts as the actual editor — it changes one DNA letter at a time (C to T, specifically). It’s guided to the right spot on the mtDNA by protein structures called TALE domains — think of them as the address label on a package, telling the editor exactly which part of the mitochondrial genome to go to.\nUnlike CRISPR, there’s no cutting. No relying on broken repair machinery. Just a pencil, quietly changing one letter at a time."
   },
   {
-    "objectID": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
-    "href": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "The Hall of Fame: How Medawar Rewrote the Playbook",
-    "text": "The Hall of Fame: How Medawar Rewrote the Playbook\nAnd with these experiments, Medawar revealed a key principle: acquired immunological tolerance. Exposure to cells early in development teaches the immune system which cells belong to the body, just as a football player learns the team colours before the match. Early-exposed cells are treated as “self,” while new, unfamiliar cells are recognised as outsiders and rejected.\n“Indeed, first impressions truly do matter!”\nWhat our bodies see early on shapes how they respond for life, teaching the immune system to distinguish friend from foe, a lesson in recognition, memory, and trust that lasts a lifetime. So the next time you play, remember, your body’s team was chosen long before you even kicked a ball.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: srinidhisrinivasan02@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nBillingham, R. E., Brent, L., & Medawar, P. B. (1953). Actively acquired tolerance of foreign cells. Nature, 172(4379), 603. https://doi.org/10.1038/172603a0\nAI-generated image. (Gemini)"
+    "objectID": "posts/mitoedit-2025/index.html#the-pencil-has-fat-fingers",
+    "href": "posts/mitoedit-2025/index.html#the-pencil-has-fat-fingers",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
+    "section": "The Pencil Has Fat Fingers",
+    "text": "The Pencil Has Fat Fingers\nHere’s the catch.\nThe TALE domains — the address labels — aren’t perfectly precise. When the editor arrives at the target and starts changing the intended letter, it sometimes accidentally changes the nearby letters too. These are called bystander edits, and the frustrating part is that you don’t know which ones will happen until after you’ve run the experiment.\nIt’s like autocorrect changing words you didn’t ask it to change but you only find out after you’ve already sent the message.\nThe old workflow: build multiple versions of the editor construct, run each one in the lab, test which version causes the least unintended changes. Time-consuming. Expensive. Slow."
   },
   {
-    "objectID": "posts/doudna-2012/index.html",
-    "href": "posts/doudna-2012/index.html",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "",
-    "text": "Jennifer Doudna and Emmanuelle Charpentier’s CRISPR revolution\nLet’s talk about CRISPR – one of the most widely-used acronyms in modern biology. I’ll be honest – biology’s love for acronyms intimidated me for years. CRISPR, TALEN, ZFN… they felt like secret codes. CRISPR especially, because everyone talked about it like magic, but nobody explained what it actually meant.\nWell, today we’re breaking that barrier. Because the story of CRISPR isn’t just about cutting-edge science – it starts with something as ordinary as yogurt.\nToday’s paper: “A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity” by Jinek, Charpentier, Doudna et al. (Science, 2012)\nThis paper won the 2020 Nobel Prize in Chemistry and changed biology forever."
+    "objectID": "posts/mitoedit-2025/index.html#the-spell-checker---mitoedit",
+    "href": "posts/mitoedit-2025/index.html#the-spell-checker---mitoedit",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
+    "section": "The Spell-Checker - MitoEdit",
+    "text": "The Spell-Checker - MitoEdit\nThis is where MitoEdit comes in.\nInstead of finding out after the experiment which letters got accidentally changed, MitoEdit tells you before. You input the mutation you want to introduce, and the tool predicts which nearby letters are likely to get accidentally edited.\nYou pick the editing window with the least mess. Then you go to the lab. Fewer constructs to build. Less time wasted. Faster answers.\nWe validated MitoEdit against publicly available data and found predictions are pretty accurate for most cases. It does start to underestimate a bit when there are many bystander edits happening in a single window — something we actively tried to improve, but we still don’t have an answer.\nThe tool is free to use at mitoedit.stjude.org."
   },
   {
-    "objectID": "posts/doudna-2012/index.html#the-yogurt-origin-story",
-    "href": "posts/doudna-2012/index.html#the-yogurt-origin-story",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "The Yogurt Origin Story",
-    "text": "The Yogurt Origin Story\nRewind to 2007. Danisco, a Danish food company, had a problem. Bacterial viruses kept killing their yogurt cultures, ruining entire batches.\nWhat they discovered was astonishing: bacteria had a memory system. When a virus attacked, the bacteria would grab a piece of the virus’s DNA and store it in their own genome – like keeping a “wanted poster”. These stored fragments were arranged in a peculiar pattern: Clustered Regularly Interspaced Short Palindromic Repeats – CRISPR.\nIf the same virus attacked again, the bacteria would recognize it and destroy it. It was adaptive immunity at the bacterial level. But nobody imagined this bacterial immune system could become the most powerful genome editing tool in history."
-  },
-  {
-    "objectID": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
-    "href": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "The Challenge: How Do We Edit DNA Easily?",
-    "text": "The Challenge: How Do We Edit DNA Easily?\nBy 2012, scientists could edit genomes using tools like ZFNs and TALENs, but here was the nightmare: every time you wanted to target a new gene, you had to engineer an entirely new protein. Expensive. Time-consuming. Like building new scissors from scratch every time you wanted to cut a different thread.\nEnter Jennifer Doudna and Emmanuelle Charpentier.\nThey figured out exactly how the bacterial CRISPR system worked – and how to weaponize it for genome editing.\n\nThe Key Components:\n\nCas9 – The protein that cuts DNA (the scissors)\ncrRNA – Contains the “target address” (20 bases that match your target DNA)\ntracrRNA – Activates Cas9 and helps it work\nPAM sequence – A “NGG” DNA motif next to the target (like a safety lock)\n\nThe DNA only cuts when all four are present: Cas9 + crRNA + tracrRNA + Magnesium.\nThe game-changer? They showed you could combine crRNA and tracrRNA into one engineered guide RNA to direct Cas9 to cut any DNA sequence you wanted. They tested five different guide RNAs targeting five different sequences. All worked perfectly.\nThis paper is from 2012, and if you look at the figures, they’re filled with gel electrophoresis photos. No fancy fluorescence microscopy or sequencing heatmaps – just good old-fashioned DNA bands on gels."
-  },
-  {
-    "objectID": "posts/doudna-2012/index.html#why-crispr-won",
-    "href": "posts/doudna-2012/index.html#why-crispr-won",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "Why CRISPR Won?",
-    "text": "Why CRISPR Won?\nHere’s the revolution:\nOld way (ZFN/TALEN):\n\nWant a new target? → Engineer a new protein\nCost: High | Time: Weeks/months\n\nCRISPR way:\n\nWant a new target? → Design a new 20-base RNA\nCost: Minimal | Time: Days\n\nYou could suddenly access any part of any organism’s DNA by just changing a simple guide RNA. No protein engineering. No expensive reagents. Just simple sequence design.\nBy 2013, labs worldwide were using CRISPR. Today, CRISPR is everywhere: disease modeling, crop engineering, gene therapy, basic research."
-  },
-  {
-    "objectID": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
-    "href": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "The Takeaway: Simplicity Wins",
-    "text": "The Takeaway: Simplicity Wins\nCRISPR democratized genome editing. It made the impossible routine. It turned what was once the domain of specialized labs into something any researcher could use. And it all started with scientists trying to save yogurt cultures from viruses.\nSometimes the most revolutionary tools come from the most unexpected places.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nJinek, M., Chylinski, K., Fonfara, I., Hauer, M., Doudna, J. A., & Charpentier, E. (2012). A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. Science, 337(6096), 816-821. https://doi.org/10.1126/science.1225829\nThe Yogurt Connection - Science Magazine\nYogurt’s Role in CRISPR Development\nDoudna and Charpentier’s CRISPR Experiment - ASU Embryo Project\nCRISPR’s 10-Year Anniversary - STAT News\nAI-generated image. (Gemini)"
-  },
-  {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "eli5science",
-    "section": "",
-    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!\n\n\n\n\n\n\nFill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here\n\n\n\n\nKeep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way.\n\n\n\n\n✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible\n\n\n\n\nReach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
-  },
-  {
-    "objectID": "contribute.html#help-us-simplify-science",
-    "href": "contribute.html#help-us-simplify-science",
-    "title": "eli5science",
-    "section": "",
-    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!"
-  },
-  {
-    "objectID": "contribute.html#how-to-contribute",
-    "href": "contribute.html#how-to-contribute",
-    "title": "eli5science",
-    "section": "",
-    "text": "Fill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here"
-  },
-  {
-    "objectID": "contribute.html#writing-guidelines",
-    "href": "contribute.html#writing-guidelines",
-    "title": "eli5science",
-    "section": "",
-    "text": "Keep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way."
-  },
-  {
-    "objectID": "contribute.html#what-were-looking-for",
-    "href": "contribute.html#what-were-looking-for",
-    "title": "eli5science",
-    "section": "",
-    "text": "✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible"
-  },
-  {
-    "objectID": "contribute.html#questions",
-    "href": "contribute.html#questions",
-    "title": "eli5science",
-    "section": "",
-    "text": "Reach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Us",
-    "section": "",
-    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
-  },
-  {
-    "objectID": "about.html#our-mission",
-    "href": "about.html#our-mission",
-    "title": "About Us",
-    "section": "",
-    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
-  },
-  {
-    "objectID": "about.html#the-team",
-    "href": "about.html#the-team",
-    "title": "About Us",
-    "section": "The Team",
-    "text": "The Team\nWe’re a group of students from India passionate about science communication. This project started as a way to share fascinating research stories with our peers and grew into a platform for collaborative learning."
-  },
-  {
-    "objectID": "about.html#contribute",
-    "href": "about.html#contribute",
-    "title": "About Us",
-    "section": "Contribute",
-    "text": "Contribute\nWant to write with us? Check out our GitHub repository to contribute or reach out to us LinkedIn."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "eli5science",
-    "section": "",
-    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
-  },
-  {
-    "objectID": "index.html#about-this-project",
-    "href": "index.html#about-this-project",
-    "title": "eli5science",
-    "section": "",
-    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
+    "objectID": "posts/mitoedit-2025/index.html#the-bigger-picture",
+    "href": "posts/mitoedit-2025/index.html#the-bigger-picture",
+    "title": "The Second Genome Nobody Talks About (And the Tool I Built to Fix It)",
+    "section": "The Bigger Picture",
+    "text": "The Bigger Picture\nMitochondrial research has gained serious ground over the past few years. Mutations in mtDNA have been linked to everything from rare inherited conditions to cancer — including the pediatric leukemia cases that first brought me to Memphis. And yet, for most of these mutations, we still don’t have therapies.\nTools like MitoEdit are a small but real step toward changing that — making it faster to model these diseases, study them properly, and eventually treat them. The next decade of mitochondrial biology is going to be exciting.\nI don’t know how big a role MitoEdit will play in that story. But building it, I feel it’s at least a small piece of the puzzle.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nShah, D., McCastlain, K., Chang, T. C., Zhu, X., Wu, G., & Kundu, M. (2025). MitoEdit: A pipeline for optimizing mtDNA base editing and predicting bystander effects. Computational and Structural Biotechnology Journal, 27, 1673–1676. https://doi.org/10.1016/j.csbj.2025.04.027\nMok, B. Y., et al. (2020). A bacterial cytidine deaminase toxin enables CRISPR-free mitochondrial base editing. Nature, 583, 631–637.\nMitoEdit Web Interface: https://mitoedit.stjude.org/\nMitoEdit GitHub: https://github.com/Kundu-Lab/mitoedit\nAI-generated image. (Gemini)"
   },
   {
     "objectID": "posts/histone-2000/index.html",
@@ -285,6 +180,167 @@
     "title": "Your Cells Are DJs (And Your DNA Is The Song)",
     "section": "The Takeaway",
     "text": "The Takeaway\nEvery cell in your body has the same song. But each cell has its own DJ — a unique combination of histone modifications — deciding which parts to blast and which parts to mute.\nYou’re not just your DNA sequence. You’re also everything written on top of it.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nStrahl, B. D., & Allis, C. D. (2000). The language of covalent histone modifications. Nature, 403(6765), 41–45. https://doi.org/10.1038/47412\nWaddington, C. H. (1942). The epigenotype. Endeavour, 1, 18–20.\nAI-generated image. (Gemini)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "eli5science",
+    "section": "",
+    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
+  },
+  {
+    "objectID": "index.html#about-this-project",
+    "href": "index.html#about-this-project",
+    "title": "eli5science",
+    "section": "",
+    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
+  },
+  {
+    "objectID": "about.html#our-mission",
+    "href": "about.html#our-mission",
+    "title": "About Us",
+    "section": "",
+    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
+  },
+  {
+    "objectID": "about.html#the-team",
+    "href": "about.html#the-team",
+    "title": "About Us",
+    "section": "The Team",
+    "text": "The Team\nWe’re a group of students from India passionate about science communication. This project started as a way to share fascinating research stories with our peers and grew into a platform for collaborative learning."
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About Us",
+    "section": "Contribute",
+    "text": "Contribute\nWant to write with us? Check out our GitHub repository to contribute or reach out to us LinkedIn."
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "eli5science",
+    "section": "",
+    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!\n\n\n\n\n\n\nFill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here\n\n\n\n\nKeep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way.\n\n\n\n\n✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible\n\n\n\n\nReach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
+  },
+  {
+    "objectID": "contribute.html#help-us-simplify-science",
+    "href": "contribute.html#help-us-simplify-science",
+    "title": "eli5science",
+    "section": "",
+    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!"
+  },
+  {
+    "objectID": "contribute.html#how-to-contribute",
+    "href": "contribute.html#how-to-contribute",
+    "title": "eli5science",
+    "section": "",
+    "text": "Fill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here"
+  },
+  {
+    "objectID": "contribute.html#writing-guidelines",
+    "href": "contribute.html#writing-guidelines",
+    "title": "eli5science",
+    "section": "",
+    "text": "Keep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way."
+  },
+  {
+    "objectID": "contribute.html#what-were-looking-for",
+    "href": "contribute.html#what-were-looking-for",
+    "title": "eli5science",
+    "section": "",
+    "text": "✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible"
+  },
+  {
+    "objectID": "contribute.html#questions",
+    "href": "contribute.html#questions",
+    "title": "eli5science",
+    "section": "",
+    "text": "Reach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html",
+    "href": "posts/doudna-2012/index.html",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "",
+    "text": "Jennifer Doudna and Emmanuelle Charpentier’s CRISPR revolution\nLet’s talk about CRISPR – one of the most widely-used acronyms in modern biology. I’ll be honest – biology’s love for acronyms intimidated me for years. CRISPR, TALEN, ZFN… they felt like secret codes. CRISPR especially, because everyone talked about it like magic, but nobody explained what it actually meant.\nWell, today we’re breaking that barrier. Because the story of CRISPR isn’t just about cutting-edge science – it starts with something as ordinary as yogurt.\nToday’s paper: “A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity” by Jinek, Charpentier, Doudna et al. (Science, 2012)\nThis paper won the 2020 Nobel Prize in Chemistry and changed biology forever."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#the-yogurt-origin-story",
+    "href": "posts/doudna-2012/index.html#the-yogurt-origin-story",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "The Yogurt Origin Story",
+    "text": "The Yogurt Origin Story\nRewind to 2007. Danisco, a Danish food company, had a problem. Bacterial viruses kept killing their yogurt cultures, ruining entire batches.\nWhat they discovered was astonishing: bacteria had a memory system. When a virus attacked, the bacteria would grab a piece of the virus’s DNA and store it in their own genome – like keeping a “wanted poster”. These stored fragments were arranged in a peculiar pattern: Clustered Regularly Interspaced Short Palindromic Repeats – CRISPR.\nIf the same virus attacked again, the bacteria would recognize it and destroy it. It was adaptive immunity at the bacterial level. But nobody imagined this bacterial immune system could become the most powerful genome editing tool in history."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
+    "href": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "The Challenge: How Do We Edit DNA Easily?",
+    "text": "The Challenge: How Do We Edit DNA Easily?\nBy 2012, scientists could edit genomes using tools like ZFNs and TALENs, but here was the nightmare: every time you wanted to target a new gene, you had to engineer an entirely new protein. Expensive. Time-consuming. Like building new scissors from scratch every time you wanted to cut a different thread.\nEnter Jennifer Doudna and Emmanuelle Charpentier.\nThey figured out exactly how the bacterial CRISPR system worked – and how to weaponize it for genome editing.\n\nThe Key Components:\n\nCas9 – The protein that cuts DNA (the scissors)\ncrRNA – Contains the “target address” (20 bases that match your target DNA)\ntracrRNA – Activates Cas9 and helps it work\nPAM sequence – A “NGG” DNA motif next to the target (like a safety lock)\n\nThe DNA only cuts when all four are present: Cas9 + crRNA + tracrRNA + Magnesium.\nThe game-changer? They showed you could combine crRNA and tracrRNA into one engineered guide RNA to direct Cas9 to cut any DNA sequence you wanted. They tested five different guide RNAs targeting five different sequences. All worked perfectly.\nThis paper is from 2012, and if you look at the figures, they’re filled with gel electrophoresis photos. No fancy fluorescence microscopy or sequencing heatmaps – just good old-fashioned DNA bands on gels."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#why-crispr-won",
+    "href": "posts/doudna-2012/index.html#why-crispr-won",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "Why CRISPR Won?",
+    "text": "Why CRISPR Won?\nHere’s the revolution:\nOld way (ZFN/TALEN):\n\nWant a new target? → Engineer a new protein\nCost: High | Time: Weeks/months\n\nCRISPR way:\n\nWant a new target? → Design a new 20-base RNA\nCost: Minimal | Time: Days\n\nYou could suddenly access any part of any organism’s DNA by just changing a simple guide RNA. No protein engineering. No expensive reagents. Just simple sequence design.\nBy 2013, labs worldwide were using CRISPR. Today, CRISPR is everywhere: disease modeling, crop engineering, gene therapy, basic research."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
+    "href": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "The Takeaway: Simplicity Wins",
+    "text": "The Takeaway: Simplicity Wins\nCRISPR democratized genome editing. It made the impossible routine. It turned what was once the domain of specialized labs into something any researcher could use. And it all started with scientists trying to save yogurt cultures from viruses.\nSometimes the most revolutionary tools come from the most unexpected places.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nJinek, M., Chylinski, K., Fonfara, I., Hauer, M., Doudna, J. A., & Charpentier, E. (2012). A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. Science, 337(6096), 816-821. https://doi.org/10.1126/science.1225829\nThe Yogurt Connection - Science Magazine\nYogurt’s Role in CRISPR Development\nDoudna and Charpentier’s CRISPR Experiment - ASU Embryo Project\nCRISPR’s 10-Year Anniversary - STAT News\nAI-generated image. (Gemini)"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html",
+    "href": "posts/medawar-1953/index.html",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "",
+    "text": "Peter Medawar and his experiments with immunological tolerance"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
+    "href": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Pre-Match Briefing: Why Team Colours Matter",
+    "text": "The Pre-Match Briefing: Why Team Colours Matter\nImagine you are watching an intense Real Madrid vs. Barcelona football game, where people are running so fast that you barely see their faces. How do the players identify their teammates? Yes, one answer is their team colour! When they see the team colours, they know it’s their teammate, pass the ball, and trust that they’ll score a goal!\nNow, how do they know what colour their team is? Obviously, before the game, they see the colours and remember: this is our guy. Well, something similar also happens in our body. Have you ever wondered how our immune cells don’t attack our own cells? Is it because, during early development, they are exposed to self-cells, much like players seeing their team colours before the match? This was exactly the question asked by the British biologist Peter Medawar and his colleagues."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
+    "href": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "Kickoff: Messi Meets His Team",
+    "text": "Kickoff: Messi Meets His Team\nThink of Messi in the locker room before his big game. In the pre-match talk, if he is introduced to the colour blue, he learns it, and during the match, he instinctively trusts players wearing blue. He doesn’t learn this during the match; rather, he already knows: Blue = Teammate But what if you trick him? If you tell him his team is Red during the pre-match talk, but his friends walk out in Blue, he’ll treat his own teammates like invaders. He’ll tackle them, intercept their passes, and yes, Hala Madrid!"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
+    "href": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "Early Training vs. Late Practice",
+    "text": "Early Training vs. Late Practice\nSimilarly, Medawar used two genetically distinct mouse strains, A and B. Cells from strain A were introduced into strain B mice in two different ways. Early exposure- live strain A cells were injected during very early development, either late in embryonic life or within the first 24 to 48 hours after birth, when the immune system is still immature.\nIn another group, the same cells were injected later in life, after the immune system had matured."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
+    "href": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Match Day Test: Skin Grafts as Goals",
+    "text": "The Match Day Test: Skin Grafts as Goals\nThe mice were then allowed to grow normally. Once they reached adulthood, skin grafts from strain A mice were transplanted onto strain B mice. They observed that strain B mice exposed to strain A cells during early development accepted the skin graft, whereas those exposed later in life rejected it. Importantly, these tolerant mice still rejected skin grafts from unrelated third-party strains, showing that the immune system was not generally suppressed."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
+    "href": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Hall of Fame: How Medawar Rewrote the Playbook",
+    "text": "The Hall of Fame: How Medawar Rewrote the Playbook\nAnd with these experiments, Medawar revealed a key principle: acquired immunological tolerance. Exposure to cells early in development teaches the immune system which cells belong to the body, just as a football player learns the team colours before the match. Early-exposed cells are treated as “self,” while new, unfamiliar cells are recognised as outsiders and rejected.\n“Indeed, first impressions truly do matter!”\nWhat our bodies see early on shapes how they respond for life, teaching the immune system to distinguish friend from foe, a lesson in recognition, memory, and trust that lasts a lifetime. So the next time you play, remember, your body’s team was chosen long before you even kicked a ball.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: srinidhisrinivasan02@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nBillingham, R. E., Brent, L., & Medawar, P. B. (1953). Actively acquired tolerance of foreign cells. Nature, 172(4379), 603. https://doi.org/10.1038/172603a0\nAI-generated image. (Gemini)"
   },
   {
     "objectID": "posts/ntm-2014/index.html",
