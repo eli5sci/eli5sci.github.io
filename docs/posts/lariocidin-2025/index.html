@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Devansh Shah">
-<meta name="dcterms.date" content="2026-04-01">
-<meta name="description" content="How an internship led me into mitochondrial biology — and why editing the genome inside your powerhouse is harder than it sounds">
+<meta name="author" content="Neegar Naushaba Iqbal">
+<meta name="dcterms.date" content="2026-04-08">
+<meta name="description" content="How a year-long experiment by scientists revealed a possible solution to antibiotic resistance">
 
-<title>The Second Genome Nobody Talks About (And the Tool I Built to Fix It) – eli5science</title>
+<title>Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year – eli5science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -300,13 +300,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#your-cells-have-a-secret-genome" id="toc-your-cells-have-a-secret-genome" class="nav-link active" data-scroll-target="#your-cells-have-a-secret-genome">Your Cells Have a Secret Genome</a></li>
-  <li><a href="#when-the-powerhouse-gets-a-typo-error" id="toc-when-the-powerhouse-gets-a-typo-error" class="nav-link" data-scroll-target="#when-the-powerhouse-gets-a-typo-error">When the Powerhouse Gets a ‘Typo’ Error</a></li>
-  <li><a href="#why-not-just-use-crispr" id="toc-why-not-just-use-crispr" class="nav-link" data-scroll-target="#why-not-just-use-crispr">Why Not Just Use CRISPR?</a></li>
-  <li><a href="#enter-the-pencil-aka-ddcbes" id="toc-enter-the-pencil-aka-ddcbes" class="nav-link" data-scroll-target="#enter-the-pencil-aka-ddcbes">Enter the ‘Pencil’ (aka DdCBEs)</a></li>
-  <li><a href="#the-pencil-has-fat-fingers" id="toc-the-pencil-has-fat-fingers" class="nav-link" data-scroll-target="#the-pencil-has-fat-fingers">The Pencil Has Fat Fingers</a></li>
-  <li><a href="#the-spell-checker-tool-mitoedit" id="toc-the-spell-checker-tool-mitoedit" class="nav-link" data-scroll-target="#the-spell-checker-tool-mitoedit">The Spell-Checker Tool : MitoEdit</a></li>
-  <li><a href="#the-bigger-picture" id="toc-the-bigger-picture" class="nav-link" data-scroll-target="#the-bigger-picture">The Bigger Picture!</a>
+  <li><a href="#from-golden-era-to-global-crisis" id="toc-from-golden-era-to-global-crisis" class="nav-link active" data-scroll-target="#from-golden-era-to-global-crisis">From Golden Era to Global Crisis</a></li>
+  <li><a href="#what-even-is-lariocidin" id="toc-what-even-is-lariocidin" class="nav-link" data-scroll-target="#what-even-is-lariocidin">What Even Is Lariocidin?</a></li>
+  <li><a href="#what-makes-lariocidin-special" id="toc-what-makes-lariocidin-special" class="nav-link" data-scroll-target="#what-makes-lariocidin-special">What Makes Lariocidin Special?</a></li>
+  <li><a href="#the-discovery-a-year-in-the-dirt" id="toc-the-discovery-a-year-in-the-dirt" class="nav-link" data-scroll-target="#the-discovery-a-year-in-the-dirt">The Discovery: A Year in the Dirt</a></li>
+  <li><a href="#what-comes-next" id="toc-what-comes-next" class="nav-link" data-scroll-target="#what-comes-next">What Comes Next?</a>
   <ul class="collapse">
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
@@ -319,18 +317,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Second Genome Nobody Talks About (And the Tool I Built to Fix It)</h1>
+<h1 class="title">Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year</h1>
   <div class="quarto-categories">
     <div class="quarto-category">biology</div>
-    <div class="quarto-category">genome editing</div>
-    <div class="quarto-category">mitochondria</div>
-    <div class="quarto-category">computational biology</div>
+    <div class="quarto-category">microbiology</div>
+    <div class="quarto-category">antibiotics</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    How an internship led me into mitochondrial biology — and why editing the genome inside your powerhouse is harder than it sounds
+    How a year-long experiment by scientists revealed a possible solution to antibiotic resistance
   </div>
 </div>
 
@@ -340,14 +337,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Devansh Shah </p>
+             <p>Neegar Naushaba Iqbal </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 1, 2026</p>
+      <p class="date">April 8, 2026</p>
     </div>
   </div>
   
@@ -361,75 +358,70 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="imgs\ga1_lrg.jpg" class="img-fluid figure-img" style="width:100.0%" alt="MitoEdit illustration"></p>
-<figcaption>MitoEdit: a computational tool for optimizing mitochondrial base editing</figcaption>
+<p><img src="imgs/Lariocidin.png" class="img-fluid figure-img" style="width:100.0%" alt="Lariocidin lasso peptide illustration"></p>
+<figcaption>Lariocidin: Nature’s lasso peptide antibiotic targeting the bacterial ribosome</figcaption>
 </figure>
 </div>
-<p>This one is a little close to me — because I spent nearly a year working on it.</p>
-<p>It was March 2024. I had just received the Khorana Scholarship and was looking for labs in the US to join for the summer. I came across the Kundu Lab at St.&nbsp;Jude Children’s Research Hospital in Memphis, and their work on the role of mitochondrial DNA mutations in cancer. Instantly, I was captivated. I wanted to go deeper. Thankfully, everything worked out and by May, I had landed in Memphis.</p>
-<p><strong>Today’s paper:</strong> “MitoEdit: A pipeline for optimizing mtDNA base editing and predicting bystander effects” — Shah, McCastlain et al.&nbsp;(2025)</p>
-<hr>
-<section id="your-cells-have-a-secret-genome" class="level2">
-<h2 class="anchored" data-anchor-id="your-cells-have-a-secret-genome">Your Cells Have a Secret Genome</h2>
-<p>When you think of DNA, most people picture the nucleus. But the mitochondria — yes, <em>the powerhouse of the cell</em> — also has its own separate DNA (mtDNA).</p>
-<p>Here’s why. Recall the endosymbiont theory: millions of years ago, a eukaryote engulfed a prokaryotic bacterium. Instead of digesting it, the two formed a symbiotic relationship — and that bacterium never left. We now call it the mitochondria. The DNA that was inside that original bacterium survived too, and we now know it as mtDNA.</p>
-<p>Here’s the cool part: we inherit all our mitochondria <em>only from our mothers</em>. Every mitochondrion in your body traces back through an unbroken maternal line — all the way to a single woman, scientists have nicknamed <strong>“Mitochondrial Eve.”</strong> This makes these organelles even more exciting.</p>
-<hr>
-</section>
-<section id="when-the-powerhouse-gets-a-typo-error" class="level2">
-<h2 class="anchored" data-anchor-id="when-the-powerhouse-gets-a-typo-error">When the Powerhouse Gets a ‘Typo’ Error</h2>
-<p>Before I joined the lab, the team had already discovered a bunch of mtDNA mutations in pediatric leukemia patients — which is part of what pulled me in. And this isn’t unusual. Maternally inherited mtDNA mutations have been linked to everything from rare blindness conditions to muscle disorders, neurological diseases, and cancer. The list is long and growing.</p>
-<p>The problem? For decades, we’ve almost entirely focused on the nuclear genome (nDNA) and largely ignored mtDNA mainly because studying and fixing mutations in the mitochondria is <em>genuinely hard</em>.</p>
+<section id="from-golden-era-to-global-crisis" class="level2">
+<h2 class="anchored" data-anchor-id="from-golden-era-to-global-crisis">From Golden Era to Global Crisis</h2>
+<p>It all began in 1928 when Alexander Fleming discovered that a fungus (<em>Penicillium notatum</em>) had contaminated his culture plate of <em>Staphylococcus</em> bacteria. He noticed something odd, the bacteria simply could not grow near the fungus. This was the first time we had figured out how to weaponize one organism against another, and boom, the era of antibiotics began.</p>
+<p>The golden age lasted from the 1940s to the mid-1960s. Streptomycin, vancomycin, and a whole arsenal of antibiotics kept turning up with each new experiment, helping people overcome infections that had once been death sentences.</p>
+<p>But then, in the 1970s, a “drought” started emerging in the sea of antibiotics. Scientists either kept rediscovering the same antibiotics in new forms, or stumbled upon novel ones that were toxic to humans too. And worst of all, the bacteria launched their own warfare: <strong>antibiotic resistance;</strong> evolving ways to make our existing antibiotics completely useless against them.</p>
+<p>Think of it like a lock and key. Antibiotics are the keys. But bacteria started changing the locks. Fast.</p>
+<p>Antibiotic resistance has been globally acknowledged as a crisis. It killed more than <strong>4.5 million people in 2019 alone</strong>. This made the hunt for new antibiotics more urgent than ever — ones that could fight resistant bacteria while being completely safe for humans.</p>
+<p>And after a dry spell spanning over four decades, the sea finally sprung back to life. In 2025, researchers from McMaster University, Canada, discovered a completely new antibiotic — <strong>Lariocidin</strong>.</p>
 <hr>
 </section>
-<section id="why-not-just-use-crispr" class="level2">
-<h2 class="anchored" data-anchor-id="why-not-just-use-crispr">Why Not Just Use CRISPR?</h2>
-<p>Fair question. <a href="https://eli5sci.github.io/posts/doudna-2012/">CRISPR</a> is the “molecular scissors” everyone talks about, so why not just use it to fix the mutation?</p>
-<p>Two reasons.</p>
-<p><strong>First</strong>, it’s incredibly difficult to get the guide RNA (the GPS that tells CRISPR where to cut) <em>into</em> the mitochondria. Think of it like trying to deliver a letter to a building that has no mailbox. There’s just no import system for RNA in the mitochondria. The guide RNA rarely makes it inside.</p>
-<p><strong>Second</strong>, CRISPR works by <em>cutting</em> DNA and relying on the cell’s repair machinery to introduce the change. But mitochondrial DNA repair is so poor that if you cut mtDNA, it doesn’t repair, it simply degrades. You’ve destroyed what you were trying to fix.</p>
+<section id="what-even-is-lariocidin" class="level2">
+<h2 class="anchored" data-anchor-id="what-even-is-lariocidin">What Even Is Lariocidin?</h2>
+<p>Before we get to lariocidin itself, a quick detour into the world of peptide antibiotics.</p>
+<p>Many medically used antibiotics are peptides — short chains of amino acids produced by special enzymes in bacteria and fungi. There is also a specific class of peptide antibiotics built with the help of ribosomes, called <strong>Ribosomally Synthesized and Post-translationally Modified Peptides</strong>, or <strong>RiPPs.</strong> These peptides undergo modifications after they are made, like dehydration or cyclization to reach their final, active structure. These modifications help them interact with their targets and protect them from being broken down by the cell.</p>
+<p>Within RiPPs, there is a particularly cool subgroup called <strong>lasso peptides</strong>. Imagine a cowboy’s lasso — a rope tied into a loop with a tail threaded through it. Lasso peptides have exactly that structure: their C-terminal tail is threaded through an intramolecular loop, making them incredibly stable. It is this “knotted” structure that gives them their name.</p>
+<p>Lariocidin is one such lasso peptide. And its target? The <strong>ribosome</strong> of the pathogen.</p>
+<p>Ribosomes are the cell’s protein factories — they read the genetic instructions and build every protein the cell needs. No ribosomes, no proteins. No proteins, no cell. This makes ribosomes an excellent target for antibiotics.</p>
 <hr>
 </section>
-<section id="enter-the-pencil-aka-ddcbes" class="level2">
-<h2 class="anchored" data-anchor-id="enter-the-pencil-aka-ddcbes">Enter the ‘Pencil’ (aka DdCBEs)</h2>
-<p>In 2020, the <a href="https://www.liugroup.us/">Liu Lab</a> at Harvard introduced a specialized editing system built specifically for the mitochondria: <strong>DdCBEs</strong> (DddA-derived cytosine base editors).</p>
-<p>Here’s how it works. A bacterial toxin called DddA acts as the actual editor — it changes one DNA letter at a time (C to T, specifically). It’s guided to the right spot on the mtDNA by protein structures called <strong>TALE domains</strong> — think of them as the address label on a package, telling the editor exactly which part of the mitochondrial genome to go to.</p>
-<p>Unlike CRISPR, there’s no cutting. No relying on broken repair machinery. Just a pencil, quietly changing one letter at a time.</p>
+<section id="what-makes-lariocidin-special" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-lariocidin-special">What Makes Lariocidin Special?</h2>
+<p>You might be thinking: “Other antibiotics already target the ribosome. What’s the big deal?”</p>
+<p>Fair point. But here is the catch. Those other ribosome-targeting compounds bind to specific, well-characterized sites that are so well-understood by now that bacteria have had time to develop resistant genes that render those inhibitors useless.</p>
+<p>Lariocidin avoids this problem entirely. It binds to a <strong>lesser-known, “non-popular” site</strong> on the ribosome — one that bacteria have not yet figured out how to defend.</p>
+<p>Here is what it does once it gets there: it disrupts <strong>translocation</strong> (the movement of mRNA and tRNA during protein synthesis), and by interacting with the tRNA, it causes <strong>miscoding</strong>, the ribosome starts misreading the genetic instructions. The result? Faulty, non-functional proteins get made, and the cell shuts down.</p>
+<p>But wait, it gets even better.</p>
+<p>Unlike many antibiotics that rely on specific protein importers to enter bacterial cells, lariocidin gets in by exploiting something all bacteria share: their <strong>electrical charge</strong>. Every bacterium maintains an electrical gradient across its membrane — lariocidin uses this universal feature as its entry ticket, which is why it works against such a wide range of bacteria.</p>
+<p>It is effective against: - Gram-positive bacteria - Gram-negative bacteria - Mycobacteria - <em>Acinetobacter baumannii</em>; one of the most notoriously drug-resistant pathogens on the WHO’s critical list</p>
+<p>On top of all that, its activity does not deteriorate in conditions that mimic the human body, and it shows <strong>no toxicity to human cells</strong> or the good bacteria in the human microbiome. It targets the invaders, not you.</p>
 <hr>
 </section>
-<section id="the-pencil-has-fat-fingers" class="level2">
-<h2 class="anchored" data-anchor-id="the-pencil-has-fat-fingers">The Pencil Has Fat Fingers</h2>
-<p>Here’s the catch.</p>
-<p>The TALE domains aren’t perfectly precise. When the editor arrives at the target and starts changing the intended letter, it sometimes accidentally changes the <em>nearby</em> letters too. These are called <strong>bystander edits</strong>, and the frustrating part is that you don’t know which ones will happen until <em>after</em> you’ve run the experiment.</p>
-<p>It’s like autocorrect changing words you didn’t ask it to change but you only find out after you’ve already sent the message.</p>
-<p>The old workflow: build multiple versions of the editor construct, run each one in the lab, test which version causes the least unintended changes. Time-consuming. Expensive. Slow.</p>
+<section id="the-discovery-a-year-in-the-dirt" class="level2">
+<h2 class="anchored" data-anchor-id="the-discovery-a-year-in-the-dirt">The Discovery: A Year in the Dirt</h2>
+<p>Here is where the story gets truly fascinating and a little humbling.</p>
+<p>The main character in the origin story of lariocidin is <strong>patience</strong> and <strong>time.</strong></p>
+<p>Researchers grew soil bacteria not for days, not for weeks, not even for months — but for an <strong>entire year</strong>. The reason? Most lab experiments stop early, accidentally ignoring the slowest-growing bacteria. This team decided not to.</p>
+<p>That year-long wait led them to a strain called <strong>M2</strong> from the <em>Paenibacillus</em> species. M2 was already producing a known antibiotic, colistin but it was also producing something else. A mystery compound that showed activity even against a colistin-resistant strain of <em>E. coli</em>.</p>
+<p>This new substance had a molecular weight completely different from colistin, and it did not match anything in existing databases. A true unknown.</p>
+<p>The researchers then sequenced the M2 genome and found a gene cluster pointing to a potential lasso peptide and its predicted mass and amino acid composition matched those of the mystery compound perfectly. To confirm they had the right genes, they cloned the gene cluster into a different host (<em>Streptomyces</em>), and that host produced the exact same compound.</p>
+<p>Using <strong>NMR and X-ray crystallography</strong>, they then visualized the 3D structure — and there it was. The characteristic lasso-like knot. The mystery compound was <strong>lariocidin</strong>.</p>
 <hr>
 </section>
-<section id="the-spell-checker-tool-mitoedit" class="level2">
-<h2 class="anchored" data-anchor-id="the-spell-checker-tool-mitoedit">The Spell-Checker Tool : MitoEdit</h2>
-<p>This is where <strong>MitoEdit</strong> comes in.</p>
-<p>Instead of finding out <em>after</em> the experiment which letters got accidentally changed, MitoEdit tells you <em>before</em>. You input the mutation you want to introduce, and the tool predicts which nearby letters are likely to get accidentally edited.</p>
-<p>You pick the editing window with the least mess. Then you go to the lab. Fewer constructs to build. Less time wasted.</p>
-<p>We validated MitoEdit against publicly available data and found predictions are pretty accurate for most cases. It does start to underestimate a bit when there are many bystander edits happening in a single window — something we actively tried to improve, but we still don’t have an answer.</p>
-<p>The tool is available at <strong><a href="https://mitoedit.stjude.org/">mitoedit.stjude.org</a></strong>.</p>
-<hr>
-</section>
-<section id="the-bigger-picture" class="level2">
-<h2 class="anchored" data-anchor-id="the-bigger-picture">The Bigger Picture!</h2>
-<p>Mitochondrial research has gained serious ground over the past few years. Mutations in mtDNA have been linked to everything from rare inherited conditions to cancer — including the pediatric leukemia cases that first brought me to Memphis. And yet, for most of these mutations, we still don’t have therapies.</p>
-<p>Tools like MitoEdit are a small but real step toward changing that — making it faster to model these diseases, study them properly, and eventually treat them. The next decade of mitochondrial biology is going to be exciting.</p>
-<p>I don’t know how big a role MitoEdit will play in that story. But building it feels like a small piece of the puzzle.</p>
+<section id="what-comes-next" class="level2">
+<h2 class="anchored" data-anchor-id="what-comes-next">What Comes Next?</h2>
+<p>Lariocidin has shown activity against multiple bacteria that WHO has classified as “critical pathogens.” The researchers also found that lariocidin-like gene clusters are highly conserved and widespread in nature — meaning there could be more of these hiding in soil across the world.</p>
+<p>This also gives scientists a <strong>chemical scaffold</strong> to work from; a structural template to refine and develop even more potent versions of the drug. The current focus is on optimizing lariocidin for better efficacy and scaling up production for clinical development.</p>
+<p>If the golden age of antibiotics was built on curiosity and luck, this new chapter seems to be built on something equally powerful: patience.</p>
+<p>Had the researchers stopped incubation a few weeks early, lariocidin would have remained just another unknown molecule in dirt. Patience, it turns out, is not just a virtue in life — it is a an important research strategy.</p>
 <hr>
 <p>Want to discuss this paper? Have questions? Reach out!</p>
-<p>📧 <strong>Email:</strong> <a href="mailto:devansh.shah@iitb.ac.in">devansh.shah@iitb.ac.in</a></p>
+<p>📧 <strong>Email:</strong> <a href="mailto:neegarniqbal@iitb.ac.in">neegarniqbal@iitb.ac.in</a></p>
 <p>Feel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!</p>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References</h3>
 <ol type="1">
-<li>Shah, D., McCastlain, K., Chang, T. C., Zhu, X., Wu, G., &amp; Kundu, M. (2025). MitoEdit: A pipeline for optimizing mtDNA base editing and predicting bystander effects. <em>Computational and Structural Biotechnology Journal</em>, 27, 1673–1676. <a href="https://doi.org/10.1016/j.csbj.2025.04.027">https://doi.org/10.1016/j.csbj.2025.04.027</a></li>
-<li>Mok, B. Y., et al.&nbsp;(2020). A bacterial cytidine deaminase toxin enables CRISPR-free mitochondrial base editing. <em>Nature</em>, 583, 631–637.</li>
-<li>MitoEdit Web Interface: <a href="https://mitoedit.stjude.org/">https://mitoedit.stjude.org/</a></li>
-<li>MitoEdit GitHub: <a href="https://github.com/Kundu-Lab/mitoedit">https://github.com/Kundu-Lab/mitoedit</a></li>
+<li><p>The history of antibiotics. (n.d.). Microbiology Society. <a href="https://microbiologysociety.org/why-microbiology-matters/knocking-out-antimicrobial-resistance/amr-explained/the-history-of-antibiotics.html" class="uri">https://microbiologysociety.org/why-microbiology-matters/knocking-out-antimicrobial-resistance/amr-explained/the-history-of-antibiotics.html</a></p></li>
+<li><p>Dattani, S. (2024, December 23). What was the Golden Age of Antibiotics, and how can we spark a new one? <em>Our World in Data</em>. <a href="https://ourworldindata.org/golden-age-antibiotics" class="uri">https://ourworldindata.org/golden-age-antibiotics</a></p></li>
+<li><p>MinuteEarth. (2026, February 5). 40 years without a new antibiotic. Why? [Video]. YouTube. <a href="https://www.youtube.com/watch?v=hItlmfXZBQU" class="uri">https://www.youtube.com/watch?v=hItlmfXZBQU</a></p></li>
+<li><p>Jangra, M., Travin, D. Y., Aleksandrova, E. V., Kaur, M., Darwish, L., Koteva, K., Klepacki, D., Wang, W., Tiffany, M., Sokaribo, A., Chen, X., Deng, Z., Tao, M., Coombes, B. K., Vázquez-Laslop, N., Polikanov, Y. S., Mankin, A. S., &amp; Wright, G. D. (2025). A broad-spectrum lasso peptide antibiotic targeting the bacterial ribosome. <em>Nature</em>, 640(8060), 1022–1030. <a href="https://doi.org/10.1038/s41586-025-08723-7" class="uri">https://doi.org/10.1038/s41586-025-08723-7</a></p></li>
+<li><p>Verma, S. (2025, August 12). McMaster researchers discover new class of antibiotics. <em>McMaster News</em>. <a href="https://news.mcmaster.ca/mcmaster-researchers-discover-new-class-of-antibiotics-gerry-wright-lariocidin-hamilton-soil/" class="uri">https://news.mcmaster.ca/mcmaster-researchers-discover-new-class-of-antibiotics-gerry-wright-lariocidin-hamilton-soil/</a></p></li>
 </ol>
 <script src="https://utteranc.es/client.js" repo="eli5sci/eli5sci.github.io" issue-term="pathname" label="comments" theme="preferred-color-scheme" crossorigin="anonymous" async="">
 </script>
