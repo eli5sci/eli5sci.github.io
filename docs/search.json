@@ -35,46 +35,340 @@
     "text": "The Takeaway: Sometimes Simple is Revolutionary\nWhat makes this so beautiful is its simplicity. Not 24 factors. Not 10. Just four. Four transcription factors that could rewrite cellular identity and turn back developmental time. It’s a reminder that sometimes the most elegant solutions are hiding in plain sight, waiting for someone brave enough to test them systematically.\nYamanaka didn’t just discover a technique. He proved that cellular identity is far more flexible than we ever imagined. He showed us that the passage of time, at least at the cellular level, might not be as one-way as we thought.\nEvery groundbreaking discovery starts with someone’s “what if?”\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nTakahashi, K., & Yamanaka, S. (2006). Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors. Cell, 126(4), 663-676. https://doi.org/10.1016/j.cell.2006.07.024\nInduced Pluripotent Stem Cell Experiments - ASU Embryo Project\nNobel Prize 2012 - Medicine\nGladstone: Reflecting on a Decade of iPSCs\nAI-generated image. (Gemini)"
   },
   {
-    "objectID": "posts/obs-2024/index.html",
-    "href": "posts/obs-2024/index.html",
-    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
+    "objectID": "posts/ohsumi-1993/index.html",
+    "href": "posts/ohsumi-1993/index.html",
+    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
     "section": "",
-    "text": "The Obstetrical Dilemma: how bipedalism and big brains collided"
+    "text": "The cellular cannibalism that keeps us alive\nHere’s a wild thought: your cells are cannibals. Not in a horror movie way, but in a “I need to survive, so I’m going to eat myself” kind of way. And before you get grossed out, this self-eating process is literally keeping you alive right now.\nThe fancy word for this is autophagy (auto = self, phagy = eating). And the story of how scientists figured this out? It involves starving yeast, hunting for mutants, and a lot of patience with microscopes.\nToday’s paper: “Isolation and characterization of autophagy-defective mutants of yeast” (1993)\nOr as I like to call it: The Cannibalism Paper! 🍽️"
   },
   {
-    "objectID": "posts/obs-2024/index.html#ever-wondered-why-humans-need-help-to-give-birth",
-    "href": "posts/obs-2024/index.html#ever-wondered-why-humans-need-help-to-give-birth",
-    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
-    "section": "Ever Wondered Why Humans Need Help to Give Birth?",
-    "text": "Ever Wondered Why Humans Need Help to Give Birth?\nConsider the closest of our species, a chimpanzee — when it feels labour contractions, within a few efficient minutes it finishes delivering infants entirely alone. No nurses, no doulas. She cleans the baby herself and life continues. This is, more or less, how birth works for every mammal on the planet.\nNow consider a human mother about to deliver. Even today, without any medical support, obstructed labour — where the baby’s head simply cannot clear the maternal pelvis — is one of the leading causes of maternal death in the developing world.\nSo what went so wrong with our birth canal? And why, uniquely among all primates, did we evolve into a species that requires other people to survive childbirth? Why do we need a second pair of hands for a successful delivery, and how did it shape our social, trust, and interpersonal circles?"
+    "objectID": "posts/ohsumi-1993/index.html#a-quick-history-lesson",
+    "href": "posts/ohsumi-1993/index.html#a-quick-history-lesson",
+    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
+    "section": "A Quick History Lesson",
+    "text": "A Quick History Lesson\nThe word “autophagy” wasn’t invented for this paper. It was actually coined way back by Christian de Duve, the 1974 Nobel Prize winner. He noticed that cells sometimes digest their own parts, and he named this self-eating process as autophagy.\nBut here’s the thing: knowing something exists and understanding how it works are two very different things. That’s where this 1993 paper comes in."
   },
   {
-    "objectID": "posts/obs-2024/index.html#fetopelvic-disproportion-and-tragedies-of-obstructed-labors",
-    "href": "posts/obs-2024/index.html#fetopelvic-disproportion-and-tragedies-of-obstructed-labors",
-    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
-    "section": "Fetopelvic Disproportion and Tragedies of Obstructed Labors",
-    "text": "Fetopelvic Disproportion and Tragedies of Obstructed Labors\nThe medical term is fetopelvic disproportion (FPD) — when the baby’s head is too large for the mother’s bony birth canal. In most primates, the newborn’s head fits through the pelvic outlet with a generous fit. In humans, the fit is so tight that the baby must rotate during delivery, a maneuver no other primate performs. Rates of obstructed labour in humans, even in populations with good nutrition and healthcare, run at roughly 3–5% of all deliveries. In wild chimpanzees and gorillas, documented cases of obstructed labor are essentially unknown. But why?\nWhile bipedalism (aka walking on two legs) was narrowing the pelvis from one direction, evolution was simultaneously expanding the fetal skull from the other. This is encephalization — the dramatic increase in brain size relative to body size that defines the Homo lineage. The australopithecine brain sat at roughly 450cc, barely larger than a chimpanzee’s. By Homo erectus, it had climbed to ~900cc. By modern Homo sapiens, it reached ~1350cc — 3x in under two million years.\nThis is the collision. The pelvis could not widen freely. The brain could not stop growing. The birth canal became, quite literally, a bottleneck in the most physical sense of the word.\nIn 1974, a team discovered AL 288-1, better known as Lucy — a roughly 40% complete skeleton of Australopithecus afarensis, who lived approximately 3.2 million years ago. Lucy walked upright. Her pelvis showed adaptations for bipedal locomotion — the ilium (the broad upper wing of the hip bone) was shorter and more vertically oriented than in any ape, to accommodate the mechanical demands of striding on two legs. But this same reorganisation that made bipedalism possible also narrowed the birth canal.\nThis tug-of-war between walking upright and giving birth was named the Obstetrical Dilemma, a term coined by physical anthropologist Sherwood Larned Washburn in 1960."
+    "objectID": "posts/ohsumi-1993/index.html#the-setup-why-study-yeast",
+    "href": "posts/ohsumi-1993/index.html#the-setup-why-study-yeast",
+    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
+    "section": "The Setup: Why Study Yeast?",
+    "text": "The Setup: Why Study Yeast?\nYou might be wondering, “Why yeast? I’m a human, not bread!” Fair question. Here’s the genius part: autophagy in yeast works pretty much the same way as autophagy in mammals. Yeast are just way easier to study, and not only autophagy but various other cellular processes too.\nThink of yeast as the lab rats of the cellular world, except smaller, cheaper, and you don’t need ethics approval.\n\nThe Cellular Recycling System\nBefore we dive in, let’s get the basics down. Inside your cells, there’s this whole network of organelles working together called the lysosomal endomembrane system. It includes:\n\nEndoplasmic Reticulum (ER) → the protein factory\nGolgi apparatus → the packaging center\n\nLysosomes → the recycling bins (in yeast, these are called vacuoles)\n\nWhen cells are starving or stressed, they need to recycle their own components to survive. That’s where autophagy kicks in. The cell wraps up bits of itself in a special membrane bubble called an autophagosome, which then fuses with a lysosome to form an auto-phago-lysosome. Inside this acidic environment, everything gets broken down and recycled.\nIn yeast, you can actually see this happening (another reason to choose yeast)! They form these structures called Autophagic Bodies (ABs) inside their vacuoles. And that’s what makes yeast so perfect for this research, you can literally watch the process under a microscope."
   },
   {
-    "objectID": "posts/obs-2024/index.html#the-obstetrical-dilemma-a-hypothesis",
-    "href": "posts/obs-2024/index.html#the-obstetrical-dilemma-a-hypothesis",
-    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
-    "section": "The Obstetrical Dilemma: A Hypothesis",
-    "text": "The Obstetrical Dilemma: A Hypothesis\nWashburn proposed that evolution resolved this conflict through a compromise: deliver babies earlier, before the head grows too large to pass through. This is why human newborns, when compared to the offspring of other primates, are helpless and unable to walk — whereas baby deer can run at birth. A newborn human is neurologically so underdeveloped that it cannot even hold its own head up. Thus, they believed bipedalism forged the linkage between infant head size and the mother’s pelvis."
+    "objectID": "posts/ohsumi-1993/index.html#the-hunt-for-broken-mutants",
+    "href": "posts/ohsumi-1993/index.html#the-hunt-for-broken-mutants",
+    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
+    "section": "The Hunt for Broken Mutants",
+    "text": "The Hunt for Broken Mutants\nHere’s where it gets fun. The scientists asked themselves: “What if we find yeast that can’t do autophagy? That would tell us which genes are essential for the process!”\nSo they went mutant hunting.\n\nThe Experimental Design:\n\nStarve the yeast (nitrogen starvation, specifically) to trigger autophagy\nAdd PMSF (a chemical that stops the vacuole from breaking down the ABs) so they pile up and become visible\nLook under a microscope for yeast that DON’T form ABs\nThose are your mutants!\n\nThey found 15 different strains (named apg1 through apg15) that couldn’t form autophagic bodies. Each one had a single recessive mutation in a different gene. Fifteen genes! That’s how complex this system is."
   },
   {
-    "objectID": "posts/obs-2024/index.html#whats-the-proof-they-happened-simultaneously-co-evolution",
-    "href": "posts/obs-2024/index.html#whats-the-proof-they-happened-simultaneously-co-evolution",
-    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
-    "section": "What’s the Proof They Happened Simultaneously? Co-evolution?",
-    "text": "What’s the Proof They Happened Simultaneously? Co-evolution?\nThe fossil record shows that the pelvis changed. Comparing anatomy over time shows how different human birth is from that of other primates. But the central claim of the obstetrical dilemma — that pelvis size and brain size were “co-evolving” — requires a different kind of evidence entirely. It requires you to look inside the genome.\nNot until 2024 was this problem addressed with the right data, using the largest pelvic imaging dataset ever assembled: 31,115 individuals from the UK Biobank, whose pelvic geometry was extracted from DXA (Dual-Energy X-ray Absorptiometry) scans using deep-learning HRNets (High-ResNets) neural networks, and whose entire genomes had been sequenced.\nThe genetic correlation between a mother’s birth canal width is a proxy to infant head size, adhering to the fact that the infant head — though distorted at birth — rebounds to 90% heritable by 4–5 months, making maternal head size its strongest genetic predictor. The paper identified 180 independent genomic loci influencing pelvic phenotypes strongly associated with mother head size, indirectly and causally influencing the head size of infants. That is, nature has been selecting specifically for the combination of wide head + wide pelvis, and against the combination of wide head + narrow pelvis. The women who had wide heads but narrow pelvises died more often in childbirth, removing that gene combination from the population!"
+    "objectID": "posts/ohsumi-1993/index.html#the-brilliant-microscopy-trick",
+    "href": "posts/ohsumi-1993/index.html#the-brilliant-microscopy-trick",
+    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
+    "section": "The Brilliant Microscopy Trick",
+    "text": "The Brilliant Microscopy Trick\nTo see the ABs clearly, they used a dye called quinacrine. The inside of the vacuole is acidic (just like lysosomes in our cells), and quinacrine loves acidic environments. So it lights up the vacuoles, making the ABs inside them super easy to spot.\nIn the wild-type yeast after starvation, the vacuoles would be packed with these glowing ABs. In the apg mutants? Nothing. Not even after 24 hours."
   },
   {
-    "objectID": "posts/obs-2024/index.html#the-deepest-consequence-empathy-as-an-evolutionary-consequence-theory-of-mind",
-    "href": "posts/obs-2024/index.html#the-deepest-consequence-empathy-as-an-evolutionary-consequence-theory-of-mind",
-    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
-    "section": "The Deepest Consequence: Empathy as an Evolutionary Consequence (Theory of Mind)",
-    "text": "The Deepest Consequence: Empathy as an Evolutionary Consequence (Theory of Mind)\nBirth assistance requires social trust. A labouring woman allowing another person to reach into her body in her most vulnerable moment is not performing a casual social transaction. It requires — and presumably selects for — the capacity to trust, to read intentions accurately, to form bonds of genuine emotional reciprocity. These are the foundations of what we now call theory of mind: the ability to model the mental states of others.\n\n“A pelvis narrowed by bipedalism. A skull expanded by intelligence. A baby that must rotate through a canal that barely fits. A mother who cannot deliver alone. A community that assembles to help. A species that becomes, generation by generation, more trusting, more emotionally literate, more socially connected, because the ones who could build those bonds, survived.”\n\n\nWant to discuss this? Have questions? Reach out!\n📧 Email: lsgunasekhar026@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nXu, S. et al. (2024). The genetic architecture of and evolutionary constraints on the human pelvic form. Science, 383(6686), eadf8671.\nMitteroecker P, Fischer B (2024). Evolution of the human birth canal. AJOG, 230, S841-S855.\nWashburn, S.L. (1960). Tools and Human Evolution. Scientific American, 203(3), 62–75.\nKrogman, W.M. (1951). The scars of human evolution. Scientific American, 185(6), 54–57.\nRosenberg, K. & Trevathan, W. (2002). Birth, obstetrics and human evolution. BJOG, 109(11), 1199–1206."
+    "objectID": "posts/ohsumi-1993/index.html#the-takeaway-your-cells-are-smarter-than-you-think",
+    "href": "posts/ohsumi-1993/index.html#the-takeaway-your-cells-are-smarter-than-you-think",
+    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
+    "section": "The Takeaway: Your Cells Are Smarter Than You Think",
+    "text": "The Takeaway: Your Cells Are Smarter Than You Think\nWhat makes this paper so important is that it proved autophagy isn’t just a random process. It’s a tightly controlled genetic program involving at least 15 different genes working together.\nWhen you skip meals, when you exercise, when you sleep; your cells are constantly making decisions about what to keep and what to recycle. Autophagy is how they clean house, remove damaged parts, and survive when nutrients are scarce.\nThis 1993 paper laid the groundwork for decades of research. The scientist who later won the Nobel Prize for autophagy research (Yoshinori Ohsumi, 2016) built directly on this foundation, identifying many more autophagy genes and showing how the process works in detail.\nSometimes the most important discoveries come from asking: “What breaks when we break this?”\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nTsukada, M., & Ohsumi, Y. (1993). Isolation and characterization of autophagy-defective mutants of Saccharomyces cerevisiae. FEBS Letters, 333(1-2), 169-174.\nChristian de Duve - Nobel Prize 1974: https://www.nobelprize.org/prizes/medicine/1974/duve/biographical/\nYoshinori Ohsumi - Nobel Prize 2016: https://www.nobelprize.org/prizes/medicine/2016/summary/\nAI-generated image. (Gemini)"
+  },
+  {
+    "objectID": "posts/ntm-2014/index.html",
+    "href": "posts/ntm-2014/index.html",
+    "title": "NTM: Memory + Reason = Cognition ?",
+    "section": "",
+    "text": "The Neural Turing Machine: a controller, a memory bank, and a big idea\nPicture this: your professor walks in and drops an assignment on your desk — “Write a report on World War history: key events, causes, consequences etc.”\nYou don’t panic. Even before you start, you already know a few things: world wars belong in the history section, certain names and dates ring a bell. That quick, ready-to-use knowledge sitting in your head? That’s your working memory. Small, fast, and just enough to get you started.\nNow you head to the library.\nToday’s paper: “Neural Turing Machines” by Alex Graves, Greg Wayne & Ivo Danihelka (2014)"
+  },
+  {
+    "objectID": "posts/ntm-2014/index.html#the-library-analogy",
+    "href": "posts/ntm-2014/index.html#the-library-analogy",
+    "title": "NTM: Memory + Reason = Cognition ?",
+    "section": "The Library Analogy",
+    "text": "The Library Analogy\nThe library is memory — a massive space storing everything. You, the student trying to finish the assignment, are the controller — deciding what to search, what to skip, and what to “copy” into your notes. The assignment itself is the external input/output: the task you received, and the final submission you’ll make.\nThis is basically the architecture of a Neural Turing Machine (NTM). A controller (usually a neural network) that reads from and writes to an external memory bank — just like a student working through a library."
+  },
+  {
+    "objectID": "posts/ntm-2014/index.html#two-ways-to-search",
+    "href": "posts/ntm-2014/index.html#two-ways-to-search",
+    "title": "NTM: Memory + Reason = Cognition ?",
+    "section": "Two Ways to Search",
+    "text": "Two Ways to Search\nYou start the obvious way: type keywords into the search bar. “World War… Hitler, Holocaust, Allies, Jews.” You find what you’re looking for by matching what you already know to what’s in the library. This is content-based addressing — finding things by what they’re about.\nBut after a while, you hit a wall. The same popular books keep showing up. Then a librarian tips you off: “Walk a few shelves down from where you are, and you’ll find more.” You follow the tip and suddenly stumble on wartime economics, diplomatic backstories, memoirs you never would have searched for directly. This is location-based addressing — instead of searching by meaning, you just move to a nearby “address” and see what’s there.\nNTMs use both. Sometimes you search by content, sometimes by location, often a mix of both."
+  },
+  {
+    "objectID": "posts/ntm-2014/index.html#the-blurry-spotlight",
+    "href": "posts/ntm-2014/index.html#the-blurry-spotlight",
+    "title": "NTM: Memory + Reason = Cognition ?",
+    "section": "The Blurry Spotlight",
+    "text": "The Blurry Spotlight\nHere’s something interesting: you rarely read one single book cover to cover. You pull several, skim quickly, compare passages, blend ideas. Even when you “pick” a source, your attention is spread across a few — some directly useful, some partially, some just providing context.\nThat’s exactly how reading and writing works in an NTM. You don’t point to one memory slot and say “that one.” You get a blended signal from multiple slots, weighted by how relevant each one is.\nThis blending is controlled by attentional focus — like a spotlight. When you’re confident, the spotlight narrows. When you’re exploring, it widens. And what shapes the spotlight is a mix of your two search methods: how much you rely on content vs. location."
+  },
+  {
+    "objectID": "posts/ntm-2014/index.html#the-cool-part-it-learns-as-it-goes",
+    "href": "posts/ntm-2014/index.html#the-cool-part-it-learns-as-it-goes",
+    "title": "NTM: Memory + Reason = Cognition ?",
+    "section": "The Cool Part: It Learns as It Goes",
+    "text": "The Cool Part: It Learns as It Goes\nHere’s what makes this more than just a clever analogy. After hours in the library, you get better. Better at picking keywords, better at judging which shelves to wander, better at knowing when to trust the search bar vs. when to follow your nose.\nIn an NTM, the controller learns the same way. The whole system is differentiable — meaning it can be trained through backpropagation, the same way regular neural networks learn. The controller (an LSTM, essentially the “brain”) reads the task, keeps the current plan in mind, and gets better at using memory the more it practices."
+  },
+  {
+    "objectID": "posts/ntm-2014/index.html#why-it-matters-and-why-you-havent-heard-of-it-more",
+    "href": "posts/ntm-2014/index.html#why-it-matters-and-why-you-havent-heard-of-it-more",
+    "title": "NTM: Memory + Reason = Cognition ?",
+    "section": "Why It Matters (And Why You Haven’t Heard of It More)",
+    "text": "Why It Matters (And Why You Haven’t Heard of It More)\nNormal neural networks hit a wall on tasks that need to store and retrieve specific information over long sequences. NTMs were designed to fix exactly that. But in practice, getting them to reliably learn memory usage turned out to be tricky, and scaling them to very large memories was computationally expensive.\nStill, the core idea — a model with a small working space that repeatedly consults a much larger external store — directly influenced everything that came after. The Differentiable Neural Computer (DNC) refined memory management. Transformers treat their context window like a library. Retrieval-augmented models literally fetch documents at inference time.\nThe student-and-library architecture never really went away. It just got scaled up.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: aayushgulati18@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nGraves, A., Wayne, G., & Danihelka, I. (2014). Neural Turing Machines. arXiv preprint arXiv:1410.5401. https://arxiv.org/abs/1410.5401\nNeural Turing Machines: Enhancing Neural Networks with Dynamic Memory and Advanced Attention Mechanisms\nUnlocking the Potential of Neural Turing Machines"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html",
+    "href": "posts/medawar-1953/index.html",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "",
+    "text": "Peter Medawar and his experiments with immunological tolerance"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
+    "href": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Pre-Match Briefing: Why Team Colours Matter",
+    "text": "The Pre-Match Briefing: Why Team Colours Matter\nImagine you are watching an intense Real Madrid vs. Barcelona football game, where people are running so fast that you barely see their faces. How do the players identify their teammates? Yes, one answer is their team colour! When they see the team colours, they know it’s their teammate, pass the ball, and trust that they’ll score a goal!\nNow, how do they know what colour their team is? Obviously, before the game, they see the colours and remember: this is our guy. Well, something similar also happens in our body. Have you ever wondered how our immune cells don’t attack our own cells? Is it because, during early development, they are exposed to self-cells, much like players seeing their team colours before the match? This was exactly the question asked by the British biologist Peter Medawar and his colleagues."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
+    "href": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "Kickoff: Messi Meets His Team",
+    "text": "Kickoff: Messi Meets His Team\nThink of Messi in the locker room before his big game. In the pre-match talk, if he is introduced to the colour blue, he learns it, and during the match, he instinctively trusts players wearing blue. He doesn’t learn this during the match; rather, he already knows: Blue = Teammate But what if you trick him? If you tell him his team is Red during the pre-match talk, but his friends walk out in Blue, he’ll treat his own teammates like invaders. He’ll tackle them, intercept their passes, and yes, Hala Madrid!"
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
+    "href": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "Early Training vs. Late Practice",
+    "text": "Early Training vs. Late Practice\nSimilarly, Medawar used two genetically distinct mouse strains, A and B. Cells from strain A were introduced into strain B mice in two different ways. Early exposure- live strain A cells were injected during very early development, either late in embryonic life or within the first 24 to 48 hours after birth, when the immune system is still immature.\nIn another group, the same cells were injected later in life, after the immune system had matured."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
+    "href": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Match Day Test: Skin Grafts as Goals",
+    "text": "The Match Day Test: Skin Grafts as Goals\nThe mice were then allowed to grow normally. Once they reached adulthood, skin grafts from strain A mice were transplanted onto strain B mice. They observed that strain B mice exposed to strain A cells during early development accepted the skin graft, whereas those exposed later in life rejected it. Importantly, these tolerant mice still rejected skin grafts from unrelated third-party strains, showing that the immune system was not generally suppressed."
+  },
+  {
+    "objectID": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
+    "href": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
+    "title": "Game On: How the Body Knows Its Team",
+    "section": "The Hall of Fame: How Medawar Rewrote the Playbook",
+    "text": "The Hall of Fame: How Medawar Rewrote the Playbook\nAnd with these experiments, Medawar revealed a key principle: acquired immunological tolerance. Exposure to cells early in development teaches the immune system which cells belong to the body, just as a football player learns the team colours before the match. Early-exposed cells are treated as “self,” while new, unfamiliar cells are recognised as outsiders and rejected.\n“Indeed, first impressions truly do matter!”\nWhat our bodies see early on shapes how they respond for life, teaching the immune system to distinguish friend from foe, a lesson in recognition, memory, and trust that lasts a lifetime. So the next time you play, remember, your body’s team was chosen long before you even kicked a ball.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: srinidhisrinivasan02@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nBillingham, R. E., Brent, L., & Medawar, P. B. (1953). Actively acquired tolerance of foreign cells. Nature, 172(4379), 603. https://doi.org/10.1038/172603a0\nAI-generated image. (Gemini)"
+  },
+  {
+    "objectID": "posts/histone-2000/index.html",
+    "href": "posts/histone-2000/index.html",
+    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
+    "section": "",
+    "text": "The histone code: a language written on the tails of your chromatin\nEvery cell in your body has the exact same DNA. Your brain cells, your muscle cells, your skin cells — same genome, same sequence, same “song”.\nSo how come a brain cell acts nothing like a muscle cell?\nThat was the question bugging scientists for years. And a 2000 paper in Nature gave us the most elegant answer: it’s not the song that’s different — it’s the volume control.\nToday’s paper: “The language of covalent histone modifications” by Brian Strahl and David Allis (2000)"
+  },
+  {
+    "objectID": "posts/histone-2000/index.html#the-playlist-analogy",
+    "href": "posts/histone-2000/index.html#the-playlist-analogy",
+    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
+    "section": "The Playlist Analogy",
+    "text": "The Playlist Analogy\nImagine the DNA is a song. Every cell in your body has a copy of the same song. Now, your brain loves the classical part. Your muscle cells are into the rap verse. Your stomach? Strictly jazz.\nNobody edits the song, it is the same for everyone. But in each cell, something is quietly adjusting the volume; turning up certain sections, fading out others. The parts that play loud get “expressed.” The parts that get muted? Silenced.\nThat volume control system? That’s epigenetics. And the knobs doing the turning are called histone modifications."
+  },
+  {
+    "objectID": "posts/histone-2000/index.html#wait-what-even-is-a-histone",
+    "href": "posts/histone-2000/index.html#wait-what-even-is-a-histone",
+    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
+    "section": "Wait, What Even Is A Histone?",
+    "text": "Wait, What Even Is A Histone?\nQuick rewind. Your DNA doesn’t just float around freely in the nucleus. It wraps around proteins called histones — like thread around a spool — and together they form a structure called a nucleosome.\nThe histones involved are: H3, H4, H2A, H2B, and H1.\nHere’s the important part: these histones have little “tails” sticking out and scientists had long noticed these tails were covered in chemical tags. Acetylation, methylation, phosphorylation, ubiquitination… a whole alphabet of modifications. But what were they actually doing?\nThat’s what this paper set out to explain."
+  },
+  {
+    "objectID": "posts/histone-2000/index.html#the-secret-language-on-the-tails",
+    "href": "posts/histone-2000/index.html#the-secret-language-on-the-tails",
+    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
+    "section": "The Secret Language on the Tails",
+    "text": "The Secret Language on the Tails\nStrahl and Allis proposed something bold: these modifications aren’t random. They’re a code — a histone code — that other proteins read.\nThink of it like this. Each modification on a histone tail is a word in a sentence. On its own, a single word doesn’t mean much. But put the right words together in the right order, and you get a full command: “Open up this gene!” or “Lock this section down forever.”\nThe main modifications explored in the paper:\n\nAcetylation — happens mainly on lysine residues on H3 and H4. Added by enzymes called HATs, removed by HDACs. Also the most studied — histone acetylation has actually been known since the 1960s, but it took until the mid-1990s for scientists to figure out the enzymes responsible (HATs and HDACs) and connect them to gene regulation.\nPhosphorylation — H3 phosphorylation has been linked to chromosome condensation during cell division.\nMethylation — the least understood of the three. Why? Because it doesn’t even change the charge! That makes it incredibly difficult to track."
+  },
+  {
+    "objectID": "posts/histone-2000/index.html#one-modification-doesnt-act-alone",
+    "href": "posts/histone-2000/index.html#one-modification-doesnt-act-alone",
+    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
+    "section": "One Modification Doesn’t Act Alone",
+    "text": "One Modification Doesn’t Act Alone\nHere’s the key insight from the paper: it’s never just one modification doing the work.\nMultiple modifications on one or more histone tails work together to specify what happens downstream. They’re close enough to each other to influence whether other enzymes can come in and add their own marks. And modifications on one histone tail can even affect what happens on a neighboring tail.\nThe paper also points out that certain modifications act as receptors, recruiting specific protein complexes to do jobs like open up a gene or silence it permanently. So the “volume knobs” aren’t just turning things up or down randomly. They’re inviting specific guests to come in and do specific jobs."
+  },
+  {
+    "objectID": "posts/histone-2000/index.html#why-this-paper-was-a-big-deal",
+    "href": "posts/histone-2000/index.html#why-this-paper-was-a-big-deal",
+    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
+    "section": "Why This Paper Was A Big Deal",
+    "text": "Why This Paper Was A Big Deal\nThis was the first paper to seriously argue that histone modifications aren’t just decoration — they form their own genetic language. A second layer of information, sitting on top of the DNA sequence, controlling how and when genes are expressed.\nThe word epigenetics had actually been around since 1942 (coined by Conrad Waddington — you might’ve seen that famous “rock rolling down a landscape” illustration). But it took decades to start understanding the molecular mechanism behind it. This paper was a turning point.\nFast forward to today: we have techniques like ChIP-seq that let us map which regions of the genome are “open” or “closed” — but we still don’t have a reliable way to fully sequence all chromatin modifications in one go. The histone code is real. We just haven’t finished learning to read it."
+  },
+  {
+    "objectID": "posts/histone-2000/index.html#the-takeaway",
+    "href": "posts/histone-2000/index.html#the-takeaway",
+    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
+    "section": "The Takeaway",
+    "text": "The Takeaway\nEvery cell in your body has the same song. But each cell has its own DJ — a unique combination of histone modifications — deciding which parts to blast and which parts to mute.\nYou’re not just your DNA sequence. You’re also everything written on top of it.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nStrahl, B. D., & Allis, C. D. (2000). The language of covalent histone modifications. Nature, 403(6765), 41–45. https://doi.org/10.1038/47412\nWaddington, C. H. (1942). The epigenotype. Endeavour, 1, 18–20.\nAI-generated image. (Gemini)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "eli5science",
+    "section": "",
+    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
+  },
+  {
+    "objectID": "index.html#about-this-project",
+    "href": "index.html#about-this-project",
+    "title": "eli5science",
+    "section": "",
+    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
+  },
+  {
+    "objectID": "about.html#our-mission",
+    "href": "about.html#our-mission",
+    "title": "About Us",
+    "section": "",
+    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
+  },
+  {
+    "objectID": "about.html#the-team",
+    "href": "about.html#the-team",
+    "title": "About Us",
+    "section": "The Team",
+    "text": "The Team\nWe’re a group of students from India passionate about science communication. This project started as a way to share fascinating research stories with our peers and grew into a platform for collaborative learning."
+  },
+  {
+    "objectID": "about.html#contribute",
+    "href": "about.html#contribute",
+    "title": "About Us",
+    "section": "Contribute",
+    "text": "Contribute\nWant to write with us? Check out our GitHub repository to contribute or reach out to us LinkedIn."
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "eli5science",
+    "section": "",
+    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!\n\n\n\n\n\n\nFill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here\n\n\n\n\nKeep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way.\n\n\n\n\n✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible\n\n\n\n\nReach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
+  },
+  {
+    "objectID": "contribute.html#help-us-simplify-science",
+    "href": "contribute.html#help-us-simplify-science",
+    "title": "eli5science",
+    "section": "",
+    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!"
+  },
+  {
+    "objectID": "contribute.html#how-to-contribute",
+    "href": "contribute.html#how-to-contribute",
+    "title": "eli5science",
+    "section": "",
+    "text": "Fill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here"
+  },
+  {
+    "objectID": "contribute.html#writing-guidelines",
+    "href": "contribute.html#writing-guidelines",
+    "title": "eli5science",
+    "section": "",
+    "text": "Keep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way."
+  },
+  {
+    "objectID": "contribute.html#what-were-looking-for",
+    "href": "contribute.html#what-were-looking-for",
+    "title": "eli5science",
+    "section": "",
+    "text": "✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible"
+  },
+  {
+    "objectID": "contribute.html#questions",
+    "href": "contribute.html#questions",
+    "title": "eli5science",
+    "section": "",
+    "text": "Reach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html",
+    "href": "posts/doudna-2012/index.html",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "",
+    "text": "Jennifer Doudna and Emmanuelle Charpentier’s CRISPR revolution\nLet’s talk about CRISPR – one of the most widely-used acronyms in modern biology. I’ll be honest – biology’s love for acronyms intimidated me for years. CRISPR, TALEN, ZFN… they felt like secret codes. CRISPR especially, because everyone talked about it like magic, but nobody explained what it actually meant.\nWell, today we’re breaking that barrier. Because the story of CRISPR isn’t just about cutting-edge science – it starts with something as ordinary as yogurt.\nToday’s paper: “A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity” by Jinek, Charpentier, Doudna et al. (Science, 2012)\nThis paper won the 2020 Nobel Prize in Chemistry and changed biology forever."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#the-yogurt-origin-story",
+    "href": "posts/doudna-2012/index.html#the-yogurt-origin-story",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "The Yogurt Origin Story",
+    "text": "The Yogurt Origin Story\nRewind to 2007. Danisco, a Danish food company, had a problem. Bacterial viruses kept killing their yogurt cultures, ruining entire batches.\nWhat they discovered was astonishing: bacteria had a memory system. When a virus attacked, the bacteria would grab a piece of the virus’s DNA and store it in their own genome – like keeping a “wanted poster”. These stored fragments were arranged in a peculiar pattern: Clustered Regularly Interspaced Short Palindromic Repeats – CRISPR.\nIf the same virus attacked again, the bacteria would recognize it and destroy it. It was adaptive immunity at the bacterial level. But nobody imagined this bacterial immune system could become the most powerful genome editing tool in history."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
+    "href": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "The Challenge: How Do We Edit DNA Easily?",
+    "text": "The Challenge: How Do We Edit DNA Easily?\nBy 2012, scientists could edit genomes using tools like ZFNs and TALENs, but here was the nightmare: every time you wanted to target a new gene, you had to engineer an entirely new protein. Expensive. Time-consuming. Like building new scissors from scratch every time you wanted to cut a different thread.\nEnter Jennifer Doudna and Emmanuelle Charpentier.\nThey figured out exactly how the bacterial CRISPR system worked – and how to weaponize it for genome editing.\n\nThe Key Components:\n\nCas9 – The protein that cuts DNA (the scissors)\ncrRNA – Contains the “target address” (20 bases that match your target DNA)\ntracrRNA – Activates Cas9 and helps it work\nPAM sequence – A “NGG” DNA motif next to the target (like a safety lock)\n\nThe DNA only cuts when all four are present: Cas9 + crRNA + tracrRNA + Magnesium.\nThe game-changer? They showed you could combine crRNA and tracrRNA into one engineered guide RNA to direct Cas9 to cut any DNA sequence you wanted. They tested five different guide RNAs targeting five different sequences. All worked perfectly.\nThis paper is from 2012, and if you look at the figures, they’re filled with gel electrophoresis photos. No fancy fluorescence microscopy or sequencing heatmaps – just good old-fashioned DNA bands on gels."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#why-crispr-won",
+    "href": "posts/doudna-2012/index.html#why-crispr-won",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "Why CRISPR Won?",
+    "text": "Why CRISPR Won?\nHere’s the revolution:\nOld way (ZFN/TALEN):\n\nWant a new target? → Engineer a new protein\nCost: High | Time: Weeks/months\n\nCRISPR way:\n\nWant a new target? → Design a new 20-base RNA\nCost: Minimal | Time: Days\n\nYou could suddenly access any part of any organism’s DNA by just changing a simple guide RNA. No protein engineering. No expensive reagents. Just simple sequence design.\nBy 2013, labs worldwide were using CRISPR. Today, CRISPR is everywhere: disease modeling, crop engineering, gene therapy, basic research."
+  },
+  {
+    "objectID": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
+    "href": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
+    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "section": "The Takeaway: Simplicity Wins",
+    "text": "The Takeaway: Simplicity Wins\nCRISPR democratized genome editing. It made the impossible routine. It turned what was once the domain of specialized labs into something any researcher could use. And it all started with scientists trying to save yogurt cultures from viruses.\nSometimes the most revolutionary tools come from the most unexpected places.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nJinek, M., Chylinski, K., Fonfara, I., Hauer, M., Doudna, J. A., & Charpentier, E. (2012). A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. Science, 337(6096), 816-821. https://doi.org/10.1126/science.1225829\nThe Yogurt Connection - Science Magazine\nYogurt’s Role in CRISPR Development\nDoudna and Charpentier’s CRISPR Experiment - ASU Embryo Project\nCRISPR’s 10-Year Anniversary - STAT News\nAI-generated image. (Gemini)"
+  },
+  {
+    "objectID": "posts/lariocidin-2025/index.html",
+    "href": "posts/lariocidin-2025/index.html",
+    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
+    "section": "",
+    "text": "Lariocidin: Nature’s lasso peptide antibiotic targeting the bacterial ribosome"
+  },
+  {
+    "objectID": "posts/lariocidin-2025/index.html#from-golden-era-to-global-crisis",
+    "href": "posts/lariocidin-2025/index.html#from-golden-era-to-global-crisis",
+    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
+    "section": "From Golden Era to Global Crisis",
+    "text": "From Golden Era to Global Crisis\nIt all began in 1928 when Alexander Fleming discovered that a fungus (Penicillium notatum) had contaminated his culture plate of Staphylococcus bacteria. He noticed something odd, the bacteria simply could not grow near the fungus. This was the first time we had figured out how to weaponize one organism against another, and boom, the era of antibiotics began.\nThe golden age lasted from the 1940s to the mid-1960s. Streptomycin, vancomycin, and a whole arsenal of antibiotics kept turning up with each new experiment, helping people overcome infections that had once been death sentences.\nBut then, in the 1970s, a “drought” started emerging in the sea of antibiotics. Scientists either kept rediscovering the same antibiotics in new forms, or stumbled upon novel ones that were toxic to humans too. And worst of all, the bacteria launched their own warfare: antibiotic resistance; evolving ways to make our existing antibiotics completely useless against them.\nThink of it like a lock and key. Antibiotics are the keys. But bacteria started changing the locks. Fast.\nAntibiotic resistance has been globally acknowledged as a crisis. It killed more than 4.5 million people in 2019 alone. This made the hunt for new antibiotics more urgent than ever — ones that could fight resistant bacteria while being completely safe for humans.\nAnd after a dry spell spanning over four decades, the sea finally sprung back to life. In 2025, researchers from McMaster University, Canada, discovered a completely new antibiotic — Lariocidin."
+  },
+  {
+    "objectID": "posts/lariocidin-2025/index.html#what-even-is-lariocidin",
+    "href": "posts/lariocidin-2025/index.html#what-even-is-lariocidin",
+    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
+    "section": "What Even Is Lariocidin?",
+    "text": "What Even Is Lariocidin?\nBefore we get to lariocidin itself, a quick detour into the world of peptide antibiotics.\nMany medically used antibiotics are peptides — short chains of amino acids produced by special enzymes in bacteria and fungi. There is also a specific class of peptide antibiotics built with the help of ribosomes, called Ribosomally Synthesized and Post-translationally Modified Peptides, or RiPPs. These peptides undergo modifications after they are made, like dehydration or cyclization to reach their final, active structure. These modifications help them interact with their targets and protect them from being broken down by the cell.\nWithin RiPPs, there is a particularly cool subgroup called lasso peptides. Imagine a cowboy’s lasso — a rope tied into a loop with a tail threaded through it. Lasso peptides have exactly that structure: their C-terminal tail is threaded through an intramolecular loop, making them incredibly stable. It is this “knotted” structure that gives them their name.\nLariocidin is one such lasso peptide. And its target? The ribosome of the pathogen.\nRibosomes are the cell’s protein factories — they read the genetic instructions and build every protein the cell needs. No ribosomes, no proteins. No proteins, no cell. This makes ribosomes an excellent target for antibiotics."
+  },
+  {
+    "objectID": "posts/lariocidin-2025/index.html#what-makes-lariocidin-special",
+    "href": "posts/lariocidin-2025/index.html#what-makes-lariocidin-special",
+    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
+    "section": "What Makes Lariocidin Special?",
+    "text": "What Makes Lariocidin Special?\nYou might be thinking: “Other antibiotics already target the ribosome. What’s the big deal?”\nFair point. But here is the catch. Those other ribosome-targeting compounds bind to specific, well-characterized sites that are so well-understood by now that bacteria have had time to develop resistant genes that render those inhibitors useless.\nLariocidin avoids this problem entirely. It binds to a lesser-known, “non-popular” site on the ribosome — one that bacteria have not yet figured out how to defend.\nHere is what it does once it gets there: it disrupts translocation (the movement of mRNA and tRNA during protein synthesis), and by interacting with the tRNA, it causes miscoding, the ribosome starts misreading the genetic instructions. The result? Faulty, non-functional proteins get made, and the cell shuts down.\nBut wait, it gets even better.\nUnlike many antibiotics that rely on specific protein importers to enter bacterial cells, lariocidin gets in by exploiting something all bacteria share: their electrical charge. Every bacterium maintains an electrical gradient across its membrane — lariocidin uses this universal feature as its entry ticket, which is why it works against such a wide range of bacteria.\nIt is effective against: - Gram-positive bacteria - Gram-negative bacteria - Mycobacteria - Acinetobacter baumannii; one of the most notoriously drug-resistant pathogens on the WHO’s critical list\nOn top of all that, its activity does not deteriorate in conditions that mimic the human body, and it shows no toxicity to human cells or the good bacteria in the human microbiome. It targets the invaders, not you."
+  },
+  {
+    "objectID": "posts/lariocidin-2025/index.html#the-discovery-a-year-in-the-dirt",
+    "href": "posts/lariocidin-2025/index.html#the-discovery-a-year-in-the-dirt",
+    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
+    "section": "The Discovery: A Year in the Dirt",
+    "text": "The Discovery: A Year in the Dirt\nHere is where the story gets truly fascinating and a little humbling.\nThe main character in the origin story of lariocidin is patience and time.\nResearchers grew soil bacteria not for days, not for weeks, not even for months — but for an entire year. The reason? Most lab experiments stop early, accidentally ignoring the slowest-growing bacteria. This team decided not to.\nThat year-long wait led them to a strain called M2 from the Paenibacillus species. M2 was already producing a known antibiotic, colistin but it was also producing something else. A mystery compound that showed activity even against a colistin-resistant strain of E. coli.\nThis new substance had a molecular weight completely different from colistin, and it did not match anything in existing databases. A true unknown.\nThe researchers then sequenced the M2 genome and found a gene cluster pointing to a potential lasso peptide and its predicted mass and amino acid composition matched those of the mystery compound perfectly. To confirm they had the right genes, they cloned the gene cluster into a different host (Streptomyces), and that host produced the exact same compound.\nUsing NMR and X-ray crystallography, they then visualized the 3D structure — and there it was. The characteristic lasso-like knot. The mystery compound was lariocidin."
+  },
+  {
+    "objectID": "posts/lariocidin-2025/index.html#what-comes-next",
+    "href": "posts/lariocidin-2025/index.html#what-comes-next",
+    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
+    "section": "What Comes Next?",
+    "text": "What Comes Next?\nLariocidin has shown activity against multiple bacteria that WHO has classified as “critical pathogens.” The researchers also found that lariocidin-like gene clusters are highly conserved and widespread in nature — meaning there could be more of these hiding in soil across the world.\nThis also gives scientists a chemical scaffold to work from; a structural template to refine and develop even more potent versions of the drug. The current focus is on optimizing lariocidin for better efficacy and scaling up production for clinical development.\nIf the golden age of antibiotics was built on curiosity and luck, this new chapter seems to be built on something equally powerful: patience.\nHad the researchers stopped incubation a few weeks early, lariocidin would have remained just another unknown molecule in dirt. Patience, it turns out, is not just a virtue in life — it is a an important research strategy.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: neegarniqbal@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nThe history of antibiotics. (n.d.). Microbiology Society. https://microbiologysociety.org/why-microbiology-matters/knocking-out-antimicrobial-resistance/amr-explained/the-history-of-antibiotics.html\nDattani, S. (2024, December 23). What was the Golden Age of Antibiotics, and how can we spark a new one? Our World in Data. https://ourworldindata.org/golden-age-antibiotics\nMinuteEarth. (2026, February 5). 40 years without a new antibiotic. Why? [Video]. YouTube. https://www.youtube.com/watch?v=hItlmfXZBQU\nJangra, M., Travin, D. Y., Aleksandrova, E. V., Kaur, M., Darwish, L., Koteva, K., Klepacki, D., Wang, W., Tiffany, M., Sokaribo, A., Chen, X., Deng, Z., Tao, M., Coombes, B. K., Vázquez-Laslop, N., Polikanov, Y. S., Mankin, A. S., & Wright, G. D. (2025). A broad-spectrum lasso peptide antibiotic targeting the bacterial ribosome. Nature, 640(8060), 1022–1030. https://doi.org/10.1038/s41586-025-08723-7\nVerma, S. (2025, August 12). McMaster researchers discover new class of antibiotics. McMaster News. https://news.mcmaster.ca/mcmaster-researchers-discover-new-class-of-antibiotics-gerry-wright-lariocidin-hamilton-soil/"
   },
   {
     "objectID": "posts/mitoedit-2025/index.html",
@@ -133,339 +427,101 @@
     "text": "The Bigger Picture!\nMitochondrial research has gained serious ground over the past few years. Mutations in mtDNA have been linked to everything from rare inherited conditions to cancer — including the pediatric leukemia cases that first brought me to Memphis. And yet, for most of these mutations, we still don’t have therapies.\nTools like MitoEdit are a small but real step toward changing that — making it faster to model these diseases, study them properly, and eventually treat them. The next decade of mitochondrial biology is going to be exciting.\nI don’t know how big a role MitoEdit will play in that story. But building it feels like a small piece of the puzzle.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nShah, D., McCastlain, K., Chang, T. C., Zhu, X., Wu, G., & Kundu, M. (2025). MitoEdit: A pipeline for optimizing mtDNA base editing and predicting bystander effects. Computational and Structural Biotechnology Journal, 27, 1673–1676. https://doi.org/10.1016/j.csbj.2025.04.027\nMok, B. Y., et al. (2020). A bacterial cytidine deaminase toxin enables CRISPR-free mitochondrial base editing. Nature, 583, 631–637.\nMitoEdit Web Interface: https://mitoedit.stjude.org/\nMitoEdit GitHub: https://github.com/Kundu-Lab/mitoedit"
   },
   {
-    "objectID": "posts/lariocidin-2025/index.html",
-    "href": "posts/lariocidin-2025/index.html",
-    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
+    "objectID": "posts/obs-2024/index.html",
+    "href": "posts/obs-2024/index.html",
+    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
     "section": "",
-    "text": "Lariocidin: Nature’s lasso peptide antibiotic targeting the bacterial ribosome"
+    "text": "The Obstetrical Dilemma: how bipedalism and big brains collided"
   },
   {
-    "objectID": "posts/lariocidin-2025/index.html#from-golden-era-to-global-crisis",
-    "href": "posts/lariocidin-2025/index.html#from-golden-era-to-global-crisis",
-    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
-    "section": "From Golden Era to Global Crisis",
-    "text": "From Golden Era to Global Crisis\nIt all began in 1928 when Alexander Fleming discovered that a fungus (Penicillium notatum) had contaminated his culture plate of Staphylococcus bacteria. He noticed something odd, the bacteria simply could not grow near the fungus. This was the first time we had figured out how to weaponize one organism against another, and boom, the era of antibiotics began.\nThe golden age lasted from the 1940s to the mid-1960s. Streptomycin, vancomycin, and a whole arsenal of antibiotics kept turning up with each new experiment, helping people overcome infections that had once been death sentences.\nBut then, in the 1970s, a “drought” started emerging in the sea of antibiotics. Scientists either kept rediscovering the same antibiotics in new forms, or stumbled upon novel ones that were toxic to humans too. And worst of all, the bacteria launched their own warfare: antibiotic resistance; evolving ways to make our existing antibiotics completely useless against them.\nThink of it like a lock and key. Antibiotics are the keys. But bacteria started changing the locks. Fast.\nAntibiotic resistance has been globally acknowledged as a crisis. It killed more than 4.5 million people in 2019 alone. This made the hunt for new antibiotics more urgent than ever — ones that could fight resistant bacteria while being completely safe for humans.\nAnd after a dry spell spanning over four decades, the sea finally sprung back to life. In 2025, researchers from McMaster University, Canada, discovered a completely new antibiotic — Lariocidin."
+    "objectID": "posts/obs-2024/index.html#ever-wondered-why-humans-need-help-to-give-birth",
+    "href": "posts/obs-2024/index.html#ever-wondered-why-humans-need-help-to-give-birth",
+    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
+    "section": "Ever Wondered Why Humans Need Help to Give Birth?",
+    "text": "Ever Wondered Why Humans Need Help to Give Birth?\nConsider the closest of our species, a chimpanzee — when it feels labour contractions, within a few efficient minutes it finishes delivering infants entirely alone. No nurses, no doulas. She cleans the baby herself and life continues. This is, more or less, how birth works for every mammal on the planet.\nNow consider a human mother about to deliver. Even today, without any medical support, obstructed labour — where the baby’s head simply cannot clear the maternal pelvis — is one of the leading causes of maternal death in the developing world.\nSo what went so wrong with our birth canal? And why, uniquely among all primates, did we evolve into a species that requires other people to survive childbirth? Why do we need a second pair of hands for a successful delivery, and how did it shape our social, trust, and interpersonal circles?"
   },
   {
-    "objectID": "posts/lariocidin-2025/index.html#what-even-is-lariocidin",
-    "href": "posts/lariocidin-2025/index.html#what-even-is-lariocidin",
-    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
-    "section": "What Even Is Lariocidin?",
-    "text": "What Even Is Lariocidin?\nBefore we get to lariocidin itself, a quick detour into the world of peptide antibiotics.\nMany medically used antibiotics are peptides — short chains of amino acids produced by special enzymes in bacteria and fungi. There is also a specific class of peptide antibiotics built with the help of ribosomes, called Ribosomally Synthesized and Post-translationally Modified Peptides, or RiPPs. These peptides undergo modifications after they are made, like dehydration or cyclization to reach their final, active structure. These modifications help them interact with their targets and protect them from being broken down by the cell.\nWithin RiPPs, there is a particularly cool subgroup called lasso peptides. Imagine a cowboy’s lasso — a rope tied into a loop with a tail threaded through it. Lasso peptides have exactly that structure: their C-terminal tail is threaded through an intramolecular loop, making them incredibly stable. It is this “knotted” structure that gives them their name.\nLariocidin is one such lasso peptide. And its target? The ribosome of the pathogen.\nRibosomes are the cell’s protein factories — they read the genetic instructions and build every protein the cell needs. No ribosomes, no proteins. No proteins, no cell. This makes ribosomes an excellent target for antibiotics."
+    "objectID": "posts/obs-2024/index.html#fetopelvic-disproportion-and-tragedies-of-obstructed-labors",
+    "href": "posts/obs-2024/index.html#fetopelvic-disproportion-and-tragedies-of-obstructed-labors",
+    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
+    "section": "Fetopelvic Disproportion and Tragedies of Obstructed Labors",
+    "text": "Fetopelvic Disproportion and Tragedies of Obstructed Labors\nThe medical term is fetopelvic disproportion (FPD) — when the baby’s head is too large for the mother’s bony birth canal. In most primates, the newborn’s head fits through the pelvic outlet with a generous fit. In humans, the fit is so tight that the baby must rotate during delivery, a maneuver no other primate performs. Rates of obstructed labour in humans, even in populations with good nutrition and healthcare, run at roughly 3–5% of all deliveries. In wild chimpanzees and gorillas, documented cases of obstructed labor are essentially unknown. But why?\nWhile bipedalism (aka walking on two legs) was narrowing the pelvis from one direction, evolution was simultaneously expanding the fetal skull from the other. This is encephalization — the dramatic increase in brain size relative to body size that defines the Homo lineage. The australopithecine brain sat at roughly 450cc, barely larger than a chimpanzee’s. By Homo erectus, it had climbed to ~900cc. By modern Homo sapiens, it reached ~1350cc — 3x in under two million years.\nThis is the collision. The pelvis could not widen freely. The brain could not stop growing. The birth canal became, quite literally, a bottleneck in the most physical sense of the word.\nIn 1974, a team discovered AL 288-1, better known as Lucy — a roughly 40% complete skeleton of Australopithecus afarensis, who lived approximately 3.2 million years ago. Lucy walked upright. Her pelvis showed adaptations for bipedal locomotion — the ilium (the broad upper wing of the hip bone) was shorter and more vertically oriented than in any ape, to accommodate the mechanical demands of striding on two legs. But this same reorganisation that made bipedalism possible also narrowed the birth canal.\nThis tug-of-war between walking upright and giving birth was named the Obstetrical Dilemma, a term coined by physical anthropologist Sherwood Larned Washburn in 1960."
   },
   {
-    "objectID": "posts/lariocidin-2025/index.html#what-makes-lariocidin-special",
-    "href": "posts/lariocidin-2025/index.html#what-makes-lariocidin-special",
-    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
-    "section": "What Makes Lariocidin Special?",
-    "text": "What Makes Lariocidin Special?\nYou might be thinking: “Other antibiotics already target the ribosome. What’s the big deal?”\nFair point. But here is the catch. Those other ribosome-targeting compounds bind to specific, well-characterized sites that are so well-understood by now that bacteria have had time to develop resistant genes that render those inhibitors useless.\nLariocidin avoids this problem entirely. It binds to a lesser-known, “non-popular” site on the ribosome — one that bacteria have not yet figured out how to defend.\nHere is what it does once it gets there: it disrupts translocation (the movement of mRNA and tRNA during protein synthesis), and by interacting with the tRNA, it causes miscoding, the ribosome starts misreading the genetic instructions. The result? Faulty, non-functional proteins get made, and the cell shuts down.\nBut wait, it gets even better.\nUnlike many antibiotics that rely on specific protein importers to enter bacterial cells, lariocidin gets in by exploiting something all bacteria share: their electrical charge. Every bacterium maintains an electrical gradient across its membrane — lariocidin uses this universal feature as its entry ticket, which is why it works against such a wide range of bacteria.\nIt is effective against: - Gram-positive bacteria - Gram-negative bacteria - Mycobacteria - Acinetobacter baumannii; one of the most notoriously drug-resistant pathogens on the WHO’s critical list\nOn top of all that, its activity does not deteriorate in conditions that mimic the human body, and it shows no toxicity to human cells or the good bacteria in the human microbiome. It targets the invaders, not you."
+    "objectID": "posts/obs-2024/index.html#the-obstetrical-dilemma-a-hypothesis",
+    "href": "posts/obs-2024/index.html#the-obstetrical-dilemma-a-hypothesis",
+    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
+    "section": "The Obstetrical Dilemma: A Hypothesis",
+    "text": "The Obstetrical Dilemma: A Hypothesis\nWashburn proposed that evolution resolved this conflict through a compromise: deliver babies earlier, before the head grows too large to pass through. This is why human newborns, when compared to the offspring of other primates, are helpless and unable to walk — whereas baby deer can run at birth. A newborn human is neurologically so underdeveloped that it cannot even hold its own head up. Thus, they believed bipedalism forged the linkage between infant head size and the mother’s pelvis."
   },
   {
-    "objectID": "posts/lariocidin-2025/index.html#the-discovery-a-year-in-the-dirt",
-    "href": "posts/lariocidin-2025/index.html#the-discovery-a-year-in-the-dirt",
-    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
-    "section": "The Discovery: A Year in the Dirt",
-    "text": "The Discovery: A Year in the Dirt\nHere is where the story gets truly fascinating and a little humbling.\nThe main character in the origin story of lariocidin is patience and time.\nResearchers grew soil bacteria not for days, not for weeks, not even for months — but for an entire year. The reason? Most lab experiments stop early, accidentally ignoring the slowest-growing bacteria. This team decided not to.\nThat year-long wait led them to a strain called M2 from the Paenibacillus species. M2 was already producing a known antibiotic, colistin but it was also producing something else. A mystery compound that showed activity even against a colistin-resistant strain of E. coli.\nThis new substance had a molecular weight completely different from colistin, and it did not match anything in existing databases. A true unknown.\nThe researchers then sequenced the M2 genome and found a gene cluster pointing to a potential lasso peptide and its predicted mass and amino acid composition matched those of the mystery compound perfectly. To confirm they had the right genes, they cloned the gene cluster into a different host (Streptomyces), and that host produced the exact same compound.\nUsing NMR and X-ray crystallography, they then visualized the 3D structure — and there it was. The characteristic lasso-like knot. The mystery compound was lariocidin."
+    "objectID": "posts/obs-2024/index.html#whats-the-proof-they-happened-simultaneously-co-evolution",
+    "href": "posts/obs-2024/index.html#whats-the-proof-they-happened-simultaneously-co-evolution",
+    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
+    "section": "What’s the Proof They Happened Simultaneously? Co-evolution?",
+    "text": "What’s the Proof They Happened Simultaneously? Co-evolution?\nThe fossil record shows that the pelvis changed. Comparing anatomy over time shows how different human birth is from that of other primates. But the central claim of the obstetrical dilemma — that pelvis size and brain size were “co-evolving” — requires a different kind of evidence entirely. It requires you to look inside the genome.\nNot until 2024 was this problem addressed with the right data, using the largest pelvic imaging dataset ever assembled: 31,115 individuals from the UK Biobank, whose pelvic geometry was extracted from DXA (Dual-Energy X-ray Absorptiometry) scans using deep-learning HRNets (High-ResNets) neural networks, and whose entire genomes had been sequenced.\nThe genetic correlation between a mother’s birth canal width is a proxy to infant head size, adhering to the fact that the infant head — though distorted at birth — rebounds to 90% heritable by 4–5 months, making maternal head size its strongest genetic predictor. The paper identified 180 independent genomic loci influencing pelvic phenotypes strongly associated with mother head size, indirectly and causally influencing the head size of infants. That is, nature has been selecting specifically for the combination of wide head + wide pelvis, and against the combination of wide head + narrow pelvis. The women who had wide heads but narrow pelvises died more often in childbirth, removing that gene combination from the population!"
   },
   {
-    "objectID": "posts/lariocidin-2025/index.html#what-comes-next",
-    "href": "posts/lariocidin-2025/index.html#what-comes-next",
-    "title": "Nature’s Lasso: The Antibiotic Hiding in Dirt for a Year",
-    "section": "What Comes Next?",
-    "text": "What Comes Next?\nLariocidin has shown activity against multiple bacteria that WHO has classified as “critical pathogens.” The researchers also found that lariocidin-like gene clusters are highly conserved and widespread in nature — meaning there could be more of these hiding in soil across the world.\nThis also gives scientists a chemical scaffold to work from; a structural template to refine and develop even more potent versions of the drug. The current focus is on optimizing lariocidin for better efficacy and scaling up production for clinical development.\nIf the golden age of antibiotics was built on curiosity and luck, this new chapter seems to be built on something equally powerful: patience.\nHad the researchers stopped incubation a few weeks early, lariocidin would have remained just another unknown molecule in dirt. Patience, it turns out, is not just a virtue in life — it is a an important research strategy.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: neegarniqbal@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nThe history of antibiotics. (n.d.). Microbiology Society. https://microbiologysociety.org/why-microbiology-matters/knocking-out-antimicrobial-resistance/amr-explained/the-history-of-antibiotics.html\nDattani, S. (2024, December 23). What was the Golden Age of Antibiotics, and how can we spark a new one? Our World in Data. https://ourworldindata.org/golden-age-antibiotics\nMinuteEarth. (2026, February 5). 40 years without a new antibiotic. Why? [Video]. YouTube. https://www.youtube.com/watch?v=hItlmfXZBQU\nJangra, M., Travin, D. Y., Aleksandrova, E. V., Kaur, M., Darwish, L., Koteva, K., Klepacki, D., Wang, W., Tiffany, M., Sokaribo, A., Chen, X., Deng, Z., Tao, M., Coombes, B. K., Vázquez-Laslop, N., Polikanov, Y. S., Mankin, A. S., & Wright, G. D. (2025). A broad-spectrum lasso peptide antibiotic targeting the bacterial ribosome. Nature, 640(8060), 1022–1030. https://doi.org/10.1038/s41586-025-08723-7\nVerma, S. (2025, August 12). McMaster researchers discover new class of antibiotics. McMaster News. https://news.mcmaster.ca/mcmaster-researchers-discover-new-class-of-antibiotics-gerry-wright-lariocidin-hamilton-soil/"
+    "objectID": "posts/obs-2024/index.html#the-deepest-consequence-empathy-as-an-evolutionary-consequence-theory-of-mind",
+    "href": "posts/obs-2024/index.html#the-deepest-consequence-empathy-as-an-evolutionary-consequence-theory-of-mind",
+    "title": "The Obstetrical Dilemma: Proving the Co-evolution of Pelvis Size & Infant Head Size",
+    "section": "The Deepest Consequence: Empathy as an Evolutionary Consequence (Theory of Mind)",
+    "text": "The Deepest Consequence: Empathy as an Evolutionary Consequence (Theory of Mind)\nBirth assistance requires social trust. A labouring woman allowing another person to reach into her body in her most vulnerable moment is not performing a casual social transaction. It requires — and presumably selects for — the capacity to trust, to read intentions accurately, to form bonds of genuine emotional reciprocity. These are the foundations of what we now call theory of mind: the ability to model the mental states of others.\n\n“A pelvis narrowed by bipedalism. A skull expanded by intelligence. A baby that must rotate through a canal that barely fits. A mother who cannot deliver alone. A community that assembles to help. A species that becomes, generation by generation, more trusting, more emotionally literate, more socially connected, because the ones who could build those bonds, survived.”\n\n\nWant to discuss this? Have questions? Reach out!\n📧 Email: lsgunasekhar026@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nXu, S. et al. (2024). The genetic architecture of and evolutionary constraints on the human pelvic form. Science, 383(6686), eadf8671.\nMitteroecker P, Fischer B (2024). Evolution of the human birth canal. AJOG, 230, S841-S855.\nWashburn, S.L. (1960). Tools and Human Evolution. Scientific American, 203(3), 62–75.\nKrogman, W.M. (1951). The scars of human evolution. Scientific American, 185(6), 54–57.\nRosenberg, K. & Trevathan, W. (2002). Birth, obstetrics and human evolution. BJOG, 109(11), 1199–1206."
   },
   {
-    "objectID": "posts/doudna-2012/index.html",
-    "href": "posts/doudna-2012/index.html",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
+    "objectID": "posts/sub-dopamine-2025/index.html",
+    "href": "posts/sub-dopamine-2025/index.html",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
     "section": "",
-    "text": "Jennifer Doudna and Emmanuelle Charpentier’s CRISPR revolution\nLet’s talk about CRISPR – one of the most widely-used acronyms in modern biology. I’ll be honest – biology’s love for acronyms intimidated me for years. CRISPR, TALEN, ZFN… they felt like secret codes. CRISPR especially, because everyone talked about it like magic, but nobody explained what it actually meant.\nWell, today we’re breaking that barrier. Because the story of CRISPR isn’t just about cutting-edge science – it starts with something as ordinary as yogurt.\nToday’s paper: “A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity” by Jinek, Charpentier, Doudna et al. (Science, 2012)\nThis paper won the 2020 Nobel Prize in Chemistry and changed biology forever."
+    "text": "Rethinking the role of dopamine in movement and Parkinson’s Disease\nYou’ve almost certainly heard of dopamine. It gets talked about constantly in discussions about social media addiction, motivation, pleasure, and reward — but dopamine’s role in physical movement is just as profound, and far less discussed.\nIn Parkinson’s disease, the brain cells responsible for producing dopamine gradually break down. This loss leads to the hallmark symptoms of the disease: slow movement, tremors, and problems with balance. For decades, the scientific community believed it understood how that loss caused those symptoms. A 2025 study suggests we may have been slightly wrong — and this has very serious implications for current treatments."
   },
   {
-    "objectID": "posts/doudna-2012/index.html#the-yogurt-origin-story",
-    "href": "posts/doudna-2012/index.html#the-yogurt-origin-story",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "The Yogurt Origin Story",
-    "text": "The Yogurt Origin Story\nRewind to 2007. Danisco, a Danish food company, had a problem. Bacterial viruses kept killing their yogurt cultures, ruining entire batches.\nWhat they discovered was astonishing: bacteria had a memory system. When a virus attacked, the bacteria would grab a piece of the virus’s DNA and store it in their own genome – like keeping a “wanted poster”. These stored fragments were arranged in a peculiar pattern: Clustered Regularly Interspaced Short Palindromic Repeats – CRISPR.\nIf the same virus attacked again, the bacteria would recognize it and destroy it. It was adaptive immunity at the bacterial level. But nobody imagined this bacterial immune system could become the most powerful genome editing tool in history."
+    "objectID": "posts/sub-dopamine-2025/index.html#what-is-parkinsons-disease",
+    "href": "posts/sub-dopamine-2025/index.html#what-is-parkinsons-disease",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
+    "section": "What Is Parkinson’s Disease?",
+    "text": "What Is Parkinson’s Disease?\nBefore we get into the science, let’s make sure we’re on the same page. Parkinson’s disease is not just a tremor. It is a slow, progressive loss of the brain’s ability to control the body. Simple acts like buttoning a shirt, speaking clearly, or standing up from a chair become monumental efforts.\nThe most common treatment is levodopa, a drug the brain converts into dopamine. It has been the gold standard of care for decades, but for all those years, scientists haven’t fully understood why it works the way it does. That gap in understanding has limited our ability to improve upon it.\nMore than 10 million people are currently living with Parkinson’s disease globally, and that number is expected to double by 2050 as the population ages. This is not a rare or distant condition. It is coming for many of us."
   },
   {
-    "objectID": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
-    "href": "posts/doudna-2012/index.html#the-challenge-how-do-we-edit-dna-easily",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "The Challenge: How Do We Edit DNA Easily?",
-    "text": "The Challenge: How Do We Edit DNA Easily?\nBy 2012, scientists could edit genomes using tools like ZFNs and TALENs, but here was the nightmare: every time you wanted to target a new gene, you had to engineer an entirely new protein. Expensive. Time-consuming. Like building new scissors from scratch every time you wanted to cut a different thread.\nEnter Jennifer Doudna and Emmanuelle Charpentier.\nThey figured out exactly how the bacterial CRISPR system worked – and how to weaponize it for genome editing.\n\nThe Key Components:\n\nCas9 – The protein that cuts DNA (the scissors)\ncrRNA – Contains the “target address” (20 bases that match your target DNA)\ntracrRNA – Activates Cas9 and helps it work\nPAM sequence – A “NGG” DNA motif next to the target (like a safety lock)\n\nThe DNA only cuts when all four are present: Cas9 + crRNA + tracrRNA + Magnesium.\nThe game-changer? They showed you could combine crRNA and tracrRNA into one engineered guide RNA to direct Cas9 to cut any DNA sequence you wanted. They tested five different guide RNAs targeting five different sequences. All worked perfectly.\nThis paper is from 2012, and if you look at the figures, they’re filled with gel electrophoresis photos. No fancy fluorescence microscopy or sequencing heatmaps – just good old-fashioned DNA bands on gels."
+    "objectID": "posts/sub-dopamine-2025/index.html#the-old-story-dopamine-as-the-gas-pedal",
+    "href": "posts/sub-dopamine-2025/index.html#the-old-story-dopamine-as-the-gas-pedal",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
+    "section": "The Old Story: Dopamine as the “Gas Pedal”",
+    "text": "The Old Story: Dopamine as the “Gas Pedal”\nFor a long time, the dominant theory went something like this: when you want to move quickly or powerfully, your brain releases a rapid burst of dopamine — and that burst is what makes the movement fast and forceful. Dopamine was the throttle.\nThis theory wasn’t invented carelessly. In recent years, improved brain-monitoring tools detected brief spikes of dopamine during movement. These rapid bursts led many researchers to think dopamine directly controlled movement intensity.\nBut here’s what years of studying the brain teaches you: the brain rarely does what we expect. It is layered, redundant, and deeply surprising. And sometimes, correlation really is not causation."
   },
   {
-    "objectID": "posts/doudna-2012/index.html#why-crispr-won",
-    "href": "posts/doudna-2012/index.html#why-crispr-won",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "Why CRISPR Won?",
-    "text": "Why CRISPR Won?\nHere’s the revolution:\nOld way (ZFN/TALEN):\n\nWant a new target? → Engineer a new protein\nCost: High | Time: Weeks/months\n\nCRISPR way:\n\nWant a new target? → Design a new 20-base RNA\nCost: Minimal | Time: Days\n\nYou could suddenly access any part of any organism’s DNA by just changing a simple guide RNA. No protein engineering. No expensive reagents. Just simple sequence design.\nBy 2013, labs worldwide were using CRISPR. Today, CRISPR is everywhere: disease modeling, crop engineering, gene therapy, basic research."
+    "objectID": "posts/sub-dopamine-2025/index.html#the-new-story-dopamine-as-the-engine-oil",
+    "href": "posts/sub-dopamine-2025/index.html#the-new-story-dopamine-as-the-engine-oil",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
+    "section": "The New Story: Dopamine as the “Engine Oil”",
+    "text": "The New Story: Dopamine as the “Engine Oil”\nThe McGill team asked a deceptively simple question: if dopamine bursts cause vigorous movement, then what happens if we manipulate those bursts in real time?\nThe researchers monitored brain activity in mice while the animals pressed a weighted lever. Using a technique called optogenetics — a light-based method that lets scientists switch specific neurons on or off with extraordinary precision — they were able to manipulate dopamine-producing cells at a precise moment.\nThe logic was elegant: if dopamine bursts drive movement speed and force, then artificially manipulating those bursts should change how the animals moved. The researchers tested both directions — artificially boosting the dopamine signal and suppressing it, each at the precise moment a mouse began pressing the lever.\nIn both cases, the mice pushed with the same speed and force as normal. Whether dopamine was turned up or turned down in that split second, it made no difference.\nThis null result is enormously meaningful. Dopamine wasn’t driving movement “in the moment.” It was doing something else entirely.\n\n\n\nThe dopamine pathway: how dopamine signals travel through the brain and influence movement\n\n\n\n“Rather than acting as a throttle that sets movement speed, dopamine appears to function more like engine oil. It’s essential for the system to run, but not the signal that determines how fast each action is executed.”\n— Nicolas Tritsch, McGill University\n\nThis metaphor is genuinely beautiful in its clarity. Engine oil doesn’t make your car go faster or slower. You don’t press the accelerator and think about the oil. But without it, the engine seizes. That’s dopamine. It is the quiet, invisible enabler — not the star of the show, but the reason the show can happen at all."
   },
   {
-    "objectID": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
-    "href": "posts/doudna-2012/index.html#the-takeaway-simplicity-wins",
-    "title": "An Acronym That Scared Me (And Probably You Too)",
-    "section": "The Takeaway: Simplicity Wins",
-    "text": "The Takeaway: Simplicity Wins\nCRISPR democratized genome editing. It made the impossible routine. It turned what was once the domain of specialized labs into something any researcher could use. And it all started with scientists trying to save yogurt cultures from viruses.\nSometimes the most revolutionary tools come from the most unexpected places.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nJinek, M., Chylinski, K., Fonfara, I., Hauer, M., Doudna, J. A., & Charpentier, E. (2012). A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. Science, 337(6096), 816-821. https://doi.org/10.1126/science.1225829\nThe Yogurt Connection - Science Magazine\nYogurt’s Role in CRISPR Development\nDoudna and Charpentier’s CRISPR Experiment - ASU Embryo Project\nCRISPR’s 10-Year Anniversary - STAT News\nAI-generated image. (Gemini)"
+    "objectID": "posts/sub-dopamine-2025/index.html#what-this-tells-us-about-levodopa",
+    "href": "posts/sub-dopamine-2025/index.html#what-this-tells-us-about-levodopa",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
+    "section": "What This Tells Us About Levodopa",
+    "text": "What This Tells Us About Levodopa\nThis untangles a mystery that has quietly puzzled clinicians for years. Levodopa works remarkably well — but why? If dopamine’s moment-to-moment surges were what mattered, then a drug that simply raises dopamine levels steadily shouldn’t be the answer. And yet it is.\nWhen the researchers tested levodopa, they found that the drug improved movement by raising the brain’s overall dopamine level, rather than restoring the short-lived dopamine bursts that occur during motion.\n\nThe drug works because it fills the tank with oil, not because it mimics the revving of the engine. That distinction has real clinical weight."
   },
   {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "eli5science",
-    "section": "",
-    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!\n\n\n\n\n\n\nFill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here\n\n\n\n\nKeep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way.\n\n\n\n\n✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible\n\n\n\n\nReach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
+    "objectID": "posts/sub-dopamine-2025/index.html#what-this-could-mean-for-the-future",
+    "href": "posts/sub-dopamine-2025/index.html#what-this-could-mean-for-the-future",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
+    "section": "What This Could Mean for the Future",
+    "text": "What This Could Mean for the Future\nIt’s important to note: this is a mouse study. It is a crucial step, but not the finishing line. According to the researchers, a better understanding of why levodopa works could guide the development of future treatments that focus on maintaining steady dopamine levels rather than targeting rapid dopamine signals.\nThe findings also encourage researchers to revisit older treatment strategies. Dopamine receptor agonists have shown benefits in the past but often caused side effects because they affected large areas of the brain. This new insight may help scientists design safer therapies that act more precisely.\nRather than engineering drugs that try to replicate the complexity of split-second brain signals, researchers may be able to focus on a simpler, more stable target — keeping baseline dopamine levels adequate. In medicine, simplicity is often a profound gift."
   },
   {
-    "objectID": "contribute.html#help-us-simplify-science",
-    "href": "contribute.html#help-us-simplify-science",
-    "title": "eli5science",
-    "section": "",
-    "text": "We’re always looking for passionate students to join our mission of making research accessible. Whether you’ve discovered a groundbreaking paper, have a fascinating research story, or want to explain a complex concept simply; we want to hear from you!"
+    "objectID": "posts/sub-dopamine-2025/index.html#the-bottom-line",
+    "href": "posts/sub-dopamine-2025/index.html#the-bottom-line",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
+    "section": "The Bottom Line",
+    "text": "The Bottom Line\nWhat this paper represents beyond its data is the willingness of scientists to challenge their own field’s assumptions. To say: we may have been wrong, and that’s okay, because now we can look in the right direction.\n\n“Restoring dopamine to a normal level may be enough to improve movement. That could simplify how we think about Parkinson’s treatment.”\n— Nicolas Tritsch, McGill University\n\nFor the millions of people living with Parkinson’s disease and their families, that simplification could eventually translate into treatments that are more effective, more targeted, and less burdened by side effects. Science rarely moves in straight lines, but this is a meaningful step forward.\n\nWant to discuss this paper? Have questions? Reach out on the below email or LinkedIn!\n📧 Email: l.bilbaobroch@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nLiu H, Melani R, Maltese M, et al. Subsecond dopamine fluctuations do not specify the vigor of ongoing actions. Nature Neuroscience. 2025;28(12):2432. https://doi.org/10.1038/s41593-025-02102-1"
   },
   {
-    "objectID": "contribute.html#how-to-contribute",
-    "href": "contribute.html#how-to-contribute",
-    "title": "eli5science",
-    "section": "",
-    "text": "Fill out this quick form and we’ll get back to you within a week!\nOr email us directly at devansh.shah@iitb.ac.in with the subject line “eli5science: Story Contribution” and include:\n\nPaper title and link\nWhy you find it interesting\nYour name and contact info\n\nAdditionally, you can also join our WhatsApp community for discussions and updates: Join Here"
-  },
-  {
-    "objectID": "contribute.html#writing-guidelines",
-    "href": "contribute.html#writing-guidelines",
-    "title": "eli5science",
-    "section": "",
-    "text": "Keep it simple, fun, and accessible:\n\nSimple Language — Use words your classmates would understand\nAnalogies & Stories — Explain through relatable comparisons (check out our existing posts!)\nEngaging Structure — Keep readers hooked with questions and visuals\nRight Length — Most posts are 5-10 minute reads\nCite Sources — Always link to the original paper and references\nAdd an Image — A visual representation of the paper helps\n\nCheck our existing posts to see the style! All our articles are written in this approachable, story-driven way."
-  },
-  {
-    "objectID": "contribute.html#what-were-looking-for",
-    "href": "contribute.html#what-were-looking-for",
-    "title": "eli5science",
-    "section": "",
-    "text": "✅ Papers that are interesting but explained in complicated ways\n✅ Topics that matter to students (biology, AI, physics, medicine, etc.)\n✅ Your genuine curiosity and voice coming through\n✅ Well-researched and cited\n❌ Just summaries of papers (we want stories!)\n❌ Topics that are already super accessible"
-  },
-  {
-    "objectID": "contribute.html#questions",
-    "href": "contribute.html#questions",
-    "title": "eli5science",
-    "section": "",
-    "text": "Reach out! We’re friendly and here to help:\n\n📧 Email: devansh.shah@iitb.ac.in\n🔗 GitHub: eli5sci\n📱 LinkedIn: Devansh Shah\n\n\nThank you for supporting science communication! ✨\nWe can’t wait to read your take on the papers you find fascinating!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Us",
-    "section": "",
-    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
-  },
-  {
-    "objectID": "about.html#our-mission",
-    "href": "about.html#our-mission",
-    "title": "About Us",
-    "section": "",
-    "text": "eli5science is a student-led platform making research accessible to everyone. We believe complex science should be explained simply—without dumbing it down."
-  },
-  {
-    "objectID": "about.html#the-team",
-    "href": "about.html#the-team",
-    "title": "About Us",
-    "section": "The Team",
-    "text": "The Team\nWe’re a group of students from India passionate about science communication. This project started as a way to share fascinating research stories with our peers and grew into a platform for collaborative learning."
-  },
-  {
-    "objectID": "about.html#contribute",
-    "href": "about.html#contribute",
-    "title": "About Us",
-    "section": "Contribute",
-    "text": "Contribute\nWant to write with us? Check out our GitHub repository to contribute or reach out to us LinkedIn."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "eli5science",
-    "section": "",
-    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
-  },
-  {
-    "objectID": "index.html#about-this-project",
-    "href": "index.html#about-this-project",
-    "title": "eli5science",
-    "section": "",
-    "text": "Groundbreaking papers shouldn’t just sit gathering dust. They deserve to be told as the incredible stories they are—stories of curiosity, clever detective work, and moments that changed everything we thought we knew.\nWe’re a student-led platform making research accessible. From biology to AI, we explain the “why” and “so what” behind Nobel-worthy discoveries."
-  },
-  {
-    "objectID": "posts/histone-2000/index.html",
-    "href": "posts/histone-2000/index.html",
-    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
-    "section": "",
-    "text": "The histone code: a language written on the tails of your chromatin\nEvery cell in your body has the exact same DNA. Your brain cells, your muscle cells, your skin cells — same genome, same sequence, same “song”.\nSo how come a brain cell acts nothing like a muscle cell?\nThat was the question bugging scientists for years. And a 2000 paper in Nature gave us the most elegant answer: it’s not the song that’s different — it’s the volume control.\nToday’s paper: “The language of covalent histone modifications” by Brian Strahl and David Allis (2000)"
-  },
-  {
-    "objectID": "posts/histone-2000/index.html#the-playlist-analogy",
-    "href": "posts/histone-2000/index.html#the-playlist-analogy",
-    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
-    "section": "The Playlist Analogy",
-    "text": "The Playlist Analogy\nImagine the DNA is a song. Every cell in your body has a copy of the same song. Now, your brain loves the classical part. Your muscle cells are into the rap verse. Your stomach? Strictly jazz.\nNobody edits the song, it is the same for everyone. But in each cell, something is quietly adjusting the volume; turning up certain sections, fading out others. The parts that play loud get “expressed.” The parts that get muted? Silenced.\nThat volume control system? That’s epigenetics. And the knobs doing the turning are called histone modifications."
-  },
-  {
-    "objectID": "posts/histone-2000/index.html#wait-what-even-is-a-histone",
-    "href": "posts/histone-2000/index.html#wait-what-even-is-a-histone",
-    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
-    "section": "Wait, What Even Is A Histone?",
-    "text": "Wait, What Even Is A Histone?\nQuick rewind. Your DNA doesn’t just float around freely in the nucleus. It wraps around proteins called histones — like thread around a spool — and together they form a structure called a nucleosome.\nThe histones involved are: H3, H4, H2A, H2B, and H1.\nHere’s the important part: these histones have little “tails” sticking out and scientists had long noticed these tails were covered in chemical tags. Acetylation, methylation, phosphorylation, ubiquitination… a whole alphabet of modifications. But what were they actually doing?\nThat’s what this paper set out to explain."
-  },
-  {
-    "objectID": "posts/histone-2000/index.html#the-secret-language-on-the-tails",
-    "href": "posts/histone-2000/index.html#the-secret-language-on-the-tails",
-    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
-    "section": "The Secret Language on the Tails",
-    "text": "The Secret Language on the Tails\nStrahl and Allis proposed something bold: these modifications aren’t random. They’re a code — a histone code — that other proteins read.\nThink of it like this. Each modification on a histone tail is a word in a sentence. On its own, a single word doesn’t mean much. But put the right words together in the right order, and you get a full command: “Open up this gene!” or “Lock this section down forever.”\nThe main modifications explored in the paper:\n\nAcetylation — happens mainly on lysine residues on H3 and H4. Added by enzymes called HATs, removed by HDACs. Also the most studied — histone acetylation has actually been known since the 1960s, but it took until the mid-1990s for scientists to figure out the enzymes responsible (HATs and HDACs) and connect them to gene regulation.\nPhosphorylation — H3 phosphorylation has been linked to chromosome condensation during cell division.\nMethylation — the least understood of the three. Why? Because it doesn’t even change the charge! That makes it incredibly difficult to track."
-  },
-  {
-    "objectID": "posts/histone-2000/index.html#one-modification-doesnt-act-alone",
-    "href": "posts/histone-2000/index.html#one-modification-doesnt-act-alone",
-    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
-    "section": "One Modification Doesn’t Act Alone",
-    "text": "One Modification Doesn’t Act Alone\nHere’s the key insight from the paper: it’s never just one modification doing the work.\nMultiple modifications on one or more histone tails work together to specify what happens downstream. They’re close enough to each other to influence whether other enzymes can come in and add their own marks. And modifications on one histone tail can even affect what happens on a neighboring tail.\nThe paper also points out that certain modifications act as receptors, recruiting specific protein complexes to do jobs like open up a gene or silence it permanently. So the “volume knobs” aren’t just turning things up or down randomly. They’re inviting specific guests to come in and do specific jobs."
-  },
-  {
-    "objectID": "posts/histone-2000/index.html#why-this-paper-was-a-big-deal",
-    "href": "posts/histone-2000/index.html#why-this-paper-was-a-big-deal",
-    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
-    "section": "Why This Paper Was A Big Deal",
-    "text": "Why This Paper Was A Big Deal\nThis was the first paper to seriously argue that histone modifications aren’t just decoration — they form their own genetic language. A second layer of information, sitting on top of the DNA sequence, controlling how and when genes are expressed.\nThe word epigenetics had actually been around since 1942 (coined by Conrad Waddington — you might’ve seen that famous “rock rolling down a landscape” illustration). But it took decades to start understanding the molecular mechanism behind it. This paper was a turning point.\nFast forward to today: we have techniques like ChIP-seq that let us map which regions of the genome are “open” or “closed” — but we still don’t have a reliable way to fully sequence all chromatin modifications in one go. The histone code is real. We just haven’t finished learning to read it."
-  },
-  {
-    "objectID": "posts/histone-2000/index.html#the-takeaway",
-    "href": "posts/histone-2000/index.html#the-takeaway",
-    "title": "Your Cells Are DJs (And Your DNA Is The Song)",
-    "section": "The Takeaway",
-    "text": "The Takeaway\nEvery cell in your body has the same song. But each cell has its own DJ — a unique combination of histone modifications — deciding which parts to blast and which parts to mute.\nYou’re not just your DNA sequence. You’re also everything written on top of it.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nStrahl, B. D., & Allis, C. D. (2000). The language of covalent histone modifications. Nature, 403(6765), 41–45. https://doi.org/10.1038/47412\nWaddington, C. H. (1942). The epigenotype. Endeavour, 1, 18–20.\nAI-generated image. (Gemini)"
-  },
-  {
-    "objectID": "posts/medawar-1953/index.html",
-    "href": "posts/medawar-1953/index.html",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "",
-    "text": "Peter Medawar and his experiments with immunological tolerance"
-  },
-  {
-    "objectID": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
-    "href": "posts/medawar-1953/index.html#the-pre-match-briefing-why-team-colours-matter",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "The Pre-Match Briefing: Why Team Colours Matter",
-    "text": "The Pre-Match Briefing: Why Team Colours Matter\nImagine you are watching an intense Real Madrid vs. Barcelona football game, where people are running so fast that you barely see their faces. How do the players identify their teammates? Yes, one answer is their team colour! When they see the team colours, they know it’s their teammate, pass the ball, and trust that they’ll score a goal!\nNow, how do they know what colour their team is? Obviously, before the game, they see the colours and remember: this is our guy. Well, something similar also happens in our body. Have you ever wondered how our immune cells don’t attack our own cells? Is it because, during early development, they are exposed to self-cells, much like players seeing their team colours before the match? This was exactly the question asked by the British biologist Peter Medawar and his colleagues."
-  },
-  {
-    "objectID": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
-    "href": "posts/medawar-1953/index.html#kickoff-messi-meets-his-team",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "Kickoff: Messi Meets His Team",
-    "text": "Kickoff: Messi Meets His Team\nThink of Messi in the locker room before his big game. In the pre-match talk, if he is introduced to the colour blue, he learns it, and during the match, he instinctively trusts players wearing blue. He doesn’t learn this during the match; rather, he already knows: Blue = Teammate But what if you trick him? If you tell him his team is Red during the pre-match talk, but his friends walk out in Blue, he’ll treat his own teammates like invaders. He’ll tackle them, intercept their passes, and yes, Hala Madrid!"
-  },
-  {
-    "objectID": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
-    "href": "posts/medawar-1953/index.html#early-training-vs.-late-practice",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "Early Training vs. Late Practice",
-    "text": "Early Training vs. Late Practice\nSimilarly, Medawar used two genetically distinct mouse strains, A and B. Cells from strain A were introduced into strain B mice in two different ways. Early exposure- live strain A cells were injected during very early development, either late in embryonic life or within the first 24 to 48 hours after birth, when the immune system is still immature.\nIn another group, the same cells were injected later in life, after the immune system had matured."
-  },
-  {
-    "objectID": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
-    "href": "posts/medawar-1953/index.html#the-match-day-test-skin-grafts-as-goals",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "The Match Day Test: Skin Grafts as Goals",
-    "text": "The Match Day Test: Skin Grafts as Goals\nThe mice were then allowed to grow normally. Once they reached adulthood, skin grafts from strain A mice were transplanted onto strain B mice. They observed that strain B mice exposed to strain A cells during early development accepted the skin graft, whereas those exposed later in life rejected it. Importantly, these tolerant mice still rejected skin grafts from unrelated third-party strains, showing that the immune system was not generally suppressed."
-  },
-  {
-    "objectID": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
-    "href": "posts/medawar-1953/index.html#the-hall-of-fame-how-medawar-rewrote-the-playbook",
-    "title": "Game On: How the Body Knows Its Team",
-    "section": "The Hall of Fame: How Medawar Rewrote the Playbook",
-    "text": "The Hall of Fame: How Medawar Rewrote the Playbook\nAnd with these experiments, Medawar revealed a key principle: acquired immunological tolerance. Exposure to cells early in development teaches the immune system which cells belong to the body, just as a football player learns the team colours before the match. Early-exposed cells are treated as “self,” while new, unfamiliar cells are recognised as outsiders and rejected.\n“Indeed, first impressions truly do matter!”\nWhat our bodies see early on shapes how they respond for life, teaching the immune system to distinguish friend from foe, a lesson in recognition, memory, and trust that lasts a lifetime. So the next time you play, remember, your body’s team was chosen long before you even kicked a ball.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: srinidhisrinivasan02@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nBillingham, R. E., Brent, L., & Medawar, P. B. (1953). Actively acquired tolerance of foreign cells. Nature, 172(4379), 603. https://doi.org/10.1038/172603a0\nAI-generated image. (Gemini)"
-  },
-  {
-    "objectID": "posts/ntm-2014/index.html",
-    "href": "posts/ntm-2014/index.html",
-    "title": "NTM: Memory + Reason = Cognition ?",
-    "section": "",
-    "text": "The Neural Turing Machine: a controller, a memory bank, and a big idea\nPicture this: your professor walks in and drops an assignment on your desk — “Write a report on World War history: key events, causes, consequences etc.”\nYou don’t panic. Even before you start, you already know a few things: world wars belong in the history section, certain names and dates ring a bell. That quick, ready-to-use knowledge sitting in your head? That’s your working memory. Small, fast, and just enough to get you started.\nNow you head to the library.\nToday’s paper: “Neural Turing Machines” by Alex Graves, Greg Wayne & Ivo Danihelka (2014)"
-  },
-  {
-    "objectID": "posts/ntm-2014/index.html#the-library-analogy",
-    "href": "posts/ntm-2014/index.html#the-library-analogy",
-    "title": "NTM: Memory + Reason = Cognition ?",
-    "section": "The Library Analogy",
-    "text": "The Library Analogy\nThe library is memory — a massive space storing everything. You, the student trying to finish the assignment, are the controller — deciding what to search, what to skip, and what to “copy” into your notes. The assignment itself is the external input/output: the task you received, and the final submission you’ll make.\nThis is basically the architecture of a Neural Turing Machine (NTM). A controller (usually a neural network) that reads from and writes to an external memory bank — just like a student working through a library."
-  },
-  {
-    "objectID": "posts/ntm-2014/index.html#two-ways-to-search",
-    "href": "posts/ntm-2014/index.html#two-ways-to-search",
-    "title": "NTM: Memory + Reason = Cognition ?",
-    "section": "Two Ways to Search",
-    "text": "Two Ways to Search\nYou start the obvious way: type keywords into the search bar. “World War… Hitler, Holocaust, Allies, Jews.” You find what you’re looking for by matching what you already know to what’s in the library. This is content-based addressing — finding things by what they’re about.\nBut after a while, you hit a wall. The same popular books keep showing up. Then a librarian tips you off: “Walk a few shelves down from where you are, and you’ll find more.” You follow the tip and suddenly stumble on wartime economics, diplomatic backstories, memoirs you never would have searched for directly. This is location-based addressing — instead of searching by meaning, you just move to a nearby “address” and see what’s there.\nNTMs use both. Sometimes you search by content, sometimes by location, often a mix of both."
-  },
-  {
-    "objectID": "posts/ntm-2014/index.html#the-blurry-spotlight",
-    "href": "posts/ntm-2014/index.html#the-blurry-spotlight",
-    "title": "NTM: Memory + Reason = Cognition ?",
-    "section": "The Blurry Spotlight",
-    "text": "The Blurry Spotlight\nHere’s something interesting: you rarely read one single book cover to cover. You pull several, skim quickly, compare passages, blend ideas. Even when you “pick” a source, your attention is spread across a few — some directly useful, some partially, some just providing context.\nThat’s exactly how reading and writing works in an NTM. You don’t point to one memory slot and say “that one.” You get a blended signal from multiple slots, weighted by how relevant each one is.\nThis blending is controlled by attentional focus — like a spotlight. When you’re confident, the spotlight narrows. When you’re exploring, it widens. And what shapes the spotlight is a mix of your two search methods: how much you rely on content vs. location."
-  },
-  {
-    "objectID": "posts/ntm-2014/index.html#the-cool-part-it-learns-as-it-goes",
-    "href": "posts/ntm-2014/index.html#the-cool-part-it-learns-as-it-goes",
-    "title": "NTM: Memory + Reason = Cognition ?",
-    "section": "The Cool Part: It Learns as It Goes",
-    "text": "The Cool Part: It Learns as It Goes\nHere’s what makes this more than just a clever analogy. After hours in the library, you get better. Better at picking keywords, better at judging which shelves to wander, better at knowing when to trust the search bar vs. when to follow your nose.\nIn an NTM, the controller learns the same way. The whole system is differentiable — meaning it can be trained through backpropagation, the same way regular neural networks learn. The controller (an LSTM, essentially the “brain”) reads the task, keeps the current plan in mind, and gets better at using memory the more it practices."
-  },
-  {
-    "objectID": "posts/ntm-2014/index.html#why-it-matters-and-why-you-havent-heard-of-it-more",
-    "href": "posts/ntm-2014/index.html#why-it-matters-and-why-you-havent-heard-of-it-more",
-    "title": "NTM: Memory + Reason = Cognition ?",
-    "section": "Why It Matters (And Why You Haven’t Heard of It More)",
-    "text": "Why It Matters (And Why You Haven’t Heard of It More)\nNormal neural networks hit a wall on tasks that need to store and retrieve specific information over long sequences. NTMs were designed to fix exactly that. But in practice, getting them to reliably learn memory usage turned out to be tricky, and scaling them to very large memories was computationally expensive.\nStill, the core idea — a model with a small working space that repeatedly consults a much larger external store — directly influenced everything that came after. The Differentiable Neural Computer (DNC) refined memory management. Transformers treat their context window like a library. Retrieval-augmented models literally fetch documents at inference time.\nThe student-and-library architecture never really went away. It just got scaled up.\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: aayushgulati18@gmail.com\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nGraves, A., Wayne, G., & Danihelka, I. (2014). Neural Turing Machines. arXiv preprint arXiv:1410.5401. https://arxiv.org/abs/1410.5401\nNeural Turing Machines: Enhancing Neural Networks with Dynamic Memory and Advanced Attention Mechanisms\nUnlocking the Potential of Neural Turing Machines"
-  },
-  {
-    "objectID": "posts/ohsumi-1993/index.html",
-    "href": "posts/ohsumi-1993/index.html",
-    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
-    "section": "",
-    "text": "The cellular cannibalism that keeps us alive\nHere’s a wild thought: your cells are cannibals. Not in a horror movie way, but in a “I need to survive, so I’m going to eat myself” kind of way. And before you get grossed out, this self-eating process is literally keeping you alive right now.\nThe fancy word for this is autophagy (auto = self, phagy = eating). And the story of how scientists figured this out? It involves starving yeast, hunting for mutants, and a lot of patience with microscopes.\nToday’s paper: “Isolation and characterization of autophagy-defective mutants of yeast” (1993)\nOr as I like to call it: The Cannibalism Paper! 🍽️"
-  },
-  {
-    "objectID": "posts/ohsumi-1993/index.html#a-quick-history-lesson",
-    "href": "posts/ohsumi-1993/index.html#a-quick-history-lesson",
-    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
-    "section": "A Quick History Lesson",
-    "text": "A Quick History Lesson\nThe word “autophagy” wasn’t invented for this paper. It was actually coined way back by Christian de Duve, the 1974 Nobel Prize winner. He noticed that cells sometimes digest their own parts, and he named this self-eating process as autophagy.\nBut here’s the thing: knowing something exists and understanding how it works are two very different things. That’s where this 1993 paper comes in."
-  },
-  {
-    "objectID": "posts/ohsumi-1993/index.html#the-setup-why-study-yeast",
-    "href": "posts/ohsumi-1993/index.html#the-setup-why-study-yeast",
-    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
-    "section": "The Setup: Why Study Yeast?",
-    "text": "The Setup: Why Study Yeast?\nYou might be wondering, “Why yeast? I’m a human, not bread!” Fair question. Here’s the genius part: autophagy in yeast works pretty much the same way as autophagy in mammals. Yeast are just way easier to study, and not only autophagy but various other cellular processes too.\nThink of yeast as the lab rats of the cellular world, except smaller, cheaper, and you don’t need ethics approval.\n\nThe Cellular Recycling System\nBefore we dive in, let’s get the basics down. Inside your cells, there’s this whole network of organelles working together called the lysosomal endomembrane system. It includes:\n\nEndoplasmic Reticulum (ER) → the protein factory\nGolgi apparatus → the packaging center\n\nLysosomes → the recycling bins (in yeast, these are called vacuoles)\n\nWhen cells are starving or stressed, they need to recycle their own components to survive. That’s where autophagy kicks in. The cell wraps up bits of itself in a special membrane bubble called an autophagosome, which then fuses with a lysosome to form an auto-phago-lysosome. Inside this acidic environment, everything gets broken down and recycled.\nIn yeast, you can actually see this happening (another reason to choose yeast)! They form these structures called Autophagic Bodies (ABs) inside their vacuoles. And that’s what makes yeast so perfect for this research, you can literally watch the process under a microscope."
-  },
-  {
-    "objectID": "posts/ohsumi-1993/index.html#the-hunt-for-broken-mutants",
-    "href": "posts/ohsumi-1993/index.html#the-hunt-for-broken-mutants",
-    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
-    "section": "The Hunt for Broken Mutants",
-    "text": "The Hunt for Broken Mutants\nHere’s where it gets fun. The scientists asked themselves: “What if we find yeast that can’t do autophagy? That would tell us which genes are essential for the process!”\nSo they went mutant hunting.\n\nThe Experimental Design:\n\nStarve the yeast (nitrogen starvation, specifically) to trigger autophagy\nAdd PMSF (a chemical that stops the vacuole from breaking down the ABs) so they pile up and become visible\nLook under a microscope for yeast that DON’T form ABs\nThose are your mutants!\n\nThey found 15 different strains (named apg1 through apg15) that couldn’t form autophagic bodies. Each one had a single recessive mutation in a different gene. Fifteen genes! That’s how complex this system is."
-  },
-  {
-    "objectID": "posts/ohsumi-1993/index.html#the-brilliant-microscopy-trick",
-    "href": "posts/ohsumi-1993/index.html#the-brilliant-microscopy-trick",
-    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
-    "section": "The Brilliant Microscopy Trick",
-    "text": "The Brilliant Microscopy Trick\nTo see the ABs clearly, they used a dye called quinacrine. The inside of the vacuole is acidic (just like lysosomes in our cells), and quinacrine loves acidic environments. So it lights up the vacuoles, making the ABs inside them super easy to spot.\nIn the wild-type yeast after starvation, the vacuoles would be packed with these glowing ABs. In the apg mutants? Nothing. Not even after 24 hours."
-  },
-  {
-    "objectID": "posts/ohsumi-1993/index.html#the-takeaway-your-cells-are-smarter-than-you-think",
-    "href": "posts/ohsumi-1993/index.html#the-takeaway-your-cells-are-smarter-than-you-think",
-    "title": "When Cells Eat Themselves (And Why That’s Actually Genius)",
-    "section": "The Takeaway: Your Cells Are Smarter Than You Think",
-    "text": "The Takeaway: Your Cells Are Smarter Than You Think\nWhat makes this paper so important is that it proved autophagy isn’t just a random process. It’s a tightly controlled genetic program involving at least 15 different genes working together.\nWhen you skip meals, when you exercise, when you sleep; your cells are constantly making decisions about what to keep and what to recycle. Autophagy is how they clean house, remove damaged parts, and survive when nutrients are scarce.\nThis 1993 paper laid the groundwork for decades of research. The scientist who later won the Nobel Prize for autophagy research (Yoshinori Ohsumi, 2016) built directly on this foundation, identifying many more autophagy genes and showing how the process works in detail.\nSometimes the most important discoveries come from asking: “What breaks when we break this?”\n\nWant to discuss this paper? Have questions? Reach out!\n📧 Email: devansh.shah@iitb.ac.in\nFeel free to share your thoughts, corrections, or follow-up questions. We’d love to hear from you!\n\nReferences\n\nTsukada, M., & Ohsumi, Y. (1993). Isolation and characterization of autophagy-defective mutants of Saccharomyces cerevisiae. FEBS Letters, 333(1-2), 169-174.\nChristian de Duve - Nobel Prize 1974: https://www.nobelprize.org/prizes/medicine/1974/duve/biographical/\nYoshinori Ohsumi - Nobel Prize 2016: https://www.nobelprize.org/prizes/medicine/2016/summary/\nAI-generated image. (Gemini)"
+    "objectID": "posts/sub-dopamine-2025/index.html#important-caveats",
+    "href": "posts/sub-dopamine-2025/index.html#important-caveats",
+    "title": "Rethinking Dopamine: What a Recent Study Means for Parkinson’s Disease",
+    "section": "Important Caveats",
+    "text": "Important Caveats\nThis article is intended for general informational purposes only and does not constitute medical advice. Please consult a qualified healthcare professional for guidance specific to your health situation.\n\nThis study was conducted in mice, not humans. Mouse brains share important similarities with ours, but results do not always translate directly. Human trials are a long way off.\nDo not change your medication. If you or someone you love is being treated for Parkinson’s, this research does not change current best practice. Levodopa remains the most effective available treatment for motor symptoms.\nOne study is a beginning, not a conclusion. Scientific consensus is built over time through replication and debate. These findings need to be confirmed by independent teams before reshaping clinical practice."
   }
 ]
